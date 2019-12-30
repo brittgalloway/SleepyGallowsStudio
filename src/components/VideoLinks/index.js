@@ -1,25 +1,23 @@
 import React from "react";
-import "./style.css";
 
-export function SubmitBtn() {
-  return <button>Submit</button>;
-}
-// export function RouteBtn(props) {
-//   <a className="btn btn-primary" href={props.Linkto} role="button">
-//     {props.routes}
-//   </a>;
-// }
-export function DonateBtn() {
+function VideoLinks(props) {
   return (
-    <a className="btn btn-primary" href="/donate" role="button">
-      Donate Now!
-    </a>
+    <div className="column is-one-quarter">
+      <figure className="image is-16by9">
+        <h2>{props.title}</h2>
+        <iframe
+          className="has-ratio"
+          width="640"
+          height="360"
+          src={props.embed}
+          frameB
+          order="0"
+          allowFullScreen
+        ></iframe>
+        <sub>{props.year}</sub>
+      </figure>
+    </div>
   );
 }
-export function AboutBtn() {
-  return (
-    <a className="btn btn-primary" href="/about" role="button">
-      About
-    </a>
-  );
-}
+
+export default VideoLinks;

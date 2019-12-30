@@ -1,12 +1,23 @@
 import React from "react";
+import VideoLinks from "../../../components/VideoLinks";
+// import videos from "./videos.json";
 
-// import "./style.css";
+import "./style.scss";
 
 function ClientWork() {
   return (
     <>
       <h1>ClientWork Animation</h1>
-      <p>vagabond,justin famous, effeno</p>
+      <div className="columns is-multiline is-mobile">
+        {/* {videos.map(video => (
+          <VideoLinks
+            key={video.embed}
+            title={video.title}
+            embed={video.embed}
+            year={video.year}
+          />
+        ))} */}
+      </div>
     </>
   );
 }
