@@ -6,11 +6,11 @@ import "./style.scss";
 
 function SGProductions() {
   return (
-    <div className="columns">
-      <div className="column is-3">
+    <div className="columns is-gapless">
+      <div className="column is-one-fifth">
         <Nav />
       </div>
-      <div className="column is-9">
+      <div className="column is-four-fifth">
         <div className="columns is-gapless is-multiline is-mobile">
           <div className="column is-full">
             <Link to="/Animation/webseries">

@@ -4,11 +4,11 @@ import Nav from "../../components/Nav";
 
 function Art() {
   return (
-    <div className="columns">
-      <div className="column is-3">
+    <div className="columns is-gapless">
+      <div className="column is-one-fifth">
         <Nav />
       </div>
-      <div className="column is-9"></div>
+      <div className="column is-four-fifth"></div>
     </div>
   );
 }
