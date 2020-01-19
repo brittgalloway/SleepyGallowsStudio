@@ -1,14 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "./nav.scss";
 function Nav() {
   return (
     <aside className="menu">
       <ul className="menu-list">
         <li>
-          <Link to="/">Home (or LOGO image?)</Link>
+          <Link to="/">
+            <img
+              id="header"
+              src={
+                process.env.PUBLIC_URL + "/images/pageHeader_sgHomepgNav.svg"
+              }
+              alt="Sleepy Gallows Navigation"
+            />
+          </Link>
         </li>
-        <li>
+        <li id="firstLink">
           <Link to="/Animation">Animation</Link>
         </li>
         <li>
