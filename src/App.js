@@ -1,6 +1,5 @@
 import React from "react";
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // import Nav from "./components/Nav";
 import Home from "./pages/Home";
@@ -14,6 +13,7 @@ import ClientWork from "./pages/Animation/ClientWork";
 import ForFun from "./pages/Animation/ForFun";
 import Comics from "./pages/Comics";
 import WebDev from "./pages/WebDev";
+import Project from "./pages/WebDev/Project";
 // import AboutWeb from "./pages/AboutWeb";
 
 function App() {
@@ -31,7 +31,10 @@ function App() {
         <Route exact path="/Animation/clientwork" component={ClientWork} />
         <Route exact path="/Animation/forfun" component={ForFun} />
         <Route exact path="/Comics" component={Comics} />
-        <Route exact path="/WebDev" component={WebDev} />
+        <Switch>
+          <Route exact path="/WebDev" component={WebDev} />
+          <Route exact path="/WebDev/:Project" component={Project} />
+        </Switch>
         {/* <Route exact path="/WebDev/About" component={AboutWeb} /> */}
       </div>
     </Router>

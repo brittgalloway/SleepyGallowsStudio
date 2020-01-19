@@ -1,25 +1,27 @@
 import React from "react";
 import "./style.css";
 
-export function SubmitBtn() {
-  return <button>Submit</button>;
+export function Tools(props) {
+  return <li>{props.tools}</li>;
 }
-// export function RouteBtn(props) {
-//   <a className="btn btn-primary" href={props.Linkto} role="button">
-//     {props.routes}
-//   </a>;
-// }
-export function DonateBtn() {
+export function ScreenCap(props) {
+  return <img src={props.imageUrl} alt={props.alt} />;
+}
+export function WhatIsIt(props) {
   return (
-    <a className="btn btn-primary" href="/donate" role="button">
-      Donate Now!
-    </a>
+    <>
+      <li>Github: {props.github}</li>
+      <li>LinkedIn: {props.linkedIn}</li>
+      <p>{props.description}</p>
+    </>
   );
 }
-export function AboutBtn() {
+export function Improvements(props) {
   return (
-    <a className="btn btn-primary" href="/about" role="button">
-      About
-    </a>
+    <>
+      <ul>
+        <li>{props.Improvements}</li>
+      </ul>
+    </>
   );
 }
