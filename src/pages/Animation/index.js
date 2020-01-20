@@ -14,6 +14,7 @@ function SGProductions() {
         <div className="columns is-gapless is-multiline is-mobile">
           <div className="column is-full">
             <Link to="/Animation/webseries">
+              Web Series
               <img
                 alt="Webseries"
                 src={process.env.PUBLIC_URL + "/images/webseries.png"}
@@ -22,6 +23,7 @@ function SGProductions() {
           </div>
           <div className="column is-full">
             <Link to="/Animation/clientwork">
+              Client Work
               <img
                 alt="Client Work"
                 src={process.env.PUBLIC_URL + "/images/cleintWork.png"}
@@ -30,6 +32,7 @@ function SGProductions() {
           </div>
           <div className="column is-full">
             <Link to="/Animation/forfun">
+              Fun Animations
               <img
                 alt="Fun Animations"
                 src={process.env.PUBLIC_URL + "/images/forFun.png"}
