@@ -2,7 +2,7 @@ import React from "react";
 // import "./style.css";
 
 export function Tools(props) {
-  return <li>{props.tools}</li>;
+  return <p>{props.tools}</p>;
 }
 export function ScreenCap(props) {
   return <img src={props.imageUrl} alt={props.alt} />;
@@ -10,17 +10,18 @@ export function ScreenCap(props) {
 export function WhatIsIt(props) {
   return (
     <>
-      <li>Github: {props.github}</li>
-      <li>LinkedIn: {props.linkedIn}</li>
       <p>{props.description}</p>
+      <li>Github: {props.github}</li>
+      <li>Live App: {props.liveApp}</li>
     </>
   );
 }
 export function Improvements(props) {
   return (
     <>
+      <p className="subtitle">Improvements</p>
       <ul>
-        <li>{props.Improvements}</li>
+        <li>{props.improvements}</li>
       </ul>
     </>
   );

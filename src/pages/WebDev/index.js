@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+// import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Nav from "../../components/Nav";
 import Contact from "../../components/Contact";
@@ -31,13 +32,9 @@ function WebDev() {
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
                       <Link to="/WebDev/sgs">
-                        <article className=" is-child box">
+                        <article className="tile is-child box">
                           <div id="sg">
-                            <div className="titles">
-                              Sleepy Gallows Studio
-                              <br />
-                              This website!
-                            </div>
+                            <div className="titles">This website!</div>
                             <img
                               src={
                                 process.env.PUBLIC_URL + "/images/sg_logo.webp"
@@ -61,7 +58,7 @@ function WebDev() {
                         </article>
                       </Link>
                       <Link to="/WebDev/memory">
-                        <article className=" is-child box">
+                        <article className="tile is-child box">
                           <div id="memory">
                             <div className="titles">Memory Game</div>
                             <img
@@ -90,7 +87,7 @@ function WebDev() {
                         </article>
                       </Link>
                       <Link to="/WebDev/swiftly">
-                        <article className=" is-child box">
+                        <article className=" tile is-child box">
                           <div id="swiftly">
                             <div className="titles">Swiftly</div>
                             <img
@@ -103,7 +100,7 @@ function WebDev() {
                         </article>
                       </Link>
                       <Link to="/WebDev/tennis">
-                        <article className=" is-child box">
+                        <article className="tile is-child box">
                           <div id="tennis">
                             <div className="titles">Tennis News</div>
                             <img

@@ -10,6 +10,21 @@ import Contact from "../../../components/Contact";
 // import "./style.css";
 
 function Sgs() {
+  const state = {
+    //tools used
+    tools: "HTML, CSS, Materialize, Leaflet",
+    //image of project
+    imageUrl: "",
+    alt: "",
+    //link to GITHUB
+    github: "",
+    //link to LINKEDIN
+    linkedIn: "",
+    //description of project
+    description: "",
+    //improvents for project
+    improvements: ""
+  };
   return (
     <>
       <div className="columns">
@@ -19,7 +34,7 @@ function Sgs() {
               <div className="container">
                 <h2 className="subtitle">Brittney Galloway</h2>
                 <h3 className="subtitle">Fullstack Developer</h3>
-                <h1 className="title">Sleepy Gallows </h1>
+                <h1 className="title">Sleepy Gallows Studio (this website!)</h1>
               </div>
             </div>
           </section>
@@ -51,7 +66,7 @@ function Sgs() {
                     <div className="box">
                       Tools
                       <br />
-                      <Tools />
+                      <Tools tools={state.tools} />
                     </div>
                   </article>
                 </div>

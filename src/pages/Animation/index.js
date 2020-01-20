@@ -14,29 +14,35 @@ function SGProductions() {
         <div className="columns is-gapless is-multiline is-mobile">
           <div className="column is-full">
             <Link to="/Animation/webseries">
-              Web Series
-              <img
-                alt="Webseries"
-                src={process.env.PUBLIC_URL + "/images/webseries.png"}
-              />
+              <div id="webSeries">
+                <div className="animationTitles">Web Series</div>
+                <img
+                  alt="Webseries"
+                  src={process.env.PUBLIC_URL + "/images/webseries.png"}
+                />
+              </div>
             </Link>
           </div>
           <div className="column is-full">
             <Link to="/Animation/clientwork">
-              Client Work
-              <img
-                alt="Client Work"
-                src={process.env.PUBLIC_URL + "/images/cleintWork.png"}
-              />
+              <div id="clientWork">
+                <div className="animationTitles">Client Work</div>
+                <img
+                  alt="Client Work"
+                  src={process.env.PUBLIC_URL + "/images/cleintWork.png"}
+                />
+              </div>
             </Link>
           </div>
           <div className="column is-full">
             <Link to="/Animation/forfun">
-              Fun Animations
-              <img
-                alt="Fun Animations"
-                src={process.env.PUBLIC_URL + "/images/forFun.png"}
-              />
+              <div id="webSeries">
+                <div className="animationTitles">Fun Animations</div>
+                <img
+                  alt="Fun Animations"
+                  src={process.env.PUBLIC_URL + "/images/forFun.png"}
+                />
+              </div>
             </Link>
           </div>
         </div>
