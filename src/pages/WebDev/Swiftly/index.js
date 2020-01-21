@@ -5,6 +5,8 @@ import {
   WhatIsIt,
   Improvements
 } from "../../../components/Galleries";
+import { NavWeb } from "../../../components/Navigation";
+
 import Contact from "../../../components/Contact";
 
 // import "./style.scss";
@@ -43,6 +45,7 @@ function Swifly() {
               </div>
             </div>
           </section>
+          <NavWeb />
           <div className="columns">
             <div className="column">
               <div className="tile is-ancestor">

@@ -13,7 +13,7 @@ function SGProductions() {
       <div className="column is-four-fifth">
         <div className="columns is-gapless is-multiline is-mobile">
           <div className="column is-full">
-            <Link to="/Animation/webseries">
+            <Link to="/Animation/webseries/plh">
               <div id="webSeries">
                 <figure className="image is-3by1">
                   <div className="animationTitles">Web Series</div>

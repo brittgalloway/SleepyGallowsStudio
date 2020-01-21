@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Cinzel&display=swap");
-
+$sitePurple: #4a287c;
+$navBlue: #3fa1fc;
+$textShadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+$NechaGreen: #3bcacb;
 .menu {
   width: 300px;
+  height: 150vh;
+  background: linear-gradient(180deg, $navBlue 0%, rgba(196, 196, 196, 0) 100%);
 }
-
 .menu-list {
-  background: linear-gradient(180deg, #3fa1fc 0%, rgba(196, 196, 196, 0) 100%);
-  color: #4a287c;
+  color: $sitePurple;
   font-family: "Cinzel", serif;
   font-size: 2em;
   a {
@@ -27,7 +30,7 @@ li:first-child {
 
 li {
   margin-top: 20px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: $textShadow;
 }
 #firstLink {
   margin-top: -50px;
