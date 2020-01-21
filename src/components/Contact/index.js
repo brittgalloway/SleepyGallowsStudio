@@ -4,6 +4,7 @@ function Contact() {
   return (
     <div id="skills" className="box">
       <p className="is-size-4">Contact</p>
+
       <ul>
         <li>Email: crlnfllr@gmail.com</li>
         <li>GitHub: https://github.com/brittgalloway</li>

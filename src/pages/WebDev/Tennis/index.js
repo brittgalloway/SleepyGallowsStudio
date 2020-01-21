@@ -12,20 +12,24 @@ import Contact from "../../../components/Contact";
 function Tennis() {
   const state = {
     //tools used
-    tools: "HTML, CSS, Materialize, Leaflet, Firebase",
+    tools:
+      "Express, Express-handlebars, Mongoose, Cheerio, Axios, SASS, Bulma UI Framework",
     //image of project
     imageUrl: "",
     alt: "",
     //link to GITHUB
-    github: "https://github.com/brittgalloway/SpaceChasers",
+    github: "https://github.com/brittgalloway/tennisNews",
     //link to LINKEDIN
-    liveApp: "https://cecileanne.github.io/SpaceChasers/",
+    liveApp: "https://tennis-news11-24.herokuapp.com/",
     //description of project
     description:
-      "SPACE CHASERS is a web application that allows users in the USA to quickly know if they are able to find and view an Aurora. The user inputs a zip code and the app finds the the nearest registered Dark Sky Places via the International Dark-Sky Association (IDA).",
-    //improvents for project
-    improvements:
-      " As of 10/5/2019 Leaflet was used to help us find coordinates, but the map doesn't have the functionality we were hoping for. For now, if you click on the marker on the map, you will be taken to Google Maps to get driving directions to the location. In the future the map on the page would show the route, and written driving instructions may populate somewhere on the page."
+      "This tennis new app is a full stack web page that scrapes articles from the offical ATP Tour website. You can view the Headline, Thumbnail Image, Category, and Orignal Post Date. Along side each article, you can post comments, and read previous comments. If you want, you can click the headline to read the actual article.", //improvents for project
+    improvements: [
+      "Users will be able to delete and edit comments.",
+      "Articles are scraped daily to stay up-to-date.",
+      "No duplicate articles.",
+      "Reject articles with thumbnail links that break the image."
+    ]
   };
   return (
     <>
@@ -47,11 +51,15 @@ function Tennis() {
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
                       <article className="tile is-child box">
-                        <WhatIsIt />
+                        <WhatIsIt
+                          github={state.github}
+                          liveApp={state.liveApp}
+                          description={state.description}
+                        />
                       </article>
 
                       <article className="tile is-child box">
-                        <Improvements /> Improvements
+                        <Improvements improvements={state.improvements} />
                       </article>
                     </div>
                     <div className="tile is-parent is-vertical">
@@ -68,7 +76,7 @@ function Tennis() {
                     <div className="box">
                       Tools
                       <br />
-                      <Tools />
+                      <Tools tools={state.tools} />
                     </div>
                   </article>
                 </div>

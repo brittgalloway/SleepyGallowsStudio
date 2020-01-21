@@ -12,18 +12,19 @@ import Contact from "../../../components/Contact";
 function Sgs() {
   const state = {
     //tools used
-    tools: "HTML, CSS, Materialize, Leaflet",
+    tools: "REACT, SASS, Bulma.io",
     //image of project
     imageUrl: "",
     alt: "",
     //link to GITHUB
-    github: "",
+    github: "https://github.com/brittgalloway/SleepyGallowsStudio",
     //link to LINKEDIN
-    linkedIn: "",
+    liveApp: "",
     //description of project
-    description: "",
+    description:
+      "Portfolio of the many projects of Brittney and Crystal Galloway",
     //improvents for project
-    improvements: ""
+    improvements: "This is the ultimate. Nothing can improve it."
   };
   return (
     <>
@@ -45,11 +46,15 @@ function Sgs() {
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
                       <article className="tile is-child box">
-                        <WhatIsIt />
+                        <WhatIsIt
+                          github={state.github}
+                          liveApp={state.liveApp}
+                          description={state.description}
+                        />
                       </article>
 
                       <article className="tile is-child box">
-                        <Improvements /> Improvements
+                        <Improvements improvements={state.improvements} />
                       </article>
                     </div>
                     <div className="tile is-parent is-vertical">
