@@ -1,6 +1,8 @@
 import React from "react";
 import VideoLinks from "../../../components/VideoLinks";
 import Nav from "../../../components/Nav";
+import { NavAnimation } from "../../../components/Navigation";
+
 // import videos from "./videos.json";
 
 import "./style.scss";
@@ -13,6 +15,7 @@ function ClientWork() {
           <Nav />
         </div>
         <div className="column is-four-fifth">
+          <NavAnimation />
           <h1>ClientWork Animation</h1>
           <div className="columns is-multiline is-mobile">
             {/* {videos.map(video => (

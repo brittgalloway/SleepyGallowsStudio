@@ -15,33 +15,39 @@ function SGProductions() {
           <div className="column is-full">
             <Link to="/Animation/webseries">
               <div id="webSeries">
-                <div className="animationTitles">Web Series</div>
-                <img
-                  alt="Webseries"
-                  src={process.env.PUBLIC_URL + "/images/webseries.png"}
-                />
+                <figure className="image is-3by1">
+                  <div className="animationTitles">Web Series</div>
+                  <img
+                    alt="Webseries"
+                    src={process.env.PUBLIC_URL + "/images/webseries.png"}
+                  />
+                </figure>
               </div>
             </Link>
           </div>
           <div className="column is-full">
             <Link to="/Animation/clientwork">
               <div id="clientWork">
-                <div className="animationTitles">Client Work</div>
-                <img
-                  alt="Client Work"
-                  src={process.env.PUBLIC_URL + "/images/cleintWork.png"}
-                />
+                <figure className="image is-3by1">
+                  <div className="animationTitles">Client Work</div>
+                  <img
+                    alt="Client Work"
+                    src={process.env.PUBLIC_URL + "/images/cleintWork.png"}
+                  />
+                </figure>
               </div>
             </Link>
           </div>
           <div className="column is-full">
             <Link to="/Animation/forfun">
               <div id="webSeries">
-                <div className="animationTitles">Fun Animations</div>
-                <img
-                  alt="Fun Animations"
-                  src={process.env.PUBLIC_URL + "/images/forFun.png"}
-                />
+                <figure className="image is-3by1">
+                  <div className="animationTitles">Fun Animations</div>
+                  <img
+                    alt="Fun Animations"
+                    src={process.env.PUBLIC_URL + "/images/forFun.png"}
+                  />
+                </figure>
               </div>
             </Link>
           </div>

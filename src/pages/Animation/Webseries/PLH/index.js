@@ -2,6 +2,7 @@ import React from "react";
 import VideoLinks from "../../../../components/VideoLinks";
 import videos from "./videos.json";
 import Nav from "../../../../components/Nav";
+import { NavAnimation } from "../../../../components/Navigation";
 import "./style.scss";
 
 function PHL() {
@@ -12,6 +13,7 @@ function PHL() {
           <Nav />
         </div>
         <div className="column is-four-fifth">
+          <NavAnimation />
           <h1>About PHL (drop down/extend)</h1>
           <div className="columns is-multiline is-mobile">
             {videos.map(video => (
