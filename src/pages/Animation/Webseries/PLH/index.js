@@ -2,7 +2,7 @@ import React from "react";
 import VideoLinks from "../../../../components/VideoLinks";
 import videos from "./videos.json";
 import Nav from "../../../../components/Nav";
-import { NavAnimation } from "../../../../components/Navigation";
+import { NavAnimation, PLHnav } from "../../../../components/Navigation";
 import "./style.scss";
 
 function PHL() {
@@ -14,16 +14,19 @@ function PHL() {
         </div>
         <div className="column is-four-fifth">
           <NavAnimation />
-          <h1>About PHL (drop down/extend)</h1>
-          <div className="columns is-multiline is-mobile">
-            {videos.map(video => (
-              <VideoLinks
-                key={video.embed}
-                title={video.title}
-                embed={video.embed}
-                year={video.year}
-              />
-            ))}
+          <div className="container is-fluid">
+            <PLHnav />
+            <h1 className="title">For Peace, Love, &amp; Harmony</h1>
+            <div className="columns is-multiline is-mobile">
+              {videos.map(video => (
+                <VideoLinks
+                  key={video.embed}
+                  title={video.title}
+                  embed={video.embed}
+                  year={video.year}
+                />
+              ))}
+            </div>
           </div>
         </div>
       </div>

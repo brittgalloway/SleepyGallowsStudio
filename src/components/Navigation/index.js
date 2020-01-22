@@ -36,6 +36,29 @@ export function NavAnimation() {
     </nav>
   );
 }
+export function PLHnav() {
+  return (
+    <div className="tabs is-centered is-medium">
+      <ul>
+        <li className="is-active">
+          <Link to="/Animation/webseries/plh">
+            <span>Videos</span>
+          </Link>
+        </li>
+        <li>
+          <Link to="/Animation/webseries/plh/about">
+            <span>About</span>
+          </Link>
+        </li>
+        <li>
+          <Link to="/Animation/webseries/plh/art">
+            <span>Art</span>
+          </Link>
+        </li>
+      </ul>
+    </div>
+  );
+}
 export function NavCrystalArt() {
   return (
     <nav className="navbar" role="navigation" aria-label="main navigation">

@@ -1,3 +1,5 @@
+$bgComic: rgb(14, 14, 14);
+$comicText: white;
 .backgroundComic {
   background-image: url("./naca_bg.PNG");
   background-position: center center;
@@ -5,5 +7,16 @@
   height: 300vh;
 }
 #comic {
-  background-color: black;
+  background-color: $bgComic;
 }
+// h1 {
+//   font-size: 7rem;
+//   color: $comicText;
+//   padding-top: 20%;
+// }
+// h2 {
+//   font-size: 5rem;
+//   color: $comicText;
+// }
+
+// @import "bulma/sass/elements/title.sass";

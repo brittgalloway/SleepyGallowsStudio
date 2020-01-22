@@ -11,7 +11,7 @@ function Contact() {
         <li>LinkedIn: https://www.linkedin.com/in/brittneygalloway/</li>
         <li>
           <a href={process.env.PUBLIC_URL + "/brittneyGallowayResume.docx"}>
-            <i class="fas fa-file"></i> Resume
+            <i className="fas fa-file"></i> Resume
           </a>
         </li>
       </ul>

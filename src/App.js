@@ -11,6 +11,8 @@ import Brittney from "./pages/Art";
 import Animation from "./pages/Animation";
 // import WebSeries from "./pages/Animation/Webseries";
 import PLH from "./pages/Animation/Webseries/PLH";
+import AboutPLH from "./pages/Animation/Webseries/PLH/AboutPLH";
+import ArtPLH from "./pages/Animation/Webseries/PLH/ArtPLH";
 import ClientWork from "./pages/Animation/ClientWork";
 import ForFun from "./pages/Animation/ForFun";
 //Comics pages
@@ -37,6 +39,8 @@ function App() {
         <Route exact path="/Animation" component={Animation} />
         {/* <Route exact path="/Animation/webseries" component={WebSeries} /> */}
         <Route exact path="/Animation/webseries/plh" component={PLH} />
+        <Route path="/Animation/webseries/plh/about" component={AboutPLH} />
+        <Route path="/Animation/webseries/plh/art" component={ArtPLH} />
         <Route exact path="/Animation/clientwork" component={ClientWork} />
         <Route exact path="/Animation/forfun" component={ForFun} />
         {/* comic pages */}

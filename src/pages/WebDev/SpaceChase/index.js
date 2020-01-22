@@ -12,6 +12,7 @@ import Contact from "../../../components/Contact";
 
 function SpaceChase() {
   const state = {
+    projectName: "Space Chasers",
     //tools used
     tools: "HTML, CSS, Materialize, Leaflet, Firebase",
     //image of project
