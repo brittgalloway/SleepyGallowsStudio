@@ -13,7 +13,10 @@ function ProjectPage({
   imageUrl,
   alt,
   improvements,
-  tools
+  tools,
+  extraName,
+  extraLink,
+  extraNote
 }) {
   return (
     <>
@@ -40,7 +43,10 @@ function ProjectPage({
                         <WhatIsIt
                           github={github}
                           liveApp={liveApp}
+                          extraName={extraName}
+                          extraLink={extraLink}
                           description={description}
+                          extraNote={extraNote}
                         />
                       </article>
 

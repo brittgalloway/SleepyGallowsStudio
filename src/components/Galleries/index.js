@@ -13,6 +13,10 @@ export function WhatIsIt(props) {
       <p>{props.description}</p>
       <li>Github: {props.github}</li>
       <li>Live App: {props.liveApp}</li>
+      <li>
+        {props.extraName}: {props.extraLink}
+      </li>
+      <small>{props.extraNote}</small>
     </>
   );
 }
