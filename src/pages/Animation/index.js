@@ -11,11 +11,11 @@ function SGProductions() {
         <Nav />
       </div>
       <div className="column is-four-fifth">
-        <div className="columns is-gapless is-multiline is-mobile">
-          <div className="column is-full">
+        <div className="columns is-gapless is-multiline  is-mobile">
+          <div className="column is-full has-text-centered">
             <Link to="/Animation/webseries/plh">
               <div id="webSeries">
-                <figure className="image is-3by1">
+                <figure className="image ">
                   <div className="animationTitles">Web Series</div>
                   <img
                     alt="Webseries"
@@ -28,7 +28,7 @@ function SGProductions() {
           <div className="column is-full">
             <Link to="/Animation/clientwork">
               <div id="clientWork">
-                <figure className="image is-3by1">
+                <figure className="image ">
                   <div className="animationTitles">Client Work</div>
                   <img
                     alt="Client Work"
@@ -40,8 +40,8 @@ function SGProductions() {
           </div>
           <div className="column is-full">
             <Link to="/Animation/forfun">
-              <div id="webSeries">
-                <figure className="image is-3by1">
+              <div id="funAni">
+                <figure className="image">
                   <div className="animationTitles">Fun Animations</div>
                   <img
                     alt="Fun Animations"

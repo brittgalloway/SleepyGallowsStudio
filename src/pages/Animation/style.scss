@@ -1,13 +1,30 @@
-@import url("https://fonts.googleapis.com/css?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700&display=swap");
+$brandFont: "Cinzel Decorative", cursive;
+$textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
 
 .animationTitles {
   position: absolute;
   text-align: center;
   color: white;
   font-size: 30px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: "Cinzel", serif;
-
+  text-shadow: $textShadow;
+  font-family: $brandFont;
+  font-weight: bold;
   margin-top: 9%;
-  margin-left: 33%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#webSeries {
+  height: 250px;
+  overflow: hidden;
+}
+#clientWork {
+  height: 250px;
+  overflow: hidden;
+}
+#funAni {
+  height: 250px;
+  overflow: hidden;
 }
