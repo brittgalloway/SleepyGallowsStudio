@@ -1,0 +1,48 @@
+/* Rectangle 1 */
+
+#animationHome {
+  position: absolute;
+  width: 768px;
+  height: 377px;
+  left: 0px;
+  top: -2px;
+
+  background: url("./Rectangle_1animation.png");
+  mix-blend-mode: normal;
+}
+
+/* Rectangle 2 */
+#artHome {
+  position: absolute;
+  width: 768px;
+  height: 377px;
+  left: 768px;
+  top: -2px;
+
+  background: url("./Rectangle_2art.png");
+  mix-blend-mode: normal;
+}
+
+/* Rectangle 3 */
+#comicHome {
+  position: absolute;
+  width: 768px;
+  height: 377px;
+  left: 0px;
+  top: 375px;
+
+  background: url("./Rectangle_3Comics.png");
+  mix-blend-mode: normal;
+}
+
+/* Rectangle 4 */
+#webdevHome {
+  position: absolute;
+  width: 768px;
+  height: 375px;
+  left: 768px;
+  top: 375px;
+
+  background: url("./Rectangle_4web.png");
+  mix-blend-mode: normal;
+}
