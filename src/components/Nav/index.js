@@ -4,18 +4,14 @@ import "./nav.scss";
 function Nav() {
   return (
     <aside className="menu">
+      <Link to="/">
+        <img
+          id="header"
+          src={process.env.PUBLIC_URL + "/images/pageHeader_sgHomepgNav.svg"}
+          alt="Sleepy Gallows Navigation"
+        />
+      </Link>
       <ul className="menu-list">
-        <li>
-          <Link to="/">
-            <img
-              id="header"
-              src={
-                process.env.PUBLIC_URL + "/images/pageHeader_sgHomepgNav.svg"
-              }
-              alt="Sleepy Gallows Navigation"
-            />
-          </Link>
-        </li>
         <li id="firstLink">
           <Link to="/Animation">Animation</Link>
         </li>

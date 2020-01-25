@@ -19,9 +19,6 @@ export function NavAnimation() {
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
-          <Link to="/Animation" className="navbar-item">
-            Back to Animation
-          </Link>
           <Link to="/Animation/webseries" className="navbar-item">
             Web Series
           </Link>

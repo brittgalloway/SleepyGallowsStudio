@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700&display=swap");
+$brandFont: "Cinzel Decorative", cursive;
+$textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
+
+.homeText {
+  font-family: $brandFont;
+  font-size: 4em;
+  text-shadow: $textShadow;
+  font-weight: bold;
+  color: white;
+  // margin-left: 25%;
+  margin-top: 15%;
+  text-align: center;
+}
 /* Rectangle 1 */
 
 #animationHome {

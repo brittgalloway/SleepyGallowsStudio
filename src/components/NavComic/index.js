@@ -4,18 +4,14 @@ import "./navComic.scss";
 function NavComic() {
   return (
     <aside className="menu" id="comicMenu">
+      <Link to="/">
+        <img
+          id="comicHeader"
+          src={process.env.PUBLIC_URL + "/images/pageHeader_sgHomepgNav.svg"}
+          alt="Sleepy Gallows Navigation"
+        />
+      </Link>
       <ul className="menu-list" id="comicMenuList">
-        <li>
-          <Link to="/">
-            <img
-              id="comicHeader"
-              src={
-                process.env.PUBLIC_URL + "/images/pageHeader_sgHomepgNav.svg"
-              }
-              alt="Sleepy Gallows Navigation"
-            />
-          </Link>
-        </li>
         <li id="comicFirstLink">
           <Link to="/Animation">Animation</Link>
         </li>

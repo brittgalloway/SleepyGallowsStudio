@@ -7,16 +7,27 @@ function Home() {
     <>
       <div className="gridContainer">
         <Link to="/Animation">
-          <div id="animationHome">Animation</div>
+          <div id="animationHome">
+            <p className="homeText">Animation</p>
+          </div>
         </Link>
         <Link to="/Art">
-          <div id="artHome">Art</div>
+          <div id="artHome">
+            <p className="homeText">Art</p>
+          </div>
         </Link>
         <Link to="/Comics">
-          <div id="comicHome">Comics</div>
+          <div id="comicHome">
+            <p className="homeText">Comics</p>
+          </div>
         </Link>
         <Link to="/WebDev">
-          <div id="webdevHome">Web Development</div>
+          <div id="webdevHome">
+            <p className="homeText">
+              Web <br />
+              Development
+            </p>
+          </div>
         </Link>
       </div>
     </>
