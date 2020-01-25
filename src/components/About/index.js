@@ -8,6 +8,3 @@ export function AboutCreators() {
 export function AboutSG() {
   return <p>About the Sleepy Gallows</p>;
 }
-export function AboutWeb() {
-  return <p>About Brittney Galloway</p>;
-}

@@ -116,7 +116,7 @@ function WebDev() {
                   </div>
                 </div>
                 <div className="tile is-parent">
-                  <article className="tile is-child box has-text-centered">
+                  <article className="tile is-child box ">
                     <div className="box">
                       <p className="is-size-4">Skills</p>
                       <br />

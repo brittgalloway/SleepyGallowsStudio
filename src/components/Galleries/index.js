@@ -1,5 +1,4 @@
 import React from "react";
-// import "./style.css";
 
 export function Tools(props) {
   return <p>{props.tools}</p>;
@@ -14,7 +13,7 @@ export function WhatIsIt(props) {
       <li>Github: {props.github}</li>
       <li>Live App: {props.liveApp}</li>
       <li>
-        {props.extraName}: {props.extraLink}
+        {props.extraName} {props.extraLink}
       </li>
       <small>{props.extraNote}</small>
     </>

@@ -23,7 +23,7 @@ function SpaceChase() {
     //link to LINKEDIN
     liveApp: "https://cecileanne.github.io/SpaceChasers/",
     //Something extra to show
-    extraName: "Demo ",
+    extraName: "Demo: ",
     //link to demo
     extraLink:
       "https://cecileanne.github.io/SpaceChasers/index%20-%20demo.html",
