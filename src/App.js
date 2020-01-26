@@ -6,10 +6,11 @@ import Home from "./pages/Home";
 //Art pages
 import Art from "./pages/Art";
 import Crystal from "./pages/Art/Crystal";
-import Brittney from "./pages/Art";
+import VisDev from "./pages/Art/Crystal/VisDev";
+import Brittney from "./pages/Art/Brittney";
 //Animation pages
 import Animation from "./pages/Animation";
-// import WebSeries from "./pages/Animation/Webseries";
+import WebSeries from "./pages/Animation/Webseries";
 import PLH from "./pages/Animation/Webseries/PLH";
 import AboutPLH from "./pages/Animation/Webseries/PLH/AboutPLH";
 import ArtPLH from "./pages/Animation/Webseries/PLH/ArtPLH";
@@ -34,10 +35,11 @@ function App() {
         {/* Art pages */}
         <Route exact path="/Art" component={Art} />
         <Route exact path="/Art/Crystal" component={Crystal} />
+        <Route exact path="/Art/Crystal/VisDev" component={VisDev} />
         <Route exact path="/Art/Brittney" component={Brittney} />
         {/* animation pages */}
         <Route exact path="/Animation" component={Animation} />
-        {/* <Route exact path="/Animation/webseries" component={WebSeries} /> */}
+        <Route exact path="/Animation/webseries" component={WebSeries} />
         <Route exact path="/Animation/webseries/plh" component={PLH} />
         <Route path="/Animation/webseries/plh/about" component={AboutPLH} />
         <Route path="/Animation/webseries/plh/art" component={ArtPLH} />

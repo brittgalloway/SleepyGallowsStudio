@@ -39,7 +39,7 @@ export function PLHnav() {
       <ul>
         <li className="is-active">
           <Link to="/Animation/webseries/plh">
-            <span>Videos</span>
+            <span>Watch</span>
           </Link>
         </li>
         <li>
@@ -61,10 +61,7 @@ export function NavCrystalArt() {
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
-          <Link to="/Art" className="navbar-item">
-            Back to Art
-          </Link>
-          <Link to="/Art/Crystal/illustration" className="navbar-item">
+          <Link to="/Art/Crystal" className="navbar-item">
             Illustration
           </Link>
           <Link to="/Art/Crystal/visdev" className="navbar-item">
@@ -80,10 +77,7 @@ export function NavBrittneyArt() {
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
-          <Link to="/Art" className="navbar-item">
-            Back to Art
-          </Link>
-          <Link to="/Art/Brittney/sketchbook" className="navbar-item">
+          <Link to="/Art/Brittney" className="navbar-item">
             My Sketchbook
           </Link>
           <Link to="/Art/Brittney/papercut" className="navbar-item">

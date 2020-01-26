@@ -29,3 +29,12 @@ export function Improvements(props) {
     </>
   );
 }
+export function ImgGall(props) {
+  return (
+    <div className="column is-one-quarter">
+      <figure className="image ">
+        <img src={props.imageUrl} alt={props.alt} />
+      </figure>
+    </div>
+  );
+}

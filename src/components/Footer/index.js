@@ -1,25 +1,39 @@
 import React from "react";
-import "./style.css";
+// import "./style.scss";
 
-export function SubmitBtn() {
-  return <button>Submit</button>;
-}
-// export function RouteBtn(props) {
-//   <a className="btn btn-primary" href={props.Linkto} role="button">
-//     {props.routes}
-//   </a>;
-// }
-export function DonateBtn() {
+export function FooterCrystal() {
   return (
-    <a className="btn btn-primary" href="/donate" role="button">
-      Donate Now!
-    </a>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          Copyright © 2020 <strong>Crystal Galloway</strong>- All Rights
+          Reserved.
+        </p>
+      </div>
+    </footer>
   );
 }
-export function AboutBtn() {
+export function FooterBrittney() {
   return (
-    <a className="btn btn-primary" href="/about" role="button">
-      About
-    </a>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          Copyright © 2020 <strong>Brittney Galloway</strong>- All Rights
+          Reserved.
+        </p>
+      </div>
+    </footer>
+  );
+}
+export function FooterSleepy() {
+  return (
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          Copyright © 2020 <strong>Sleepy Gallows Studio</strong>- All Rights
+          Reserved.
+        </p>
+      </div>
+    </footer>
   );
 }

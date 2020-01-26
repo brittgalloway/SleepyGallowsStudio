@@ -3,6 +3,7 @@ import VideoLinks from "../../../../components/VideoLinks";
 import videos from "./videos.json";
 import Nav from "../../../../components/Nav";
 import { NavAnimation, PLHnav } from "../../../../components/Navigation";
+import { FooterSleepy } from "../../../../components/Footer";
 import "./style.scss";
 
 function PHL() {
@@ -30,6 +31,7 @@ function PHL() {
           </div>
         </div>
       </div>
+      <FooterSleepy />
     </>
   );
 }

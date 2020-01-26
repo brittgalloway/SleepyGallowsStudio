@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700&display=swap");
+$brandFont: "Cinzel Decorative", cursive;
+$textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
+
+.artTitles {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  text-shadow: $textShadow;
+  font-family: $brandFont;
+  font-weight: bold;
+  margin-top: 60%;
+  width: 100%;
+}
+#heightControl {
+  height: 754px;
+  overflow: hidden;
+}

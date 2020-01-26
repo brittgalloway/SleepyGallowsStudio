@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Nav from "../../components/Nav";
-// import "./style.css";
+import "./style.scss";
 
 function Art() {
   return (
@@ -10,21 +11,32 @@ function Art() {
       </div>
       <div className="column is-four-fifth">
         <div className="columns is-gapless">
-          <div className="column is-half">
-            <figure className="image is-9x16">
-              <img
-                alt="Man, Woman, and Baby"
-                src={process.env.PUBLIC_URL + "/images/crystal'sArt.svg"}
-              />
-            </figure>
+          <div className="column is-half art">
+            <Link to="/Art/Crystal">
+              <div id="heightControl">
+                <figure className="image ">
+                  <div className="artTitles">Crystal's Art</div>
+
+                  <img
+                    alt="Man, Woman, and Baby"
+                    src={process.env.PUBLIC_URL + "/images/crystal'sArt.svg"}
+                  />
+                </figure>
+              </div>
+            </Link>
           </div>
           <div className="column is-half">
-            <figure className="image is-9x16">
-              <img
-                alt="Woman in headwrap"
-                src={process.env.PUBLIC_URL + "/images/brittney'sArt.svg"}
-              />
-            </figure>
+            <Link to="/Art/Brittney">
+              <div id="heightControl">
+                <figure className="image ">
+                  <div className="artTitles">Brittney's Art</div>
+                  <img
+                    alt="Woman in headwrap"
+                    src={process.env.PUBLIC_URL + "/images/brittney'sArt.svg"}
+                  />
+                </figure>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
