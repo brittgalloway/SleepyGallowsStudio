@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export function Tools(props) {
   return <p>{props.tools}</p>;
@@ -31,10 +32,17 @@ export function Improvements(props) {
 }
 export function ImgGall(props) {
   return (
-    <div className="column is-one-quarter">
+    <figure className="image ">
+      <img src={props.src} alt={props.alt} />
+    </figure>
+  );
+}
+export function ImgGallLink(props) {
+  return (
+    <Link to={props.route}>
       <figure className="image ">
-        <img src={props.imageUrl} alt={props.alt} />
+        <img src={props.src} alt={props.alt} />
       </figure>
-    </div>
+    </Link>
   );
 }

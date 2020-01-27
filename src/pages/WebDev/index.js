@@ -29,8 +29,8 @@ function WebDev() {
             <div className="column">
               <div className="tile is-ancestor">
                 <div className="tile is-vertical is-8">
-                  <div className="tile">
-                    <div className="tile is-parent is-vertical">
+                  <div className="tile is-parent ">
+                    <div className="tile is-vertical">
                       <Link to="/WebDev/sgs">
                         <article className="tile is-child box">
                           <div id="sg">
@@ -45,7 +45,7 @@ function WebDev() {
                         </article>
                       </Link>
                       <Link to="/WebDev/Swaddle">
-                        <article className=" is-child box">
+                        <article className=" tile is-child box">
                           <div id="swaddle">
                             <div className="titles">Swaddles for Waddles</div>
                             <img
@@ -73,7 +73,7 @@ function WebDev() {
                     </div>
                     <div className="tile is-parent is-vertical">
                       <Link to="/WebDev/SpaceChase">
-                        <article className=" is-child box">
+                        <article className="tile is-child box">
                           <div id="spaceChasers">
                             <div className="titles">Space Chasers</div>
                             <img

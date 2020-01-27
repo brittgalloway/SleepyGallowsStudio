@@ -1,0 +1,14 @@
+$sitePurple: #4a287c;
+.tabs a:hover {
+  color: $sitePurple;
+  border-bottom: none;
+}
+.tabs a {
+  border-bottom: none;
+}
+.tabs {
+  vertical-align: top;
+}
+.tabs li:first-child {
+  margin-top: 20px;
+}

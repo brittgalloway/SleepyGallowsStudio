@@ -1,10 +1,15 @@
 import React from "react";
 import Nav from "../../../components/Nav";
 import { NavBrittneyArt } from "../../../components/Navigation";
+import { ImgGall } from "../../../components/Galleries";
 import { FooterBrittney } from "../../../components/Footer";
+import sketchImg from "./sketchImg.json";
 // import "./style.scss";
 
 function Brittney() {
+  const state = {
+    sketchImg
+  };
   return (
     <>
       <div className="columns is-gapless">
@@ -13,16 +18,11 @@ function Brittney() {
         </div>
         <div className="column is-four-fifth">
           <NavBrittneyArt />
-          <div className="container is-fluid">
+          <div id="galleryContain">
             <div className="columns is-multiline is-mobile">
-              {/* {videos.map(video => (
-                <VideoLinks
-                  key={video.embed}
-                  title={video.title}
-                  embed={video.embed}
-                  year={video.year}
-                />
-              ))} */}
+              {state.sketchImg.map(img => (
+                <ImgGall src={img.src} alt={img.alt} />
+              ))}
             </div>
           </div>
         </div>

@@ -14,19 +14,24 @@ function PHL() {
           <Nav />
         </div>
         <div className="column is-four-fifth">
-          <NavAnimation />
-          <div className="container is-fluid">
-            <PLHnav />
-            <h1 className="title">For Peace, Love, &amp; Harmony</h1>
-            <div className="columns is-multiline is-mobile">
-              {videos.map(video => (
-                <VideoLinks
-                  key={video.embed}
-                  title={video.title}
-                  embed={video.embed}
-                  year={video.year}
-                />
-              ))}
+          <div id="videos">
+            <NavAnimation />
+            <div className="container is-fluid">
+              <PLHnav />
+              <h1 className="title has-text-centered">
+                For Peace, Love, &amp; Harmony
+              </h1>
+              <hr />
+              <div className="columns is-multiline is-mobile">
+                {videos.map(video => (
+                  <VideoLinks
+                    key={video.embed}
+                    title={video.title}
+                    embed={video.embed}
+                    year={video.year}
+                  />
+                ))}
+              </div>
             </div>
           </div>
         </div>

@@ -1,14 +1,15 @@
 import React from "react";
-import Nav from "../../../components/Nav";
-import { NavCrystalArt } from "../../../components/Navigation";
-import { ImgGall } from "../../../components/Galleries";
-import { FooterCrystal } from "../../../components/Footer";
-import illustrateImg from "./illustrateImg.json";
-// import "./style.css";
+import Nav from "../../../../components/Nav";
+import { NavBrittneyArt } from "../../../../components/Navigation";
+import { ImgGall } from "../../../../components/Galleries";
+import { FooterBrittney } from "../../../../components/Footer";
+import paperImg from "./paperImg.json";
 
-function Crystal() {
+// import "./style.scss";
+
+function PaperCut() {
   const state = {
-    illustrateImg
+    paperImg
   };
   return (
     <>
@@ -17,19 +18,19 @@ function Crystal() {
           <Nav />
         </div>
         <div className="column is-four-fifth">
-          <NavCrystalArt />
+          <NavBrittneyArt />
           <div id="galleryContain">
             <div className="columns is-multiline is-mobile">
-              {state.illustrateImg.map(img => (
+              {state.paperImg.map(img => (
                 <ImgGall src={img.src} alt={img.alt} />
               ))}
             </div>
           </div>
         </div>
       </div>
-      <FooterCrystal />
+      <FooterBrittney />
     </>
   );
 }
 
-export default Crystal;
+export default PaperCut;

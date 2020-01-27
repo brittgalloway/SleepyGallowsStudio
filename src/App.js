@@ -8,6 +8,7 @@ import Art from "./pages/Art";
 import Crystal from "./pages/Art/Crystal";
 import VisDev from "./pages/Art/Crystal/VisDev";
 import Brittney from "./pages/Art/Brittney";
+import PaperCut from "./pages/Art/Brittney/PaperCut";
 //Animation pages
 import Animation from "./pages/Animation";
 import WebSeries from "./pages/Animation/Webseries";
@@ -37,6 +38,7 @@ function App() {
         <Route exact path="/Art/Crystal" component={Crystal} />
         <Route exact path="/Art/Crystal/VisDev" component={VisDev} />
         <Route exact path="/Art/Brittney" component={Brittney} />
+        <Route exact path="/Art/Brittney/PaperCut" component={PaperCut} />
         {/* animation pages */}
         <Route exact path="/Animation" component={Animation} />
         <Route exact path="/Animation/webseries" component={WebSeries} />

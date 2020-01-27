@@ -1,15 +1,35 @@
 import React from "react";
 import { NavAnimation } from "../../../components/Navigation";
-
+import Nav from "../../../components/Nav";
+import { ImgGallLink } from "../../../components/Galleries";
+import { FooterSleepy } from "../../../components/Footer";
+import webSeriesThumb from "./webSeriesThumb.json";
 // import "./style.css";
 
 function Webseries() {
+  const state = {
+    webSeriesThumb
+  };
   return (
     <>
-      <h1>Webseries</h1>
-      <NavAnimation />
-      <h1>Gallery(links to secific webpages)</h1>
-      <h1>For Peace Love and Harmony</h1>
+      <div className="columns is-gapless">
+        <div className="column is-one-fifth">
+          <Nav />
+        </div>
+        <div className="column is-four-fifth">
+          <NavAnimation />
+          <h1 className="title has-text-centered">Webseries</h1>
+          <hr />
+          <div id="galleryContain">
+            <div className="columns is-multiline is-mobile">
+              {state.webSeriesThumb.map(img => (
+                <ImgGallLink route={img.route} src={img.src} alt={img.alt} />
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+      <FooterSleepy />
     </>
   );
 }

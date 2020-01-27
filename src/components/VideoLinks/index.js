@@ -2,7 +2,7 @@ import React from "react";
 
 function VideoLinks(props) {
   return (
-    <div className="column is-one-quarter">
+    <div className="column is-one-third">
       <figure className="image is-16by9">
         <iframe
           className="has-ratio"

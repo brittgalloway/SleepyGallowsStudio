@@ -1,7 +1,9 @@
 import React from "react";
 import VideoLinks from "../../../components/VideoLinks";
 import Nav from "../../../components/Nav";
+import videos from "./videos.json";
 import { NavAnimation } from "../../../components/Navigation";
+import { FooterSleepy } from "../../../components/Footer";
 
 // import videos from "./videos.json";
 
@@ -15,20 +17,26 @@ function ClientWork() {
           <Nav />
         </div>
         <div className="column is-four-fifth">
-          <NavAnimation />
-          <h1>ClientWork Animation</h1>
-          <div className="columns is-multiline is-mobile">
-            {/* {videos.map(video => (
-          <VideoLinks
-            key={video.embed}
-            title={video.title}
-            embed={video.embed}
-            year={video.year}
-          />
-        ))} */}
+          <div id="videos">
+            <NavAnimation />
+            <div className="container is-fluid">
+              <h1 className="title has-text-centered">ClientWork Animation</h1>
+              <hr />
+              <div className="columns is-multiline is-mobile">
+                {videos.map(video => (
+                  <VideoLinks
+                    key={video.embed}
+                    title={video.title}
+                    embed={video.embed}
+                    year={video.year}
+                  />
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <FooterSleepy />
     </>
   );
 }
