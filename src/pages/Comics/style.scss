@@ -1,22 +1,27 @@
 $bgComic: rgb(14, 14, 14);
 $comicText: white;
+$textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
 .backgroundComic {
   background-image: url("./naca_bg.PNG");
   background-position: center center;
   background-size: cover;
   height: 300vh;
+  margin-top: -10em;
 }
 #comic {
   background-color: $bgComic;
 }
-// h1 {
-//   font-size: 7rem;
-//   color: $comicText;
-//   padding-top: 20%;
-// }
-// h2 {
-//   font-size: 5rem;
-//   color: $comicText;
-// }
+.padTop {
+  padding-top: 4em;
+}
+.padTop2 {
+  padding-top: 1em;
+}
+.padTop3 {
+  margin-top: 6em;
+}
+.shadow {
+  text-shadow: $textShadow;
+}
 
 // @import "bulma/sass/elements/title.sass";
