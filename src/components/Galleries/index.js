@@ -33,7 +33,7 @@ export function Improvements(props) {
 export function ImgGall(props) {
   return (
     <figure className="image ">
-      <img src={props.src} alt={props.alt} />
+      <img className="sketchSize" src={props.src} alt={props.alt} />
     </figure>
   );
 }
