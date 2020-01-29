@@ -32,9 +32,11 @@ export function Improvements(props) {
 }
 export function ImgGall(props) {
   return (
-    <figure className="image ">
-      <img className="sketchSize" src={props.src} alt={props.alt} />
-    </figure>
+    <div className="tile is-3 box is-child">
+      <figure className="image ">
+        <img src={props.src} alt={props.alt} />
+      </figure>
+    </div>
   );
 }
 export function ImgGallLink(props) {

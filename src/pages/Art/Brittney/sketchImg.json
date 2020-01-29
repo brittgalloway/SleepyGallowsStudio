@@ -1,34 +1,50 @@
 [
   {
-    "src": "/images/sketchBook/curvedLines_sm.png",
-    "alt": "a "
+    "src": "/images/sketchBook/curvedLines.png",
+    "alt": "a ",
+    "width": 5,
+    "height": 4
   },
   {
-    "src": "/images/sketchBook/greenTriangle_sm.png",
-    "alt": "This is a test"
+    "src": "/images/sketchBook/greenTriangle.webp",
+    "alt": "This is a test",
+    "width": 5,
+    "height": 4
   },
   {
-    "src": "/images/sketchBook/heyBubble_sm.png",
-    "alt": "This is a test"
+    "src": "/images/sketchBook/heyBubble.webp",
+    "alt": "This is a test",
+    "width": 5,
+    "height": 4
   },
   {
-    "src": "/images/sketchBook/redlineBlue_sm.png",
-    "alt": "This is a test"
+    "src": "/images/sketchBook/redlineBlue.webp",
+    "alt": "This is a test",
+    "width": 1,
+    "height": 2
   },
   {
-    "src": "/images/sketchBook/moons_sm.png",
-    "alt": "This is a test"
+    "src": "/images/sketchBook/moons.webp",
+    "alt": "This is a test",
+    "width": 5,
+    "height": 4
   },
   {
-    "src": "/images/sketchBook/mouths_sm.png",
-    "alt": "This is a test"
+    "src": "/images/sketchBook/mouths.webp",
+    "alt": "This is a test",
+    "width": 5,
+    "height": 4
   },
   {
-    "src": "/images/sketchBook/redLines_sm.png",
-    "alt": "This is a test"
+    "src": "/images/sketchBook/redLines.webp",
+    "alt": "This is a test",
+    "width": 5,
+    "height": 4
   },
   {
-    "src": "/images/sketchBook/redDiamond_sm.png",
-    "alt": "test"
+    "src": "/images/sketchBook/redDiamond.webp",
+    "alt": "test",
+    "width": 5,
+    "height": 4
   }
 ]

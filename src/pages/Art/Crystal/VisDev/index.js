@@ -1,15 +1,26 @@
-import React from "react";
+import React, { useState, useCallback } from "react";
+import Carousel, { Modal, ModalGateway } from "react-images";
+import Gallery from "react-photo-gallery";
 import Nav from "../../../../components/Nav";
 import { NavCrystalArt } from "../../../../components/Navigation";
-import { ImgGall } from "../../../../components/Galleries";
 import { FooterCrystal } from "../../../../components/Footer";
+import charImg from "./charImg.json";
 import visImg from "./visImg.json";
 
 // import "./style.css";
 
 function VisDev() {
-  const state = {
-    visImg
+  const [currentImage, setCurrentImage] = useState(0);
+  const [viewerIsOpen, setViewerIsOpen] = useState(false);
+
+  const openLightbox = useCallback((event, { photo, index }) => {
+    setCurrentImage(index);
+    setViewerIsOpen(true);
+  }, []);
+
+  const closeLightbox = () => {
+    setCurrentImage(0);
+    setViewerIsOpen(false);
   };
   return (
     <>
@@ -21,14 +32,47 @@ function VisDev() {
           <NavCrystalArt />
           <div id="galleryContain">
             <div className="columns is-multiline is-mobile">
-              {state.visImg.map(img => (
-                <ImgGall src={img.src} alt={img.alt} />
-              ))}
+              <div>
+                <h1 className="subtitle">Character Design</h1>
+                <Gallery photos={charImg} onClick={openLightbox} />
+                <ModalGateway>
+                  {viewerIsOpen ? (
+                    <Modal onClose={closeLightbox}>
+                      <Carousel
+                        currentIndex={currentImage}
+                        views={charImg.map(x => ({
+                          ...x,
+                          srcset: x.srcSet,
+                          caption: x.title
+                        }))}
+                      />
+                    </Modal>
+                  ) : null}
+                </ModalGateway>
+              </div>
+              <div>
+                <h1 className="subtitle">Visual Design</h1>
+                <Gallery photos={visImg} onClick={openLightbox} />
+                <ModalGateway>
+                  {viewerIsOpen ? (
+                    <Modal onClose={closeLightbox}>
+                      <Carousel
+                        currentIndex={currentImage}
+                        views={visImg.map(x => ({
+                          ...x,
+                          srcset: x.srcSet,
+                          caption: x.title
+                        }))}
+                      />
+                    </Modal>
+                  ) : null}
+                </ModalGateway>
+              </div>
             </div>
           </div>
           <div className="columns is-full">
             <article>
-              <h1>The Little Mermaid</h1>
+              <h1 className="subtitle">The Little Mermaid</h1>
               <p>
                 I read the Little Mermaid by Hans Cristian Anderson for the
                 first time a couple of years ago and I was very surprised when I
