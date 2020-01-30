@@ -30,15 +30,7 @@ export function Improvements(props) {
     </>
   );
 }
-export function ImgGall(props) {
-  return (
-    <div className="tile is-3 box is-child">
-      <figure className="image ">
-        <img src={props.src} alt={props.alt} />
-      </figure>
-    </div>
-  );
-}
+
 export function ImgGallLink(props) {
   return (
     <Link to={props.route}>

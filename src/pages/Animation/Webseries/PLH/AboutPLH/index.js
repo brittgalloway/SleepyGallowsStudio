@@ -1,15 +1,12 @@
 import React from "react";
 import Nav from "../../../../../components/Nav";
 import { NavAnimation, PLHnav } from "../../../../../components/Navigation";
-import { ImgGall } from "../../../../../components/Galleries";
+import Gallery from "react-photo-gallery";
 import { FooterSleepy } from "../../../../../components/Footer";
 import characters from "./characters.json";
 // import "./style.scss";
 
 function PHL() {
-  const state = {
-    characters
-  };
   return (
     <>
       <div className="columns is-gapless">
@@ -44,9 +41,7 @@ function PHL() {
               <h1 className="title has-text-centered">The Characters</h1>
 
               <div className="columns is-multiline is-mobile">
-                {state.characters.map(img => (
-                  <ImgGall src={img.src} alt={img.alt} />
-                ))}
+                <Gallery photos={characters} />
               </div>
             </div>
           </div>
