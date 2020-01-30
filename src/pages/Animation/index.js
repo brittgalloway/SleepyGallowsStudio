@@ -19,7 +19,7 @@ function SGProductions() {
                   <div className="animationTitles">Web Series</div>
                   <img
                     alt="Webseries"
-                    src={process.env.PUBLIC_URL + "/images/webseries.png"}
+                    src={process.env.PUBLIC_URL + "/images/webseries.jpg"}
                   />
                 </figure>
               </div>
@@ -32,7 +32,7 @@ function SGProductions() {
                   <div className="animationTitles">Client Work</div>
                   <img
                     alt="Client Work"
-                    src={process.env.PUBLIC_URL + "/images/cleintWork.png"}
+                    src={process.env.PUBLIC_URL + "/images/cleintWork.jpg"}
                   />
                 </figure>
               </div>
@@ -45,7 +45,7 @@ function SGProductions() {
                   <div className="animationTitles">Fun Animations</div>
                   <img
                     alt="Fun Animations"
-                    src={process.env.PUBLIC_URL + "/images/forFun.png"}
+                    src={process.env.PUBLIC_URL + "/images/forFun.jpg"}
                   />
                 </figure>
               </div>

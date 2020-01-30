@@ -30,14 +30,15 @@ function WebDev() {
               <div className="tile is-ancestor">
                 <div className="tile is-vertical is-8">
                   <div className="tile is-parent ">
-                    <div className="tile is-vertical">
+                    <div className="tile is-parent is-vertical">
                       <Link to="/WebDev/sgs">
                         <article className="tile is-child box">
                           <div id="sg">
                             <div className="titles">This website!</div>
                             <img
                               src={
-                                process.env.PUBLIC_URL + "/images/sg_logo.webp"
+                                process.env.PUBLIC_URL +
+                                "/images/pageheade_rmain_logo.png"
                               }
                               alt="sleepy gallows cover"
                             />
@@ -50,7 +51,7 @@ function WebDev() {
                             <div className="titles">Swaddles for Waddles</div>
                             <img
                               src={
-                                process.env.PUBLIC_URL + "/images/soft_grad.gif"
+                                process.env.PUBLIC_URL + "/images/swaddle.jpg"
                               }
                               alt="swaddles for waddles cover"
                             />
@@ -63,7 +64,7 @@ function WebDev() {
                             <div className="titles">Memory Game</div>
                             <img
                               src={
-                                process.env.PUBLIC_URL + "/images/soft_grad.gif"
+                                process.env.PUBLIC_URL + "/images/memory.jpg"
                               }
                               alt="Memory game cover"
                             />
@@ -79,7 +80,7 @@ function WebDev() {
                             <img
                               src={
                                 process.env.PUBLIC_URL +
-                                "/images/aurora-borealis-5.png"
+                                "/images/aurora-borealis-5.jpg"
                               }
                               alt="space chasers cover"
                             />
@@ -92,7 +93,7 @@ function WebDev() {
                             <div className="titles">Swiftly</div>
                             <img
                               src={
-                                process.env.PUBLIC_URL + "/images/soft_grad.gif"
+                                process.env.PUBLIC_URL + "/images/swiftly.jpg"
                               }
                               alt="Swiftly cover"
                             />
@@ -105,7 +106,7 @@ function WebDev() {
                             <div className="titles">Tennis News</div>
                             <img
                               src={
-                                process.env.PUBLIC_URL + "/images/soft_grad.gif"
+                                process.env.PUBLIC_URL + "/images/tennis.jpg"
                               }
                               alt="tennis news cover"
                             />
