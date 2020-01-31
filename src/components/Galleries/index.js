@@ -11,10 +11,14 @@ export function WhatIsIt(props) {
   return (
     <>
       <p>{props.description}</p>
-      <li>Github: {props.github}</li>
-      <li>Live App: {props.liveApp}</li>
       <li>
-        {props.extraName} {props.extraLink}
+        Github: <a href={props.github}>{props.github}</a>
+      </li>
+      <li>
+        Live App: <a href={props.liveApp}>{props.liveApp}</a>
+      </li>
+      <li>
+        {props.extraName} <a href={props.extraLink}>{props.extraLink}</a>
       </li>
       <small>{props.extraNote}</small>
     </>

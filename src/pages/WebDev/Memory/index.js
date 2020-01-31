@@ -9,8 +9,8 @@ function Memory() {
     //tools used
     tools: "REACT, Bulma UI Framework, SASS",
     //image of project
-    imageUrl: "",
-    alt: "",
+    imageUrl: process.env.PUBLIC_URL + "/images/memory1.PNG",
+    alt: "Memory Game Screenshot",
     //link to GITHUB
     github: "https://github.com/brittgalloway/memory_game/",
     //link to LIVE APP
@@ -30,6 +30,8 @@ function Memory() {
       projectName={state.projectName}
       github={state.github}
       liveApp={state.liveApp}
+      imageUrl={state.imageUrl}
+      alt={state.alt}
       description={state.description}
       improvements={state.improvements}
       tools={state.tools}

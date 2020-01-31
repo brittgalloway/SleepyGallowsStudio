@@ -8,8 +8,8 @@ function Swifly() {
     //tools used
     tools: "NodeJs, Express, Sequelize, MySQL, Bulma UI Framework, Handlebars",
     //image of project
-    imageUrl: "",
-    alt: "",
+    imageUrl: "/images/swiftly.PNG",
+    alt: "Swiftly App Screenshot",
     //link to GITHUB
     github: "https://github.com/brittgalloway/fashionapp",
     //link to LINKEDIN
@@ -29,6 +29,8 @@ function Swifly() {
       projectName={state.projectName}
       github={state.github}
       liveApp={state.liveApp}
+      imageUrl={state.imageUrl}
+      alt={state.alt}
       description={state.description}
       improvements={state.improvements}
       tools={state.tools}

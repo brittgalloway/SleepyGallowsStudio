@@ -16,8 +16,8 @@ function SpaceChase() {
     //tools used
     tools: "HTML, CSS, Materialize, Leaflet, Firebase",
     //image of project
-    imageUrl: "",
-    alt: "",
+    imageUrl: "/images/spaceChase.PNG",
+    alt: "Space Chasers Screenshot",
     //link to GITHUB
     github: "https://github.com/brittgalloway/SpaceChasers",
     //link to LINKEDIN
@@ -69,15 +69,13 @@ function SpaceChase() {
                           extraNote={state.extraNote}
                         />
                       </article>
-
-                      <article className="tile is-child box">
-                        <Improvements improvements={state.improvements} />
-                      </article>
                     </div>
                     <div className="tile is-parent is-vertical">
                       <article className="tile is-child box">
-                        <ScreenCap />
-                        Image here
+                        <ScreenCap imageUrl={state.imageUrl} alt={state.alt} />
+                        <article className="tile is-child box">
+                          <Improvements improvements={state.improvements} />
+                        </article>
                       </article>
                     </div>
                   </div>

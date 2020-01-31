@@ -10,8 +10,8 @@ function Tennis() {
     tools:
       "Express, Express-handlebars, Mongoose, Cheerio, Axios, SASS, Bulma UI Framework",
     //image of project
-    imageUrl: "",
-    alt: "",
+    imageUrl: "/images/tennisApp.PNG",
+    alt: "Tennis News App Screenshot",
     //link to GITHUB
     github: "https://github.com/brittgalloway/tennisNews",
     //link to LINKEDIN
@@ -31,6 +31,8 @@ function Tennis() {
       projectName={state.projectName}
       github={state.github}
       liveApp={state.liveApp}
+      imageUrl={state.imageUrl}
+      alt={state.alt}
       description={state.description}
       improvements={state.improvements}
       tools={state.tools}

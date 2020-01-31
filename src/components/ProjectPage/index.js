@@ -56,8 +56,7 @@ function ProjectPage({
                     </div>
                     <div className="tile is-parent is-vertical">
                       <article className="tile is-child box">
-                        <ScreenCap />
-                        Image here
+                        <ScreenCap imageUrl={imageUrl} alt={alt} />
                       </article>
                     </div>
                   </div>
