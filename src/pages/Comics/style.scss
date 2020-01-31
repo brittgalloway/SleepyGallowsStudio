@@ -12,16 +12,38 @@ $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
   background-color: $bgComic;
 }
 .padTop {
-  padding-top: 4em;
+  padding-top: 3em;
 }
-.padTop2 {
-  padding-top: 1em;
-}
+// .padTop2 {
+//   padding-top: 1em;
+// }
 .padTop3 {
-  margin-top: 6em;
+  margin-top: 8em;
 }
 .shadow {
   text-shadow: $textShadow;
 }
-
+.necahual {
+  font-size: 5em;
+}
+.text-box {
+  background: rgba(0, 0, 0, 0.4);
+  border: 4px solid #3bcacb;
+  box-sizing: border-box;
+  backdrop-filter: blur(4px);
+  padding: 2em;
+  margin-top: 3em;
+}
+.text-box2 {
+  border: 4px solid #3bcacb;
+  box-sizing: border-box;
+  box-shadow: $textShadow;
+}
+.hr {
+  background-color: #3bcacb;
+  width: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: $textShadow;
+}
 // @import "bulma/sass/elements/title.sass";
