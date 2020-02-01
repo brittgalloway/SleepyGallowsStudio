@@ -4,7 +4,7 @@ import "./navComic.scss";
 function NavComic() {
   return (
     <aside className="menu" id="comicMenu">
-      <Link to="/">
+      <Link to="/About">
         <img
           id="comicHeader"
           src={process.env.PUBLIC_URL + "/images/pageHeader_sgHomepgNav.svg"}

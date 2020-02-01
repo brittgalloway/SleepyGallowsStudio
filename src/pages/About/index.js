@@ -8,7 +8,7 @@ function About() {
   return (
     <>
       <div className="columns is-gapless">
-        <div className="column is-narrow">
+        <div className="column is-fixed is-narrow">
           <Nav />
         </div>
         <div className="column">
