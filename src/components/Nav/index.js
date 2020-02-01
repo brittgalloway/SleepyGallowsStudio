@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./nav.scss";
 function Nav() {
   return (
-    <aside className="menu">
+    <aside className="menu is-hidden-mobile">
       <Link to="/">
         <img
           id="header"

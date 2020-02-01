@@ -13,10 +13,10 @@ function WebDev() {
   return (
     <>
       <div className="columns is-gapless">
-        <div className="column is-one-fifth">
+        <div className="column is-narrow">
           <Nav />
         </div>
-        <div className="column is-four-fifth">
+        <div className="column">
           <section className="hero is-medium is-primary is-bold">
             <div className="hero-body">
               <div className="container">

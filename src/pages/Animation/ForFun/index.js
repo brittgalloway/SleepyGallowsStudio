@@ -9,10 +9,10 @@ function ForFun() {
   return (
     <>
       <div className="columns is-gapless">
-        <div className="column is-one-fifth">
+        <div className="column is-narrow">
           <Nav />
         </div>
-        <div className="column is-four-fifth">
+        <div className="column">
           <div id="videos">
             <NavAnimation />
 

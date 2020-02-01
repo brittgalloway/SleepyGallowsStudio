@@ -7,10 +7,10 @@ import "./style.scss";
 function SGProductions() {
   return (
     <div className="columns is-gapless">
-      <div className="column is-one-fifth">
+      <div className="column is-narrow">
         <Nav />
       </div>
-      <div className="column is-four-fifth">
+      <div className="column">
         <div className="columns is-gapless is-multiline  is-mobile">
           <div className="column is-full has-text-centered">
             <Link to="/Animation/webseries/plh">

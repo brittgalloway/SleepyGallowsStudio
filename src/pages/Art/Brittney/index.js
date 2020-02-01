@@ -24,10 +24,10 @@ function Brittney() {
   return (
     <>
       <div className="columns is-gapless">
-        <div className="column is-one-fifth">
+        <div className="column is-narrow">
           <Nav />
         </div>
-        <div className="column is-four-fifth">
+        <div className="column">
           <NavBrittneyArt />
           <div id="galleryContain">
             <div className="columns is-multiline is-mobile">
