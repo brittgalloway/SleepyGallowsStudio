@@ -6,5 +6,7 @@ export function AboutCreators() {
 }
 
 export function AboutSG() {
-  return <p>About the Sleepy Gallows</p>;
+  return <article>
+    <p>About the Sleepy Gallows</p>;
+    </article>
 }
