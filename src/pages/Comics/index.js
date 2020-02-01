@@ -8,10 +8,10 @@ function Comics() {
     <>
       <div id="comic">
         <div className="columns is-gapless">
-          <div className="column is-one-fifth">
+          <div className="column is-narrow">
             <NavComic />
           </div>
-          <div className="column is-four-fifth">
+          <div className="column">
             <div className="backgroundComic has-text-centered has-text-white">
               <div id="galleryContain">
                 <article>
