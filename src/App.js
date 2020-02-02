@@ -3,6 +3,8 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
+// About SG
+import About from "./pages/About";
 //Art pages
 import Art from "./pages/Art";
 import Crystal from "./pages/Art/Crystal";
@@ -33,6 +35,8 @@ function App() {
     <Router>
       <div>
         <Route exact path="/" component={Home} />
+        <Route exact path="/About" component={About} />
+
         {/* Art pages */}
         <Route exact path="/Art" component={Art} />
         <Route exact path="/Art/Crystal" component={Crystal} />

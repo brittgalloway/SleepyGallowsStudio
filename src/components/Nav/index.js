@@ -4,7 +4,7 @@ import "./nav.scss";
 function Nav() {
   return (
     <aside className="menu is-hidden-mobile">
-      <Link to="/">
+      <Link to="/About">
         <img
           id="header"
           src={process.env.PUBLIC_URL + "/images/pageHeader_sgHomepgNav.svg"}
