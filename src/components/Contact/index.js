@@ -2,8 +2,8 @@ import React from "react";
 
 function Contact() {
   return (
-    <div id="skills" className="box">
-      <p className="is-size-4">Contact</p>
+    <div id="skills" className="box ">
+      <p className="is-size-4 " >Contact</p>
 
       <ul>
         <li>
