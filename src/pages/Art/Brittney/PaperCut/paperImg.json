@@ -12,27 +12,33 @@
     "height": 5
   },
   {
-    "src": "/images/skill_icons/mongodb.png",
+    "src": "/images/paperCut/flowerStar.jpg",
     "alt": "This is a test",
-    "width": 5,
-    "height": 4
+    "width": 4,
+    "height": 3
   },
   {
-    "src": "https://www.gstatic.com/devrel-devsite/prod/v98dba58d370055a75e2a5d5d215c4ecfda28b813705f75c7e2758703570175e1/firebase/images/lockup.png",
+    "src": "/images/paperCut/paintCollage.jpg",
     "alt": "This is a test",
     "width": 5,
-    "height": 4
+    "height": 3
   },
   {
-    "src": "https://bulma.io/images/bulma-logo.png",
+    "src": "/images/paperCut/princess_hasina.jpg",
     "alt": "This is a test",
-    "width": 5,
-    "height": 4
+    "width": 4,
+    "height": 5
   },
   {
-    "src": "/images/skill_icons/React-logo.png",
+    "src": "/images/paperCut/prayingGirl.jpg",
+    "alt": "This is a test",
+    "width": 3,
+    "height": 1
+  },
+  {
+    "src": "/images/paperCut/queenFelicity.jpg",
     "alt": "test",
-    "width": 5,
-    "height": 4
+    "width": 4,
+    "height": 5
   }
 ]
