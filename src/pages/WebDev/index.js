@@ -16,7 +16,7 @@ function WebDev() {
           <Nav />
         </div>
         <div className="column">
-          <section className="hero is-medium is-primary is-bold">
+          <section className="hero is-medium is-primary ">
             <div className="hero-body">
               <div className="container">
                 <h1 className="title">Brittney Galloway</h1>
@@ -50,7 +50,7 @@ function WebDev() {
                             <div className="titles">Swaddles for Waddles</div>
                             <img
                               src={
-                                process.env.PUBLIC_URL + "/images/swaddle.jpg"
+                                process.env.PUBLIC_URL + "/images/swaddles.png"
                               }
                               alt="swaddles for waddles cover"
                             />

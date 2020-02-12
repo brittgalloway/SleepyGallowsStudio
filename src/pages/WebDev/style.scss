@@ -11,6 +11,9 @@ $lightBlue: #9ac8f3;
 article.is-child {
   padding: 1em;
 }
+
+$primary: $lightBlue;
+
 .titles {
   position: absolute;
   text-align: center;
@@ -49,5 +52,12 @@ article.is-child {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: $navBlue;
+  background: $lightBlue;
 }
+
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/base/_all.sass";
+@import "bulma/sass/elements/container.sass";
+@import "bulma/sass/elements/title.sass";
+@import "bulma/sass/layout/hero.sass";
+@import "bulma/sass/layout/section.sass";
