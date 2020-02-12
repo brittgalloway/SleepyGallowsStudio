@@ -1,26 +1,77 @@
 [
   {
-    "src": "/images/skill_icons/materialize.png",
-    "alt": "a "
+    "src": "/images/artOfPLH/fevor.webp",
+    "alt": "a ",
+    "width": 5,
+    "height": 3
   },
   {
-    "src": "/images/skill_icons/sql.png",
-    "alt": "This is a test"
+    "src": "/images/artOfPLH/wings.jpg",
+    "alt": "a ",
+    "width": 5,
+    "height": 3
+  },
+
+  {
+    "src": "/images/artOfPLH/knight.jpg",
+    "alt": "a ",
+    "width": 3,
+    "height": 1
   },
   {
-    "src": "/images/skill_icons/mongodb.png",
-    "alt": "This is a test"
+    "src": "/images/artOfPLH/light.jpg",
+    "alt": "a ",
+    "width": 5,
+    "height": 3
   },
   {
-    "src": "https://www.gstatic.com/devrel-devsite/prod/v98dba58d370055a75e2a5d5d215c4ecfda28b813705f75c7e2758703570175e1/firebase/images/lockup.png",
-    "alt": "This is a test"
+    "src": "/images/artOfPLH/hall.jpg",
+    "alt": "a ",
+    "width": 4,
+    "height": 3
   },
   {
-    "src": "https://bulma.io/images/bulma-logo.png",
-    "alt": "This is a test"
+    "src": "/images/artOfPLH/queensroom.jpg",
+    "alt": "a ",
+    "width": 4,
+    "height": 3
   },
   {
-    "src": "/images/skill_icons/React-logo.png",
-    "alt": "test"
+    "src": "/images/artOfPLH/seren.jpg",
+    "alt": "a ",
+    "width": 3,
+    "height": 2
+  },
+  {
+    "src": "/images/artOfPLH/web.jpg",
+    "alt": "a ",
+    "width": 4,
+    "height": 3
+  },
+  {
+    "src": "/images/artOfPLH/title1.jpg",
+    "alt": "a ",
+    "width": 4,
+    "height": 3
+  },
+  {
+    "src": "/images/artOfPLH/title2.jpg",
+    "alt": "a ",
+    "width": 4,
+    "height": 3
+  },
+
+  {
+    "src": "/images/artOfPLH/title3.jpg",
+    "alt": "a ",
+    "width": 4,
+    "height": 3
+  },
+
+  {
+    "src": "/images/artOfPLH/title4.jpg",
+    "alt": "a ",
+    "width": 4,
+    "height": 3
   }
 ]
