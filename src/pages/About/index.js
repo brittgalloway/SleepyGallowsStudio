@@ -13,7 +13,7 @@ function About() {
         </div>
         <div className="column">
           <div className="columns">
-            <div className="column is-8">
+            <div className="column is-6 is-offset-3">
               <div className="aboutsection">
                 <AboutSG />
               </div>
@@ -22,7 +22,7 @@ function About() {
               </div>
             </div>
 
-            <div className="column is-4">
+            <div className="column is-3">
               <div className="aboutsection">
                 <div className="contactSG">
                   <Contact />
