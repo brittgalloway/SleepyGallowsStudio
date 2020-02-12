@@ -16,11 +16,13 @@ function WebDev() {
           <Nav />
         </div>
         <div className="column">
-          <section className="hero is-medium is-primary ">
+          <section className="hero is-primary is-bold">
             <div className="hero-body">
               <div className="container">
-                <h1 className="title">Brittney Galloway</h1>
-                <h2 className="subtitle">Fullstack Developer</h2>
+                <h1 className="title has-text-centered">Brittney Galloway</h1>
+                <h2 className="subtitle has-text-centered">
+                  Fullstack Developer
+                </h2>
               </div>
             </div>
           </section>
