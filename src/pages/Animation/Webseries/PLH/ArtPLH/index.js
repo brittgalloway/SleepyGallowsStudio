@@ -23,32 +23,38 @@ function PHL() {
   return (
     <>
       <div className="columns is-gapless">
-        <div className="column is-one-fifth">
+        <div className="column is-fixed is-one-fifth">
           <Nav />
         </div>
-        <div className="column is-four-fifth">
-          <NavAnimation />
-          <PLHnav />
-          <h1 className="title has-text-centered">
-            Art of FOR PEACE, LOVE, &amp; HARMONY
-          </h1>
-          <div id="galleryContain">
-            <div className="columns is-multiline is-mobile">
-              <Gallery photos={artOfPlhImg} onClick={openLightbox} />
-              <ModalGateway>
-                {viewerIsOpen ? (
-                  <Modal onClose={closeLightbox}>
-                    <Carousel
-                      currentIndex={currentImage}
-                      views={artOfPlhImg.map(x => ({
-                        ...x,
-                        srcset: x.srcSet,
-                        caption: x.title
-                      }))}
-                    />
-                  </Modal>
-                ) : null}
-              </ModalGateway>
+        <div className="column">
+          <div className="columns">
+            <div className="column is-9 is-offset-3">
+              <div className="column is-four-fifth">
+                <NavAnimation />
+                <PLHnav />
+                <h1 className="title has-text-centered">
+                  Art of FOR PEACE, LOVE, &amp; HARMONY
+                </h1>
+                <div id="galleryContain">
+                  <div className="columns is-multiline is-mobile">
+                    <Gallery photos={artOfPlhImg} onClick={openLightbox} />
+                    <ModalGateway>
+                      {viewerIsOpen ? (
+                        <Modal onClose={closeLightbox}>
+                          <Carousel
+                            currentIndex={currentImage}
+                            views={artOfPlhImg.map(x => ({
+                              ...x,
+                              srcset: x.srcSet,
+                              caption: x.title
+                            }))}
+                          />
+                        </Modal>
+                      ) : null}
+                    </ModalGateway>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

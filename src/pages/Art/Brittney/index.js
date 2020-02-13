@@ -24,29 +24,35 @@ function Brittney() {
   return (
     <>
       <div className="columns is-gapless">
-        <div className="column is-one-fifth">
+        <div className="column is-fixed is-one-fifth">
           <Nav />
         </div>
-        <div className="column is-four-fifth">
-          <NavBrittneyArt />
-          <div id="galleryContain">
-            <div className="columns is-multiline is-mobile">
-              <div>
-                <Gallery photos={sketchImg} onClick={openLightbox} />
-                <ModalGateway>
-                  {viewerIsOpen ? (
-                    <Modal onClose={closeLightbox}>
-                      <Carousel
-                        currentIndex={currentImage}
-                        views={sketchImg.map(x => ({
-                          ...x,
-                          srcset: x.srcSet,
-                          caption: x.title
-                        }))}
-                      />
-                    </Modal>
-                  ) : null}
-                </ModalGateway>
+        <div className="column">
+          <div className="columns">
+            <div className="column is-9 is-offset-3">
+              <div className="column is-four-fifth">
+                <NavBrittneyArt />
+                <div id="galleryContain">
+                  <div className="columns is-multiline is-mobile">
+                    <div>
+                      <Gallery photos={sketchImg} onClick={openLightbox} />
+                      <ModalGateway>
+                        {viewerIsOpen ? (
+                          <Modal onClose={closeLightbox}>
+                            <Carousel
+                              currentIndex={currentImage}
+                              views={sketchImg.map(x => ({
+                                ...x,
+                                srcset: x.srcSet,
+                                caption: x.title
+                              }))}
+                            />
+                          </Modal>
+                        ) : null}
+                      </ModalGateway>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
