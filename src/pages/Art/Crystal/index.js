@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from "react";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import Gallery from "react-photo-gallery";
-import Nav from "../../../components/Nav";
+import { Nav, NavBur } from "../../../components/Nav";
 import { NavCrystalArt } from "../../../components/Navigation";
 import { FooterCrystal } from "../../../components/Footer";
 import illustrateImg from "./illustrateImg.json";
@@ -25,6 +25,7 @@ function Crystal() {
       <div className="columns is-gapless">
         <div className="column is-fixed is-one-fifth">
           <Nav />
+          <NavBur />
         </div>
         <div className="column">
           <div className="columns">

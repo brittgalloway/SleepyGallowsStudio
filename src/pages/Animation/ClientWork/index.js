@@ -1,6 +1,6 @@
 import React from "react";
 import VideoLinks from "../../../components/VideoLinks";
-import Nav from "../../../components/Nav";
+import { Nav, NavBur } from "../../../components/Nav";
 import videos from "./videos.json";
 import { NavAnimation } from "../../../components/Navigation";
 import { FooterSleepy } from "../../../components/Footer";
@@ -15,6 +15,7 @@ function ClientWork() {
       <div className="columns is-gapless">
         <div className="column is-fixed is-one-fifth">
           <Nav />
+          <NavBur />
         </div>
         <div className="column">
           <div className="columns">

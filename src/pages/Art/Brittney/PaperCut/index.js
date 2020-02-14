@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from "react";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import Gallery from "react-photo-gallery";
-import Nav from "../../../../components/Nav";
+import { Nav, NavBur } from "../../../../components/Nav";
 import { NavBrittneyArt } from "../../../../components/Navigation";
 import { FooterBrittney } from "../../../../components/Footer";
 import paperImg from "./paperImg.json";
@@ -26,6 +26,7 @@ function PaperCut() {
       <div className="columns is-gapless">
         <div className="column is-fixed is-one-fifth">
           <Nav />
+          <NavBur />
         </div>
         <div className="column">
           <div className="columns">

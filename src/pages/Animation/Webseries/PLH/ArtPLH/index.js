@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from "react";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import Gallery from "react-photo-gallery";
-import Nav from "../../../../../components/Nav";
+import { Nav, NavBur } from "../../../../../components/Nav";
 import { NavAnimation, PLHnav } from "../../../../../components/Navigation";
 import { FooterSleepy } from "../../../../../components/Footer";
 import artOfPlhImg from "./artOfPlhImg.json";
@@ -25,6 +25,7 @@ function PHL() {
       <div className="columns is-gapless">
         <div className="column is-fixed is-one-fifth">
           <Nav />
+          <NavBur />
         </div>
         <div className="column">
           <div className="columns">

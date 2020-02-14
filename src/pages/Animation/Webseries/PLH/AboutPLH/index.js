@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../../../../../components/Nav";
+import { Nav, NavBur } from "../../../../../components/Nav";
 import { NavAnimation, PLHnav } from "../../../../../components/Navigation";
 import Gallery from "react-photo-gallery";
 import { FooterSleepy } from "../../../../../components/Footer";
@@ -12,6 +12,7 @@ function PHL() {
       <div className="columns is-gapless">
         <div className="column is-fixed is-one-fifth">
           <Nav />
+          <NavBur />
         </div>
         <div className="column">
           <div className="columns">

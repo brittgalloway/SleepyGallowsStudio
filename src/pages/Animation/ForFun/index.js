@@ -2,7 +2,7 @@ import React from "react";
 import VideoLinks from "../../../components/VideoLinks";
 import videos from "./videos.json";
 import { NavAnimation } from "../../../components/Navigation";
-import Nav from "../../../components/Nav";
+import { Nav, NavBur } from "../../../components/Nav";
 import { FooterSleepy } from "../../../components/Footer";
 import "./style.scss";
 function ForFun() {
@@ -11,6 +11,7 @@ function ForFun() {
       <div className="columns is-gapless">
         <div className="column is-fixed is-one-fifth">
           <Nav />
+          <NavBur />
         </div>
         <div className="column">
           <div className="columns">

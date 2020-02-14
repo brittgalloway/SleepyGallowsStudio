@@ -1,7 +1,7 @@
 import React from "react";
 import VideoLinks from "../../../../components/VideoLinks";
 import videos from "./videos.json";
-import Nav from "../../../../components/Nav";
+import { Nav, NavBur } from "../../../../components/Nav";
 import { NavAnimation, PLHnav } from "../../../../components/Navigation";
 import { FooterSleepy } from "../../../../components/Footer";
 import "./style.scss";
@@ -12,6 +12,7 @@ function PHL() {
       <div className="columns is-gapless">
         <div className="column is-fixed is-one-fifth">
           <Nav />
+          <NavBur />
         </div>
         <div className="column">
           <div className="columns">

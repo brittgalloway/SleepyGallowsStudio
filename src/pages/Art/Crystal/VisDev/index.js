@@ -1,6 +1,5 @@
 import React from "react";
-
-import Nav from "../../../../components/Nav";
+import { Nav, NavBur } from "../../../../components/Nav";
 import CharGall from "../../../../components/CharGall";
 import VisDevGall from "../../../../components/VisDevGall";
 import { NavCrystalArt } from "../../../../components/Navigation";
@@ -14,6 +13,7 @@ function VisDev() {
       <div className="columns is-gapless">
         <div className="column is-fixed is-one-fifth">
           <Nav />
+          <NavBur />
         </div>
         <div className="column">
           <div className="columns">

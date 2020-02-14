@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Nav from "../../components/Nav";
+import { Nav, NavBur } from "../../components/Nav";
 import Contact from "../../components/Contact";
 import skills from "./skills.json";
 import "./style.scss";
@@ -14,6 +14,7 @@ function WebDev() {
       <div className="columns is-gapless">
         <div className="column is-fixed">
           <Nav />
+          <NavBur />
         </div>
         <div className="column">
           <div className="columns">
