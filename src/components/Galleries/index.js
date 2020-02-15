@@ -11,6 +11,7 @@ export function WhatIsIt(props) {
   return (
     <>
       <p>{props.description}</p>
+      <ul>
       <li>
         Github: <a href={props.github}>{props.github}</a>
       </li>
@@ -20,6 +21,7 @@ export function WhatIsIt(props) {
       <li>
         {props.extraName} <a href={props.extraLink}>{props.extraLink}</a>
       </li>
+      </ul>
       <small>{props.extraNote}</small>
     </>
   );
