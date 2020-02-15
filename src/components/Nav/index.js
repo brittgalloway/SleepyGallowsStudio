@@ -1,40 +1,9 @@
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./nav.scss";
-function Nav() {
-  const [isNavOpen, navIsOpen] = useState(false);
+export function Nav() {
   return (
-  // (isNavOpen ? (
-    <>
-{/* <nav className="navbar is-mobile" onClick={() => navIsOpen(false)}>
-<ul className="nav">
-  <li className="nav-item">
-    <Link to="/About">Sleepy Gallows</Link>
-  </li>
-  <li className="nav-item">
-  <Link to="/Animation">Animation</Link>
-  </li>
-  <li className="nav-item">
-  <Link to="/Comics">Comics</Link>
-  </li>
-  <li className="nav-item">
-  <Link to="/Art">Art</Link>
-  </li>
-  <li className="nav-item">
-  <Link to="/WebDev">WebDev</Link>
-  </li>
-</ul>
-
-</nav>
-
-  ) : (
-
-    <span onClick={() => navIsOpen(true)}>&#9776;</span>
-
-  );
-   */}
-        <aside className="menu is-hidden-mobile">
+ <aside className="menu is-hidden-mobile">
         <Link to="/About">
           <img
             id="header"
@@ -57,7 +26,32 @@ function Nav() {
           </li>
         </ul>
       </aside>
-      </>
+    
   )
 }
-export default Nav;
+export function NavBur() {
+  const [isNavOpen, navIsOpen] = useState(false);
+  return isNavOpen ? (
+    <nav onClick={() => navIsOpen(false)}>
+      <ul className="nav flex-column">
+        <li className="nav-item">
+          <Link to="/About">About</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/Animation">Animation</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/Comics">Comics</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/Art">Art</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/WebDev">WebDev</Link>
+        </li>
+      </ul>
+    </nav>
+  ) : (
+    <span onClick={() => navIsOpen(true)}>&#9776;</span>
+  );
+}

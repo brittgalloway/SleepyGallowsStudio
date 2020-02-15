@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Nav from "../../components/Nav";
+import { Nav, NavBur } from "../../components/Nav";
 import "./style.scss";
 
 function Art() {
@@ -8,6 +8,7 @@ function Art() {
     <div className="columns is-gapless">
       <div className="column is-narrow">
         <Nav />
+        <NavBur />
       </div>
       <div className="column ">
         <div className="columns is-gapless">

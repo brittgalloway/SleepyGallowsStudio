@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../../components/Nav";
+import { Nav, NavBur } from "../../components/Nav";
 import { AboutSG, AboutCreators, Contact } from "../../components/About";
 import { FooterSleepy } from "../../components/Footer";
 import "./style.scss";
@@ -8,12 +8,13 @@ function About() {
   return (
     <>
       <div className="columns is-gapless">
-        <div className="column is-narrow">
+        <div className="column is-fixed is-narrow">
           <Nav />
+          <NavBur />
         </div>
         <div className="column">
           <div className="columns">
-            <div className="column is-8">
+            <div className="column is-6 is-offset-3">
               <div className="aboutsection">
                 <AboutSG />
               </div>
@@ -22,7 +23,7 @@ function About() {
               </div>
             </div>
 
-            <div className="column is-4">
+            <div className="column is-3">
               <div className="aboutsection">
                 <div className="contactSG">
                   <Contact />
