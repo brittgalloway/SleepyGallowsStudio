@@ -2,27 +2,27 @@
   {
     "src": "/images/artOfPLH/fevor.webp",
     "alt": "a ",
-    "width": 5,
-    "height": 3
+    "width": 3,
+    "height": 1
   },
   {
     "src": "/images/artOfPLH/wings.jpg",
     "alt": "a ",
     "width": 5,
-    "height": 3
+    "height": 2
   },
 
+  {
+    "src": "/images/artOfPLH/light.jpg",
+    "alt": "a ",
+    "width": 5,
+    "height": 2
+  },
   {
     "src": "/images/artOfPLH/knight.jpg",
     "alt": "a ",
     "width": 3,
     "height": 1
-  },
-  {
-    "src": "/images/artOfPLH/light.jpg",
-    "alt": "a ",
-    "width": 5,
-    "height": 3
   },
   {
     "src": "/images/artOfPLH/hall.jpg",
