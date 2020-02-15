@@ -3,15 +3,11 @@ import { Link } from "react-router-dom";
 import "./navigation.scss";
 export function NavWeb() {
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
-      <div className="navbar-menu">
-        <div className="navbar-start">
+
           <Link to="/Webdev" className="navbar-item">
             Back to Portfolio
           </Link>
-        </div>
-      </div>
-    </nav>
+
   );
 }
 export function NavAnimation() {
