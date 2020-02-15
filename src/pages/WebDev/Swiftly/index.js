@@ -5,7 +5,9 @@ import ProjectPage from "../../../components/ProjectPage";
 
 function Swifly() {
   const state = {
+    projectName: "Swiftly",
     //tools used
+
     tools: "NodeJs, Express, Sequelize, MySQL, Bulma UI Framework, Handlebars",
     //image of project
     imageUrl: "/images/swiftly.PNG",

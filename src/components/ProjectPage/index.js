@@ -22,14 +22,15 @@ function ProjectPage({
     <>
       <div className="columns">
         <div className="column is-full">
-          <section className="hero is-primary is-bold">
+          <section className="hero">
             <div className="hero-body">
               <div className="container">
-                <h2 className="subtitle">Brittney Galloway</h2>
-                <h3 className="subtitle">Fullstack Developer</h3>
-                <h1 className="title">{projectName}</h1>
+              <h2 className="title has-text-centered">Brittney Galloway</h2>
+                <h3 className="subtitle has-text-centered">Fullstack Developer</h3>
+                <h1 className="title has-text-centered">{projectName}</h1>
               </div>
             </div>
+            <hr/>
           </section>
           <NavWeb />
 
