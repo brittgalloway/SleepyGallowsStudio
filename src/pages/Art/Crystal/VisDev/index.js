@@ -28,11 +28,11 @@ function VisDev() {
                       </h1>
                       <CharGall />
                       <div className="columns is-full">
-                        <article>
-                          <h1 className="subtitle has-text-centered">
+                        <article style={{padding:"7em"}}>
+                          <h1 className="subtitle has-text-centered ">
                             The Little Mermaid
                           </h1>
-                          <p>
+                          <p className="has-text-justified">
                             I read the Little Mermaid by Hans Cristian Anderson
                             for the first time a couple of years ago and I was
                             very surprised when I read it because in every
