@@ -8,11 +8,13 @@ function Comics() {
     <>
       <div id="comic">
         <div className="columns is-gapless">
-          <div className="column is-narrow">
+          <div className="column is-fixed is-narrow">
             <NavComic />
           </div>
           <div className="column">
+          <div className="columns">
             <div className="backgroundComic has-text-centered has-text-white">
+            <div className="column is-9 is-offset-3">
               <div id="galleryContain">
                 <article>
                   <h2 className="subtitle is-size-2 has-text-white padTop shadow">
@@ -40,11 +42,12 @@ function Comics() {
                       <div className="column is-one-thirds text-box2">
                         <p className="is-size-3 has-text-centered shadow">
                           Find Us On
-                          <hr className="hr" />
                         </p>
+                          <hr className="hr" />
                         <ul className="is-size-4 has-text-centered shadow">
                           <li className="shadow">
-                            <figure className="image is-32x32 shadow">
+                            <a className="candyFluff" href="https://www.webtoons.com/en/challenge/necahual/a-peaceful-day/viewer?title_no=216820&episode_no=1">
+                            <figure style={{marginLeft:'5.2em'}} className="image is-32x32 shadow level">
                               <img
                                 alt="Webtoon Logo"
                                 src={
@@ -54,15 +57,22 @@ function Comics() {
                               />
                               Webtoon
                             </figure>
+                              </a>
                           </li>
                           <li className="shadow">
+                          <a className="candyFluff" href="https://www.instagram.com/2.heroes/">
                             <i className="fab fa-instagram "></i> Instagram
+                            </a>
                           </li>
                           <li className="shadow">
+                          <a className="candyFluff" href="https://twitter.com/2Heroes1">
                             <i className="fab fa-twitter-square"></i> Twitter
+                            </a>
                           </li>
                           <li className="shadow">
+                          <a className="candyFluff" href="https://www.patreon.com/2heroes">
                             <i className="fab fa-patreon"></i> Patreon
+                            </a>
                           </li>
                         </ul>
                       </div>
@@ -75,18 +85,20 @@ function Comics() {
                   </h1>
                   <div className="columns padTop3">
                     <div className="column">
-                      <figure className="image is-128x128 is-pulled-right">
+                      <figure className="image  is-pulled-right">
                         <img
                           src={process.env.PUBLIC_URL + "/images/crystal1.png"}
                           alt="Drawing of Crystal"
+                          style={{ width: '350px' }}
                         />
                       </figure>
                     </div>
                     <div className="column">
-                      <figure className="image is-128x128">
+                      <figure className="image ">
                         <img
                           src={process.env.PUBLIC_URL + "/images/sergio1.png"}
                           alt="Drawing of Sergio"
+                          style={{ width: '350px' }}
                         />
                       </figure>
                     </div>
@@ -101,14 +113,16 @@ function Comics() {
                 </article>
                 <div className="merch padTop3">
                   <p className="is-size-3">Find Necahual Merch at </p>
-                  <p className="is-size-1">
-                    <a href="https://candyfluffs.com/?category=Necahual">
+                  <p className="is-size-1 ">
+                    <a className="candyFluff" href="https://candyfluffs.com/?category=Necahual">
                       CandyFluffs.com
                     </a>
                   </p>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
           </div>
         </div>
       </div>

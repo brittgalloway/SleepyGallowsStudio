@@ -41,9 +41,16 @@ $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
 }
 .hr {
   background-color: #3bcacb;
-  width: 4em;
+  width: 8em;
   margin-left: auto;
   margin-right: auto;
   box-shadow: $textShadow;
 }
+.candyFluff{
+  color:$comicText;
+  &:hover{
+    color:#FC79B4;
+  }
+}
+
 // @import "bulma/sass/elements/title.sass";
