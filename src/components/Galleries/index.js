@@ -10,6 +10,7 @@ export function ScreenCap(props) {
 export function WhatIsIt(props) {
   return (
     <>
+    <div className="box ">
       <p>{props.description}</p>
       <ul>
       <li>
@@ -23,16 +24,19 @@ export function WhatIsIt(props) {
       </li>
       </ul>
       <small>{props.extraNote}</small>
+      </div>
     </>
   );
 }
 export function Improvements(props) {
   return (
     <>
+    <div className="box ">
       <p className="subtitle">Improvements</p>
       <ul>
         <li>{props.improvements}</li>
       </ul>
+      </div>
     </>
   );
 }
@@ -41,7 +45,7 @@ export function ImgGallLink(props) {
   return (
     <Link to={props.route}>
       <figure className="image ">
-        <img src={props.src} alt={props.alt} />
+        <img src={props.src} alt={props.alt} style={{ width: '250px' }}/>
       </figure>
     </Link>
   );
