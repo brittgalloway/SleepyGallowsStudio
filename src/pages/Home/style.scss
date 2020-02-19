@@ -10,109 +10,109 @@ $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
   font-weight: bold;
   color: white;
 
-  margin-top: 15%;
+  // margin-top: 15%;
   text-align: center;
 }
 /* Rectangle 1 */
+#homeContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
 
 #animationHome {
-  position: absolute;
+  // position: absolute;
   width: 768px;
   height: 377px;
-  left: 0px;
-  top: -2px;
-
+  flex-basis: 50%;
+  position: relative;
+  box-sizing: border-box;
   background: url("./Rectangle_1animation.png");
-  mix-blend-mode: normal;
 }
 
 /* Rectangle 2 */
 #artHome {
-  position: absolute;
+  // position: absolute;
   width: 768px;
   height: 377px;
-  left: 768px;
-  top: -2px;
-
+  flex-basis: 50%;
+  position: relative;
+  box-sizing: border-box;
   background: url("./Rectangle_2art.png");
-  mix-blend-mode: normal;
 }
 
 /* Rectangle 3 */
 #comicHome {
-  position: absolute;
+  // position: absolute;
   width: 768px;
   height: 377px;
-  left: 0px;
-  top: 375px;
-
+  flex-basis: 50%;
+  position: relative;
+  box-sizing: border-box;
   background: url("./Rectangle_3Comics.png");
-  mix-blend-mode: normal;
 }
 
 /* Rectangle 4 */
 #webdevHome {
-  position: absolute;
+  // position: absolute;
   width: 768px;
   height: 375px;
-  left: 768px;
-  top: 375px;
+  flex-basis: 50%;
+  position: relative;
+  box-sizing: border-box;
   background: url("./Rectangle_4web.png");
-  mix-blend-mode: normal;
 }
-@media screen and (max-width: 980px) {
+@media (max-width: 1024px) {
   .homeText {
     font-size: 3em;
-    margin-top: 25%;
   }
-  /* Rectangle 1 */
-
   #animationHome {
-    position: absolute;
-    width: 405px;
-    left: 0px;
-    top: -2px;
-
-    background: url("./Rectangle_1animation.png");
-    mix-blend-mode: normal;
+    width: 510px;
+    height: 380px;
   }
 
   /* Rectangle 2 */
   #artHome {
-    position: absolute;
-    width: 405px;
-    left: 405px;
-    top: -2px;
-
-    background: url("./Rectangle_2art.png");
-    mix-blend-mode: normal;
+    width: 510px;
+    height: 380px;
   }
 
   /* Rectangle 3 */
   #comicHome {
-    position: absolute;
-    width: 405px;
-    height: 275px;
-    left: 0px;
-    top: 275px;
-
-    background: url("./Rectangle_3Comics.png");
-    mix-blend-mode: normal;
+    width: 510px;
+    height: 380px;
   }
 
   /* Rectangle 4 */
   #webdevHome {
-    position: absolute;
-    width: 405px;
-    height: 275px;
-    left: 405px;
-    top: 275px;
-    background: url("./Rectangle_4web.png");
-    mix-blend-mode: normal;
+    width: 510px;
+    height: 380px;
   }
 }
+@media (max-width: 812px) {
+  .homeText {
+    font-size: 3em;
+  }
+  #animationHome {
+    width: 405px;
+    height: 190px;
+  }
 
-@media screen and (max-width: 768px) {
-}
-@media screen and (max-width: 640px) {
+  /* Rectangle 2 */
+  #artHome {
+    width: 405px;
+    height: 190px;
+  }
+
+  /* Rectangle 3 */
+  #comicHome {
+    width: 405px;
+    height: 190px;
+  }
+
+  /* Rectangle 4 */
+  #webdevHome {
+    width: 405px;
+    height: 190px;
+  }
 }
