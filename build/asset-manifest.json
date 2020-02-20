@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/SleepyGallowsStudio/static/css/main.90db8a84.chunk.css",
+    "main.js": "/SleepyGallowsStudio/static/js/main.97c75bcc.chunk.js",
+    "main.js.map": "/SleepyGallowsStudio/static/js/main.97c75bcc.chunk.js.map",
+    "runtime-main.js": "/SleepyGallowsStudio/static/js/runtime-main.58a18ec0.js",
+    "runtime-main.js.map": "/SleepyGallowsStudio/static/js/runtime-main.58a18ec0.js.map",
+    "static/js/2.0a73c271.chunk.js": "/SleepyGallowsStudio/static/js/2.0a73c271.chunk.js",
+    "static/js/2.0a73c271.chunk.js.map": "/SleepyGallowsStudio/static/js/2.0a73c271.chunk.js.map",
+    "index.html": "/SleepyGallowsStudio/index.html",
+    "precache-manifest.20ae9ed94aad7a09710a8d31a5717ff3.js": "/SleepyGallowsStudio/precache-manifest.20ae9ed94aad7a09710a8d31a5717ff3.js",
+    "service-worker.js": "/SleepyGallowsStudio/service-worker.js",
+    "static/css/main.90db8a84.chunk.css.map": "/SleepyGallowsStudio/static/css/main.90db8a84.chunk.css.map",
+    "static/js/2.0a73c271.chunk.js.LICENSE": "/SleepyGallowsStudio/static/js/2.0a73c271.chunk.js.LICENSE",
+    "static/media/style.scss": "/SleepyGallowsStudio/static/media/naca_bg.a41d88ba.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58a18ec0.js",
+    "static/js/2.0a73c271.chunk.js",
+    "static/css/main.90db8a84.chunk.css",
+    "static/js/main.97c75bcc.chunk.js"
+  ]
+}
