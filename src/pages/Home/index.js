@@ -5,12 +5,13 @@ import "./style.scss";
 function Home() {
   return (
     <>
-      <div className="gridContainer">
-        <Link to="/Animation">
+      <div id="homeContainer">
           <div id="animationHome">
+      
+        <Link to="/Animation">
             <p className="homeText">Animation</p>
-          </div>
         </Link>
+          </div>
         <Link to="/Art">
           <div id="artHome">
             <p className="homeText">Art</p>

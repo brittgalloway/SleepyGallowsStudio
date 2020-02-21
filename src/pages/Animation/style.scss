@@ -17,42 +17,18 @@ $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
 }
 
 
-// $mobile height: 16.5em;
+#webSeries {
+  height: 33.33vh;
+  overflow: hidden;
+}
+#clientWork {
+  height: 33.33vh;
+  overflow: hidden;
+}
+#funAni {
+  height: 33.33vh;
+  overflow: hidden;
+}
 
-// @media (min-width: $widescreen){
-// #webSeries {
-//   height: 20.18em;
-//   overflow: hidden;
-// }
-// #clientWork {
-//   height: 20.18em;
-//   overflow: hidden;
-// }
-// #funAni {
-//   height:20.18em;
-//   overflow: hidden;
-// }
-// }
-// @media (min-width: $desktop){
-
-// }
-// @media (min-width: $tablet){
-
-// }
-// @media (min-width: $mobile){
-
-// }
-// #webSeries {
-//   height: 250px;
-//   overflow: hidden;
-// }
-// #clientWork {
-//   height: 250px;
-//   overflow: hidden;
-// }
-// #funAni {
-//   height: 250px;
-//   overflow: hidden;
-// }
 @import "bulma/sass/utilities/_all.sass";
 @import "bulma/sass/utilities/initial-variables.sass";
