@@ -10,11 +10,11 @@ function About() {
       <div className="columns is-gapless">
         <div className="column is-fixed is-narrow">
           <Nav />
-          <NavBur />
         </div>
         <div className="column">
           <div className="columns">
-            <div className="column is-6 is-offset-3">
+            <div className="column is-6 is-offset-3 is-full-mobile is-full-tablet">
+          <NavBur />
               <div className="aboutsection">
                 <AboutSG />
               </div>

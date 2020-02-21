@@ -1,5 +1,5 @@
 import React from "react";
-import NavComic from "../../components/NavComic";
+import {NavComic, NavBurComic} from "../../components/NavComic";
 import { Footer2hero } from "../../components/Footer";
 import "./style.scss";
 

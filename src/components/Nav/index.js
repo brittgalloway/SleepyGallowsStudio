@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./nav.scss";
 export function Nav() {
   return (
- <aside className="menu is-hidden-mobile">
+ <aside className="menu is-hidden-touch">
         <Link to="/About">
           <img
             id="header"
@@ -33,7 +33,7 @@ export function NavBur() {
   const [isNavOpen, navIsOpen] = useState(false);
   return isNavOpen ? (
     <nav onClick={() => navIsOpen(false)}>
-      <ul className="nav flex-column">
+      <ul className="nav flex-column ">
         <li className="nav-item">
           <Link to="/About">About</Link>
         </li>
@@ -52,6 +52,6 @@ export function NavBur() {
       </ul>
     </nav>
   ) : (
-    <span onClick={() => navIsOpen(true)}>&#9776;</span>
+    <span className="hamburger is-hidden-desktop"onClick={() => navIsOpen(true)}>&#9776;</span>
   );
 }
