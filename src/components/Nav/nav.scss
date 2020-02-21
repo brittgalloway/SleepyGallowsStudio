@@ -13,11 +13,20 @@ $brandFont: "Cinzel", serif;
 #header {
   max-width: 150%;
 }
-.menu-list {
+.menu-list{
   color: $sitePurple;
   font-family: $brandFont;
   font-size: 2em;
   a {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+}
+.nav-item {
+  font-family: $brandFont;
+  font-size: 1em;
+  a {
+    color: $sitePurple;
     margin-bottom: 10px;
     padding-bottom: 10px;
   }
