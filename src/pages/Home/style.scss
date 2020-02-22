@@ -13,6 +13,14 @@ $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
   // margin-top: 15%;
   text-align: center;
 }
+// #homeContainer{
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   left: 0;
+//   bottom: 0;
+//   }
+
 /* Rectangle 1 */
 #homeContainer {
   display: flex;
@@ -21,98 +29,39 @@ $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
 }
 
 #animationHome {
-  // position: absolute;
-  width: 763px;
-  height: 377px;
-  flex-basis: 50%;
-  position: relative;
-  box-sizing: border-box;
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+
   background: url("./Rectangle_1animation.png");
 }
 
 /* Rectangle 2 */
 #artHome {
-  // position: absolute;
-  width: 763px;
-  height: 377px;
-  flex-basis: 50%;
-  position: relative;
-  box-sizing: border-box;
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  left: 50vw;
+
   background: url("./Rectangle_2art.png");
 }
 
 /* Rectangle 3 */
 #comicHome {
-  // position: absolute;
-  width: 763px;
-  height: 377px;
-  flex-basis: 50%;
-  position: relative;
-  box-sizing: border-box;
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  top: 50vh;
+
   background: url("./Rectangle_3Comics.png");
 }
 
 /* Rectangle 4 */
 #webdevHome {
-  // position: absolute;
-  width: 763px;
-  height: 375px;
-  flex-basis: 50%;
-  position: relative;
-  box-sizing: border-box;
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  left: 50vw;
+  top: 50vh;
   background: url("./Rectangle_4web.png");
-}
-@media (max-width: 1024px) {
-  .homeText {
-    font-size: 3em;
-  }
-  #animationHome {
-    width: 510px;
-    height: 380px;
-  }
-
-  /* Rectangle 2 */
-  #artHome {
-    width: 510px;
-    height: 380px;
-  }
-
-  /* Rectangle 3 */
-  #comicHome {
-    width: 510px;
-    height: 380px;
-  }
-
-  /* Rectangle 4 */
-  #webdevHome {
-    width: 510px;
-    height: 380px;
-  }
-}
-@media (max-width: 812px) {
-  .homeText {
-    font-size: 3em;
-  }
-  #animationHome {
-    width: 405px;
-    height: 190px;
-  }
-
-  /* Rectangle 2 */
-  #artHome {
-    width: 405px;
-    height: 190px;
-  }
-
-  /* Rectangle 3 */
-  #comicHome {
-    width: 405px;
-    height: 190px;
-  }
-
-  /* Rectangle 4 */
-  #webdevHome {
-    width: 405px;
-    height: 190px;
-  }
 }

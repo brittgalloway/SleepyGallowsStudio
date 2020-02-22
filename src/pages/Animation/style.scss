@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700&display=swap");
+$brandFont: "Cinzel Decorative", cursive;
+$textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
+
+.animationTitles {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  text-shadow: $textShadow;
+  font-family: $brandFont;
+  font-weight: bold;
+  margin-top: 9%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+#webSeries {
+  height: 33.33vh;
+  overflow: hidden;
+}
+#clientWork {
+  height: 33.33vh;
+  overflow: hidden;
+}
+#funAni {
+  height: 33.33vh;
+  overflow: hidden;
+}
+
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/utilities/initial-variables.sass";
