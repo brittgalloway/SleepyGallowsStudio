@@ -9,6 +9,7 @@ function Comics() {
       <div id="comic">
         <div className="columns is-gapless">
           <div className="column is-fixed is-narrow">
+            <NavBurComic />
             <NavComic />
           </div>
           <div className="column">
