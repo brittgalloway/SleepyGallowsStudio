@@ -52,7 +52,11 @@ export function NavBurComic() {
       </ul>
     </nav>
   ) : (
-    <span className="hamburger is-hidden-desktop"onClick={() => navIsOpen(true)}>&#9776;</span>
+    <span
+      className="hamburger is-hidden-desktop"
+      onClick={() => navIsOpen(true)}
+    >
+      &#9776;
+    </span>
   );
 }
-

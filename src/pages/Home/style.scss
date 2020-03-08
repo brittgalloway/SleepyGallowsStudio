@@ -9,59 +9,42 @@ $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
   text-shadow: $textShadow;
   font-weight: bold;
   color: white;
-
-  // margin-top: 15%;
+  margin-top: 15%;
   text-align: center;
 }
-// #homeContainer{
-//   position: absolute;
-//   top: 0;
-//   right: 0;
-//   left: 0;
-//   bottom: 0;
-//   }
 
-/* Rectangle 1 */
-#homeContainer {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-}
-
-#animationHome {
+@mixin homeImages {
   position: absolute;
   width: 50vw;
   height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Rectangle 1 */
 
+#animationHome {
   background: url("./Rectangle_1animation.png");
+  @include homeImages;
 }
 
 /* Rectangle 2 */
 #artHome {
-  position: absolute;
-  width: 50vw;
-  height: 50vh;
   left: 50vw;
-
   background: url("./Rectangle_2art.png");
+  @include homeImages;
 }
 
 /* Rectangle 3 */
 #comicHome {
-  position: absolute;
-  width: 50vw;
-  height: 50vh;
   top: 50vh;
-
   background: url("./Rectangle_3Comics.png");
+  @include homeImages;
 }
 
 /* Rectangle 4 */
 #webdevHome {
-  position: absolute;
-  width: 50vw;
-  height: 50vh;
   left: 50vw;
   top: 50vh;
   background: url("./Rectangle_4web.png");
+  @include homeImages;
 }
