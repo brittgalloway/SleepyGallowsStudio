@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/brittgalloway/SleepyGallowsStudio/static/css/main.54f11d63.chunk.css",
+    "main.js": "/brittgalloway/SleepyGallowsStudio/static/js/main.d54da87e.chunk.js",
+    "main.js.map": "/brittgalloway/SleepyGallowsStudio/static/js/main.d54da87e.chunk.js.map",
+    "runtime-main.js": "/brittgalloway/SleepyGallowsStudio/static/js/runtime-main.c9b3b6df.js",
+    "runtime-main.js.map": "/brittgalloway/SleepyGallowsStudio/static/js/runtime-main.c9b3b6df.js.map",
+    "static/js/2.bc1954f9.chunk.js": "/brittgalloway/SleepyGallowsStudio/static/js/2.bc1954f9.chunk.js",
+    "static/js/2.bc1954f9.chunk.js.map": "/brittgalloway/SleepyGallowsStudio/static/js/2.bc1954f9.chunk.js.map",
+    "index.html": "/brittgalloway/SleepyGallowsStudio/index.html",
+    "precache-manifest.9ff9fde6eca3f41017c7ecbac7166b30.js": "/brittgalloway/SleepyGallowsStudio/precache-manifest.9ff9fde6eca3f41017c7ecbac7166b30.js",
+    "service-worker.js": "/brittgalloway/SleepyGallowsStudio/service-worker.js",
+    "static/css/main.54f11d63.chunk.css.map": "/brittgalloway/SleepyGallowsStudio/static/css/main.54f11d63.chunk.css.map",
+    "static/js/2.bc1954f9.chunk.js.LICENSE": "/brittgalloway/SleepyGallowsStudio/static/js/2.bc1954f9.chunk.js.LICENSE",
+    "static/media/style.scss": "/brittgalloway/SleepyGallowsStudio/static/media/naca_bg.a41d88ba.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9b3b6df.js",
+    "static/js/2.bc1954f9.chunk.js",
+    "static/css/main.54f11d63.chunk.css",
+    "static/js/main.d54da87e.chunk.js"
+  ]
+}
