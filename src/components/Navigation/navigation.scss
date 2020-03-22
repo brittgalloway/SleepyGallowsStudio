@@ -1,0 +1,21 @@
+$sitePurple: #4a287c;
+a {
+  color: $sitePurple;
+}
+
+.tabs a:hover {
+  color: $sitePurple;
+  border-bottom: none;
+}
+.tabs a {
+  border-bottom: none;
+}
+.tabs {
+  vertical-align: top;
+}
+
+a.navbar-item {
+  &:hover {
+    color: $sitePurple;
+  }
+}
