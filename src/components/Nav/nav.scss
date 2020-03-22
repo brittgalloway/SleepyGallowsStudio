@@ -6,14 +6,14 @@ $NechaGreen: #3bcacb;
 $brandFont: "Cinzel", serif;
 .menu {
   width: 300px;
-  height: 754px;
+  height: 100vh;
   background: linear-gradient(180deg, $navBlue 0%, rgba(196, 196, 196, 0) 100%);
   overflow: hidden;
 }
 #header {
   max-width: 150%;
 }
-.menu-list{
+.menu-list {
   color: $sitePurple;
   font-family: $brandFont;
   font-size: 2em;
@@ -46,7 +46,7 @@ h1 {
   padding: 1em;
 }
 
-.hamburger{
+.hamburger {
   margin-left: 2em;
   margin-top: 2em;
 }

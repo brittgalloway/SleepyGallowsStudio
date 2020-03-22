@@ -21,11 +21,11 @@ function ClientWork() {
           <div className="columns">
             <div className="column is-9 is-offset-3">
               <div className="column is-four-fifth">
-                <div id="videos">
+                <div>
                   <NavAnimation />
                   <div className="container is-fluid">
                     <h1 className="title has-text-centered">
-                      ClientWork Animation
+                      Client Work Animation
                     </h1>
                     <hr />
                     <div className="columns is-multiline is-mobile">

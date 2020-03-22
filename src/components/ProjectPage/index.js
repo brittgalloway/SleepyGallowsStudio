@@ -3,7 +3,7 @@ import { Tools, ScreenCap, WhatIsIt, Improvements } from "../Galleries";
 import { NavWeb } from "../Navigation";
 import Contact from "../Contact";
 
-// import "./style.css";
+import "../../pages/WebDev/style.scss";
 
 function ProjectPage({
   projectName,
@@ -20,17 +20,23 @@ function ProjectPage({
 }) {
   return (
     <>
-      <div className="columns">
-        <div className="column is-full">
+      <div className="columns ">
+        <div className="column back_ground is-full">
           <section className="hero">
             <div className="hero-body">
               <div className="container">
-              <h2 className="title has-text-centered">Brittney Galloway</h2>
-                <h3 className="subtitle has-text-centered">Fullstack Developer</h3>
-                <h1 className="title has-text-centered">{projectName}</h1>
+                <h2 className="title has-text-primary has-text-centered">
+                  Brittney Galloway
+                </h2>
+                <h3 className="subtitle has-text-primary has-text-centered">
+                  Fullstack Developer
+                </h3>
+                <h1 className="title has-text-primary has-text-centered">
+                  {projectName}
+                </h1>
               </div>
             </div>
-            <hr/>
+            {/* <hr /> */}
           </section>
           <NavWeb />
 
@@ -56,7 +62,7 @@ function ProjectPage({
                       </article>
                     </div>
                     <div className="tile is-parent is-vertical">
-                      <article className="tile is-child box">
+                      <article className="tile is-child box skills">
                         <ScreenCap imageUrl={imageUrl} alt={alt} />
                       </article>
                     </div>
@@ -65,7 +71,7 @@ function ProjectPage({
                 <div className="tile is-parent">
                   <article className="tile is-child box">
                     <Contact />
-                    <div className="box">
+                    <div className="box skills">
                       Tools
                       <br />
                       <Tools tools={tools} />

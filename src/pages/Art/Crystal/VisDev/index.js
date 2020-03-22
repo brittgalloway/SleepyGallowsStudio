@@ -28,7 +28,7 @@ function VisDev() {
                       </h1>
                       <CharGall />
                       <div className="columns is-full">
-                        <article style={{padding:"7em"}}>
+                        <article style={{ padding: "3em" }}>
                           <h1 className="subtitle has-text-centered ">
                             The Little Mermaid
                           </h1>

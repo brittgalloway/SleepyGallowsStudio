@@ -1,7 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700&display=swap");
+
+$brandSubFont: "Cinzel", serif;
+$brandMainFont: "Cinzel Decorative", cursive;
 $sitePurple: #4a287c;
 $navBlue: #3fa1fc;
 $lightBlue: #9ac8f3;
+
+h1 {
+  font-family: $brandMainFont;
+}
 #skillImage {
   width: 20%;
 }
@@ -11,8 +19,10 @@ $lightBlue: #9ac8f3;
 article.is-child {
   padding: 1em;
 }
-
-$primary: #a88af54b;
+.back_ground {
+  background: linear-gradient(180deg, #c5dcf1 5%, rgba(196, 196, 196, 0) 100%);
+}
+$primary: $sitePurple;
 
 .titles {
   position: absolute;
@@ -20,9 +30,16 @@ $primary: #a88af54b;
   font-size: 30px;
   color: white;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: "Cinzel", serif;
+  font-family: $brandSubFont;
   width: 100%;
   margin-top: 30%;
+  background-color: transparent;
+}
+.box {
+  background-color: transparent;
+}
+.skills {
+  background-color: rgba(255, 255, 255, 0.651);
 }
 #spaceChasers,
 #sg,

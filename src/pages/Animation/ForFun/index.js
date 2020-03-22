@@ -17,7 +17,7 @@ function ForFun() {
           <div className="columns">
             <div className="column is-9 is-offset-3">
               <div className="column is-four-fifth">
-                <div id="videos">
+                <div>
                   <NavAnimation />
 
                   <div className="container is-fluid">

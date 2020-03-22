@@ -1,4 +1,8 @@
 $sitePurple: #4a287c;
+a {
+  color: $sitePurple;
+}
+
 .tabs a:hover {
   color: $sitePurple;
   border-bottom: none;
@@ -8,4 +12,10 @@ $sitePurple: #4a287c;
 }
 .tabs {
   vertical-align: top;
+}
+
+a.navbar-item {
+  &:hover {
+    color: $sitePurple;
+  }
 }

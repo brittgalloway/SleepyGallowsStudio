@@ -10,20 +10,20 @@ export function ScreenCap(props) {
 export function WhatIsIt(props) {
   return (
     <>
-    <div className="box ">
-      <p>{props.description}</p>
-      <ul>
-      <li>
-        Github: <a href={props.github}>{props.github}</a>
-      </li>
-      <li>
-        Live App: <a href={props.liveApp}>{props.liveApp}</a>
-      </li>
-      <li>
-        {props.extraName} <a href={props.extraLink}>{props.extraLink}</a>
-      </li>
-      </ul>
-      <small>{props.extraNote}</small>
+      <div className="box skills">
+        <p>{props.description}</p>
+        <ul>
+          <li>
+            Github: <a href={props.github}>{props.github}</a>
+          </li>
+          <li>
+            Live App: <a href={props.liveApp}>{props.liveApp}</a>
+          </li>
+          <li>
+            {props.extraName} <a href={props.extraLink}>{props.extraLink}</a>
+          </li>
+        </ul>
+        <small>{props.extraNote}</small>
       </div>
     </>
   );
@@ -31,11 +31,11 @@ export function WhatIsIt(props) {
 export function Improvements(props) {
   return (
     <>
-    <div className="box ">
-      <p className="subtitle">Improvements</p>
-      <ul>
-        <li>{props.improvements}</li>
-      </ul>
+      <div className="box skills">
+        <p className="subtitle">Improvements</p>
+        <ul>
+          <li>{props.improvements}</li>
+        </ul>
       </div>
     </>
   );
@@ -45,7 +45,7 @@ export function ImgGallLink(props) {
   return (
     <Link to={props.route}>
       <figure className="image ">
-        <img src={props.src} alt={props.alt} style={{ width: '250px' }}/>
+        <img src={props.src} alt={props.alt} style={{ width: "250px" }} />
       </figure>
     </Link>
   );

@@ -2,13 +2,13 @@ import React from "react";
 
 function Contact() {
   return (
-    <div id="skills" className="box ">
-      <p className="is-size-4 " >Contact</p>
+    <div id="skills" className="box skills">
+      <p className="is-size-4 ">Contact</p>
 
       <ul>
         <li>
           Email:
-          <br /> crlnfllr@gmail.com
+          <br /> crlnfllr(at)gmail.com
         </li>
         <li>
           GitHub:

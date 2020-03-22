@@ -8,7 +8,7 @@ import {
 import { NavWeb } from "../../../components/Navigation";
 import Contact from "../../../components/Contact";
 
-// import "./style.scss";
+import "../style.scss";
 
 function SpaceChase() {
   const state = {
@@ -42,16 +42,21 @@ function SpaceChase() {
   return (
     <>
       <div className="columns">
-        <div className="column is-full">
+        <div className="column back_ground is-full">
           <section className="hero">
             <div className="hero-body">
               <div className="container">
-              <h2 className="title has-text-centered">Brittney Galloway</h2>
-                <h3 className="subtitle has-text-centered">Fullstack Developer</h3>
-                <h1 className="title has-text-centered">Space Chasers</h1>
+                <h2 className="title has-text-primary has-text-centered">
+                  Brittney Galloway
+                </h2>
+                <h3 className="subtitle has-text-primary has-text-centered">
+                  Fullstack Developer
+                </h3>
+                <h1 className="title has-text-primary has-text-centered">
+                  Space Chasers
+                </h1>
               </div>
             </div>
-            <hr/>
           </section>
           <NavWeb />
           <div className="columns">
@@ -71,8 +76,8 @@ function SpaceChase() {
                         />
                       </article>
                       <article className="tile is-child box">
-                          <Improvements improvements={state.improvements} />
-                        </article>
+                        <Improvements improvements={state.improvements} />
+                      </article>
                     </div>
                     <div className="tile is-parent is-vertical">
                       <article className="tile is-child box">
@@ -87,7 +92,7 @@ function SpaceChase() {
                 <div className="tile is-parent">
                   <article className="tile is-child box">
                     <Contact />
-                    <div className="box">
+                    <div className="box skills">
                       Tools
                       <br />
                       <Tools tools={state.tools} />

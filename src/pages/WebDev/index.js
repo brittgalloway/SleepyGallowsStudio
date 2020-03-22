@@ -11,26 +11,25 @@ function WebDev() {
   };
   return (
     <>
-      <div className="columns is-gapless">
+      <div className="columns back_ground">
         <div className="column is-fixed">
           <Nav />
           <NavBur />
         </div>
-        <div className="column">
-          <div className="columns">
-            <div className="column is-9 is-offset-3">
+        <div className="column is-offset-3">
+          <div className="columns ">
+            <div className="column is-11 ">
               <section className="hero">
                 <div className="hero-body">
                   <div className="container">
-                    <h1 className="title has-text-centered">
+                    <h1 className="title has-text-primary has-text-centered">
                       Brittney Galloway
                     </h1>
-                    <h2 className="title has-text-centered">
+                    <h2 className="title has-text-primary has-text-centered">
                       Fullstack Developer
                     </h2>
                   </div>
                 </div>
-                <hr />
               </section>
               <div className="columns">
                 <div className="column">
@@ -131,7 +130,7 @@ function WebDev() {
                     </div>
                     <div className="tile is-parent">
                       <article className="tile is-child box ">
-                        <div className="box">
+                        <div className="box skills">
                           <p className="is-size-4">Skills</p>
                           <br />
                           <i className="fab fa-2x fa-html5"></i>
@@ -152,31 +151,34 @@ function WebDev() {
                           })}
                         </div>
                         <Contact />
-                        <div id="skills" className="box">
+                        <div id="skills" className="box skills">
                           <p className="is-size-4">About Me</p>
                           <img
                             src={process.env.PUBLIC_URL + "/images/me.jpg"}
                             alt="Brittney Galloway smiling"
                           />
                           <ul>
-                            <li>Location: Greater Chicagoland Area</li>
                             <li>
-                              Hobbies: Tennis, AfroPunk, all things animation,
-                              art, &amp; video games
+                              <strong>Location: </strong>Greater Chicagoland
+                              Area
                             </li>
                             <li>
-                              Web Developer with a background in animation and
-                              fine arts. Certified in Full Stack Web Development
-                              from Northwestern University, including
-                              JavaScript, CSS, HTML, and responsive web design.
-                              Known for clean and clear code as well as
-                              problem-solving abilities. Passionate about
-                              creating a great user experience through
-                              responsive, mobile friendly and intuitive design
-                              and clear branding. My communication skills,
-                              expanding technological skills, mixed with an
-                              artistic background makes me a great addition to
-                              any web development team.
+                              <strong>Hobbies: </strong> Tennis, AfroPunk, all
+                              things animation, art, &amp; video games
+                            </li>
+                            <li>
+                              <strong>Web Developer </strong>with a background
+                              in animation and fine arts. Certified in Full
+                              Stack Web Development from Northwestern
+                              University, including JavaScript, CSS, HTML, and
+                              responsive web design. Known for clean and clear
+                              code as well as problem-solving abilities.
+                              Passionate about creating a great user experience
+                              through responsive, mobile friendly and intuitive
+                              design and clear branding. My communication
+                              skills, expanding technological skills, mixed with
+                              an artistic background makes me a great addition
+                              to any web development team.
                             </li>
                           </ul>
                         </div>

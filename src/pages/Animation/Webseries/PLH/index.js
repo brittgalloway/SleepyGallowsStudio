@@ -16,11 +16,11 @@ function PHL() {
         </div>
         <div className="column">
           <div className="columns">
-            <div className="column is-9 is-offset-3">
-              <div className="column is-four-fifth">
-                <div id="videos">
+            <div className="column is-9 is-offset-3 ">
+              <div className="column is-four-fifth ">
+                <div>
                   <NavAnimation />
-                  <div className="container is-fluid">
+                  <div className="container is-fluid is-full-mobile is-full-tablet">
                     <PLHnav />
                     <h1 className="title has-text-centered">
                       For Peace, Love, &amp; Harmony

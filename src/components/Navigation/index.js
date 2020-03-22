@@ -3,11 +3,9 @@ import { Link } from "react-router-dom";
 import "./navigation.scss";
 export function NavWeb() {
   return (
-
-          <Link to="/Webdev" className="navbar-item">
-            Back to Portfolio
-          </Link>
-
+    <Link to="/Webdev" className="navbar-item link">
+      Back to Portfolio
+    </Link>
   );
 }
 export function NavAnimation() {

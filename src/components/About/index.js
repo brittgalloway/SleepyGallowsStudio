@@ -8,10 +8,16 @@ export function AboutCreators() {
         We are Sisters by blood in sister fields: Animation and
         Illustration!​​​​​​​
       </h3>
+      <figure className="image">
+        <img
+          src={process.env.PUBLIC_URL + "/images/brit-mio.PNG"}
+          alt="Crystal and Brittney"
+        />
+      </figure>
       <p className="has-text-justified indent">
         We were born and raised in the Chicagoland area and went to California
-        College of the Arts (CCA) in the Bay Area. Brittney (left) got her BFA
-        in Animation (2014) while Crystal (right) got her BFA in
+        College of the Arts (CCA) in the Bay Area. Brittney (right) got her BFA
+        in Animation (2014) while Crystal (left) got her BFA in
         Illustration(2015). Now both sisters are back in Chicago making art.
       </p>
     </article>
@@ -66,7 +72,7 @@ export function Contact() {
     <>
       <div className="box">
         <h1 className="title">Contact Us!</h1>
-        <h2 className="subtitle is-unselectable">bg@sleepygallows.com</h2>
+        <h2 className="subtitle is-unselectable">bg(at)sleepygallows.com</h2>
         <small>
           Please note, We are not currently working for hire or taking
           commissions.
