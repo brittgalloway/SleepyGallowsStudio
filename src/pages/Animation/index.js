@@ -20,7 +20,7 @@ function SGProductions() {
                   <div className="animationTitles">Web Series</div>
                   <img
                     alt="Webseries"
-                    src={process.env.PUBLIC_URL + "/images/webseries.jpg"}
+                    src={process.env.PUBLIC_URL + "/images/webseries2.jpg"}
                   />
                 </figure>
               </div>

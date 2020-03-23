@@ -4,7 +4,7 @@ $SGBlue: #7ec0fd;
 $textShadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 $NechaGreen: #3bcacb;
 #comicMenu {
-  width: 20vw;
+  width: 300px;
   height: 100vh;
   background: linear-gradient(
     180deg,
@@ -37,6 +37,7 @@ $NechaGreen: #3bcacb;
   }
 }
 
-// #comicFirstLink {
-//   margin-top: -50px;
-// }
+.hamburgerCom {
+  margin-left: 4em;
+  margin-top: 4em;
+}

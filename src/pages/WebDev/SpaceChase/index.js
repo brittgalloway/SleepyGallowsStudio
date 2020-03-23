@@ -74,17 +74,14 @@ function SpaceChase() {
                           extraName={state.extraName}
                           extraNote={state.extraNote}
                         />
-                      </article>
-                      <article className="tile is-child box">
+                   
                         <Improvements improvements={state.improvements} />
                       </article>
                     </div>
                     <div className="tile is-parent is-vertical">
                       <article className="tile is-child box">
                         <ScreenCap imageUrl={state.imageUrl} alt={state.alt} />
-                        {/* <article className="tile is-child box">
-                          <Improvements improvements={state.improvements} />
-                        </article> */}
+                     
                       </article>
                     </div>
                   </div>

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3d355f92.chunk.css",
+    "main.js": "/static/js/main.d0b1a51f.chunk.js",
+    "main.js.map": "/static/js/main.d0b1a51f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d16a2cbc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d16a2cbc.js.map",
+    "static/js/2.8b065214.chunk.js": "/static/js/2.8b065214.chunk.js",
+    "static/js/2.8b065214.chunk.js.map": "/static/js/2.8b065214.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f127a6a027f6b7c26185f8c3a57e2531.js": "/precache-manifest.f127a6a027f6b7c26185f8c3a57e2531.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3d355f92.chunk.css.map": "/static/css/main.3d355f92.chunk.css.map",
+    "static/js/2.8b065214.chunk.js.LICENSE.txt": "/static/js/2.8b065214.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/static/media/naca_bg.a41d88ba.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d16a2cbc.js",
+    "static/js/2.8b065214.chunk.js",
+    "static/css/main.3d355f92.chunk.css",
+    "static/js/main.d0b1a51f.chunk.js"
+  ]
+}

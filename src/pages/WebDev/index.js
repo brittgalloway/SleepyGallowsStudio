@@ -44,7 +44,7 @@ function WebDev() {
                                 <img
                                   src={
                                     process.env.PUBLIC_URL +
-                                    "/images/pageheade_rmain_logo.png"
+                                    "/images/pageheade_rmain_logo.jpg"
                                   }
                                   alt="sleepy gallows cover"
                                 />
@@ -60,7 +60,7 @@ function WebDev() {
                                 <img
                                   src={
                                     process.env.PUBLIC_URL +
-                                    "/images/swaddles.png"
+                                    "/images/swaddles.jpg"
                                   }
                                   alt="swaddles for waddles cover"
                                 />

@@ -13,13 +13,13 @@ function Webseries() {
   return (
     <>
       <div className="columns is-gapless">
-      <div className="column is-fixed is-one-fifth">
+      <div className="column is-fixed is-3">
           <Nav />
           <NavBur />
         </div>
         <div className="column">
           <div className="columns">
-            <div className="column is-9 is-offset-3">
+            <div className="column is-8 is-offset-3">
           <NavAnimation />
           <h1 className="title has-text-centered">Webseries</h1>
           <hr />

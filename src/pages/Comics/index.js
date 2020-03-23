@@ -8,14 +8,14 @@ function Comics() {
     <>
       <div id="comic">
         <div className="columns is-gapless">
-          <div className="column is-fixed is-narrow">
+          <div className="column is-fixed is-3">
             <NavBurComic />
             <NavComic />
           </div>
           <div className="column">
             <div className="columns backgroundComic ">
               <div className=" has-text-centered has-text-white">
-                <div className="column is-9 is-offset-3 is-full-mobile is-full-tablet">
+                <div className="column is-8 is-offset-3 is-full-mobile is-full-tablet">
                   <div id="comicContain" className="padTop4">
                     <article>
                       <h2 className="subtitle is-size-2 has-text-white padTop shadow">

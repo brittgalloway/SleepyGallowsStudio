@@ -46,7 +46,7 @@ function ProjectPage({
                 <div className="tile is-vertical is-8">
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
-                      <article className="tile is-child box">
+                      <article className="tile is-child  box">
                         <WhatIsIt
                           github={github}
                           liveApp={liveApp}
@@ -55,9 +55,7 @@ function ProjectPage({
                           description={description}
                           extraNote={extraNote}
                         />
-                      </article>
-
-                      <article className="tile is-child box">
+                     
                         <Improvements improvements={improvements} />
                       </article>
                     </div>
