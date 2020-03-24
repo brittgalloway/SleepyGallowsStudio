@@ -29,7 +29,7 @@ export function AboutSG() {
     <article>
       <h1 className="title has-text-centered">About the Sleepy Gallows</h1>
       <h3 className="subtitle has-text-centered">Hello dreamers!</h3>
-      <p className="has-text-justifie indent">
+      <p className="has-text-justified indent">
         We are spreading the beauty of human nature through whimsical, charming
         art inspired by cultures around the world. We want people to see the
         magic of many cultures in the way only animation can do. The Sleepy
