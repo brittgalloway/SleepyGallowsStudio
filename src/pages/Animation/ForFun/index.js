@@ -4,7 +4,7 @@ import videos from "./videos.json";
 import { NavAnimation } from "../../../components/Navigation";
 import { Nav, NavBur } from "../../../components/Nav";
 import { FooterSleepy } from "../../../components/Footer";
-import "./style.scss";
+
 function ForFun() {
   return (
     <>

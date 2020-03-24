@@ -11,7 +11,7 @@ function Webseries() {
   };
   return (
     <>
-      <div className="columns is-gapless">
+      <div className="columns is-gapless control">
       <div className="column is-fixed is-3">
           <Nav />
         </div>
@@ -22,6 +22,7 @@ function Webseries() {
           <NavBur />
                 <div>
           <NavAnimation />
+          <main  className="control-content">
           <h1 className="title has-text-centered">Orgininals</h1>
           <hr />
           <div id="galleryContain">
@@ -31,6 +32,7 @@ function Webseries() {
               ))}
             </div>
           </div>
+          </main>
         </div>
         </div>
         </div>

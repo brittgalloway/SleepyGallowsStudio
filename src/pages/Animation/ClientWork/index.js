@@ -5,8 +5,6 @@ import videos from "./videos.json";
 import { NavAnimation } from "../../../components/Navigation";
 import { FooterSleepy } from "../../../components/Footer";
 
-import "./style.scss";
-
 function ClientWork() {
   return (
     <>
