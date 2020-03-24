@@ -48,7 +48,33 @@ h1 {
 
 .hamburger {
   margin-left: 1em;
-  color:$sitePurple;
+  margin-top: .50em;
+  color:$navBlue;
   z-index: 1;
   font-size: 2em;
+  position: fixed;
+}
+nav{
+  position: fixed;
+  background-color: white;
+  border: solid;
+  border-radius: 12px;
+  border-color: $sitePurple;
+  border-width: 1px;
+  box-shadow: $textShadow;
+  height: 35vh;
+  width: 40vw;
+  z-index: 1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 1em;
+  li  {
+    padding-top: 1em;
+    a{
+
+      &:active{
+        color: $navBlue;
+      }
+    }
+  }
 }
