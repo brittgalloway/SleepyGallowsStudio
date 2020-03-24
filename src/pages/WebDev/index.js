@@ -12,13 +12,13 @@ function WebDev() {
   return (
     <>
       <div className="columns back_ground">
-        <div className="column is-fixed">
+        <div className="column is-fixed is-3">
           <Nav />
-          <NavBur />
         </div>
-        <div className="column is-offset-3">
+        <div className="column is-8 is-offset-3">
           <div className="columns ">
             <div className="column is-11 ">
+          <NavBur />
               <section className="hero">
                 <div className="hero-body">
                   <div className="container">

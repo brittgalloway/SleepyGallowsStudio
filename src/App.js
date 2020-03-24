@@ -45,10 +45,10 @@ function App() {
         <Route exact path="/Art/Brittney/PaperCut" component={PaperCut} />
         {/* animation pages */}
         <Route exact path="/Animation" component={Animation} />
-        <Route exact path="/Animation/webseries" component={WebSeries} />
-        <Route exact path="/Animation/webseries/plh" component={PLH} />
-        <Route path="/Animation/webseries/plh/about" component={AboutPLH} />
-        <Route path="/Animation/webseries/plh/art" component={ArtPLH} />
+        <Route exact path="/Animation/originals" component={WebSeries} />
+        <Route exact path="/Animation/originals/plh" component={PLH} />
+        <Route path="/Animation/originals/plh/about" component={AboutPLH} />
+        <Route path="/Animation/originals/plh/art" component={ArtPLH} />
         <Route exact path="/Animation/clientwork" component={ClientWork} />
         <Route exact path="/Animation/forfun" component={ForFun} />
         {/* comic pages */}
