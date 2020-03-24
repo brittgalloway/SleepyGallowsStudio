@@ -23,7 +23,7 @@ function Webseries() {
                 <div>
           <NavAnimation />
           <main  className="control-content">
-          <h1 className="title has-text-centered">Orgininals</h1>
+          <h1 className="title has-text-centered">Originals</h1>
           <hr />
           <div id="galleryContain">
             <div className="columns is-multiline is-mobile">
