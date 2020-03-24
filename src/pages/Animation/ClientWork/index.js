@@ -5,8 +5,6 @@ import videos from "./videos.json";
 import { NavAnimation } from "../../../components/Navigation";
 import { FooterSleepy } from "../../../components/Footer";
 
-// import videos from "./videos.json";
-
 import "./style.scss";
 
 function ClientWork() {
@@ -43,7 +41,7 @@ function ClientWork() {
               </div>
             </div>
           </div>
-      <FooterSleepy />
+          <FooterSleepy />
         </div>
       </div>
     </>
