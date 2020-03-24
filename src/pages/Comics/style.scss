@@ -15,7 +15,7 @@ $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
 }
 .padTop4 {
   margin-top: 8em;
-  margin-right: 2.5em;
+  // margin-right: 2.5em;
   // margin-left: 1.5em;
 }
 .padTop3 {
@@ -29,7 +29,7 @@ $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
   text-shadow: $textShadow;
 }
 .necahual {
-  font-size: 5em;
+  font-size: 3.5em;
 }
 .text-box {
   background: rgba(0, 0, 0, 0.4);
@@ -58,6 +58,7 @@ $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
 }
 .candyFluff {
   color: $comicText;
+  text-shadow: $textShadow;
   &:hover {
     color: #fc79b4;
   }
