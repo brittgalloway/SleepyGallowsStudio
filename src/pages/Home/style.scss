@@ -53,3 +53,57 @@ $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
   background: url("./Rectangle_4web.png");
   @include homeImages;
 }
+
+@media only screen and (max-width: 769px) {
+  .homeText {
+    font-family: $brandFont;
+    font-size: 3.25em;
+    text-shadow: $textShadow;
+    font-weight: bold;
+    color: white;
+    margin-top: 1em;
+    text-align: center;
+    overflow-wrap: break-word;
+  }
+  .longWord{
+    font-size: 2.5em;
+    margin-top: 1em;
+  }
+  @mixin homeTouch {
+    position: absolute;
+    width: 100vw;
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Rectangle 1 */
+
+#animationHome {
+  background: url("./Rectangle_1animation.png");
+  @include homeTouch;
+}
+
+/* Rectangle 2 */
+#artHome {
+  top:25vh;
+  left: 0;
+  background: url("./Rectangle_2art.png");
+  @include homeTouch;
+}
+
+/* Rectangle 3 */
+#comicHome {
+  top: 50vh;
+  background: url("./Rectangle_3Comics.png");
+  @include homeTouch;
+}
+
+/* Rectangle 4 */
+#webdevHome {
+  left: 0;
+  top: 75vh;
+  background: url("./Rectangle_4web.png");
+  @include homeTouch;
+}
+
+  }

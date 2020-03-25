@@ -9,7 +9,7 @@ function Home() {
       
         <Link to="/Animation">
           <div id="animationHome">
-            <p className="homeText longWord">Animation</p>
+            <p className="homeText">Animation</p>
       </div>
         </Link>
           </div>
