@@ -18,7 +18,7 @@ function VisDevGall() {
   return (
     <>
       <Gallery photos={visImg} onClick={openLightbox} />
-      <ModalGateway>
+      {/* <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
             <Carousel
@@ -31,7 +31,7 @@ function VisDevGall() {
             />
           </Modal>
         ) : null}
-      </ModalGateway>
+      </ModalGateway> */}
     </>
   );
 }

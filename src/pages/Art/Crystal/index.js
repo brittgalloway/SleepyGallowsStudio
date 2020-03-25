@@ -28,14 +28,14 @@ function Crystal() {
         <div className="column">
           <div className="columns">
             <div className="column is-8 is-offset-3">
-          <NavBur />
+            <NavBur className="is-hidden-desktop" />
               <div className="column is-four-fifth">
                 <NavCrystalArt />
                 <div id="galleryContain">
                   <div className="columns is-multiline is-mobile">
                     <div>
                       <Gallery photos={illustrateImg} onClick={openLightbox} />
-                      <ModalGateway>
+                      {/* <ModalGateway>
                         {viewerIsOpen ? (
                           <Modal onClose={closeLightbox}>
                             <Carousel
@@ -48,7 +48,7 @@ function Crystal() {
                             />
                           </Modal>
                         ) : null}
-                      </ModalGateway>
+                      </ModalGateway> */}
                     </div>
                   </div>
                 </div>

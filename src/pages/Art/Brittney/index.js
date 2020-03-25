@@ -37,7 +37,7 @@ function Brittney() {
                   <div className="columns is-multiline is-mobile">
                     <div>
                       <Gallery photos={sketchImg} onClick={openLightbox} />
-                      <ModalGateway>
+                      {/* <ModalGateway>
                         {viewerIsOpen ? (
                           <Modal onClose={closeLightbox}>
                             <Carousel
@@ -50,7 +50,7 @@ function Brittney() {
                             />
                           </Modal>
                         ) : null}
-                      </ModalGateway>
+                      </ModalGateway> */}
                     </div>
                   </div>
                 </div>

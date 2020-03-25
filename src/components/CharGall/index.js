@@ -18,7 +18,7 @@ function CharGall() {
   return (
     <>
       <Gallery photos={charImg} onClick={openLightbox} />
-      <ModalGateway>
+      {/* <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
             <Carousel
@@ -31,7 +31,7 @@ function CharGall() {
             />
           </Modal>
         ) : null}
-      </ModalGateway>
+      </ModalGateway> */}
     </>
   );
 }

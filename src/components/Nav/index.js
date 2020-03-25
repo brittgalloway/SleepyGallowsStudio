@@ -30,9 +30,9 @@ export function Nav() {
   )
 }
 export function NavBur() {
-  const [isNavOpen, navIsOpen] = useState(false);
+  const [isNavOpen, navIsOpen] = useState(0);
   return isNavOpen ? (
-    <nav onClick={() => navIsOpen(false)}>
+    <nav className="is-hidden-desktop" onClick={() => navIsOpen(0)}>
       <ul className="nav flex-column ">
         <li className="nav-item">
           <Link to="/About">About</Link>
@@ -52,6 +52,6 @@ export function NavBur() {
       </ul>
     </nav>
   ) : (
-    <span className="hamburger is-hidden-desktop"onClick={() => navIsOpen(true)}>&#9776;</span>
+    <span className="hamburger is-hidden-desktop"onClick={() => navIsOpen(1)}>&#9776;</span>
   );
 }

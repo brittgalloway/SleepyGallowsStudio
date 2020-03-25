@@ -37,7 +37,7 @@ function PaperCut() {
                   <div className="columns is-multiline is-mobile">
                     <div>
                       <Gallery photos={paperImg} onClick={openLightbox} />
-                      <ModalGateway>
+                      {/* <ModalGateway>
                         {viewerIsOpen ? (
                           <Modal onClose={closeLightbox}>
                             <Carousel
@@ -50,7 +50,7 @@ function PaperCut() {
                             />
                           </Modal>
                         ) : null}
-                      </ModalGateway>
+                      </ModalGateway> */}
                     </div>
                   </div>
                 </div>
