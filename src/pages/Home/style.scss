@@ -53,7 +53,7 @@ $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
   background: url("./Rectangle_4web.png");
   @include homeImages;
 }
-
+// ========================MEDIA QUERY=================================================
 @media only screen and (max-width: 769px) {
   .homeText {
     font-family: $brandFont;
