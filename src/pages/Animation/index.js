@@ -17,7 +17,7 @@ function SGProductions() {
             <Link to="/Animation/originals/plh">
               <div id="webSeries">
                 <figure className="image ">
-                  <div className="animationTitles">Orginials</div>
+                  <div className="animationTitles">Originals</div>
                   <img
                     alt="Webseries"
                     src={process.env.PUBLIC_URL + "/images/webseries2.jpg"}
