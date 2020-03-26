@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import Carousel, { Modal, ModalGateway } from "react-images";
+// import Carousel, { Modal, ModalGateway } from "react-images";
 import Gallery from "react-photo-gallery";
 import { Nav, NavBur } from "../../../../../components/Nav";
 import { NavAnimation, PLHnav } from "../../../../../components/Navigation";
@@ -37,9 +37,9 @@ function PHL() {
                   Art of FOR PEACE, LOVE, &amp; HARMONY
                 </h1>
                 <div id="galleryContain">
-                  <div className="columns is-multiline is-mobile">
-                    <Gallery photos={artOfPlhImg} onClick={openLightbox} />
-                    <ModalGateway>
+                
+                    <Gallery photos={artOfPlhImg} direction={"column"} />
+                    {/* <ModalGateway>
                       {viewerIsOpen ? (
                         <Modal onClose={closeLightbox}>
                           <Carousel
@@ -52,8 +52,8 @@ function PHL() {
                           />
                         </Modal>
                       ) : null}
-                    </ModalGateway>
-                  </div>
+                    </ModalGateway> */}
+                
                 </div>
               </div>
             </div>

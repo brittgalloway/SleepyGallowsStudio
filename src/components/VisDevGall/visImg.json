@@ -2,38 +2,38 @@
   {
     "src": "/images/visualDev/mertale.jpg",
     "alt": "Crystal's little mermaid swimming from party",
-    "width": 5,
-    "height": 3
+    "width": 15,
+    "height": 8
   },
   {
     "src": "/images/visualDev/mertale2.jpg",
     "alt": "Crystal's little mermaid watching fireworks",
-    "width": 5,
-    "height": 3
+    "width": 15,
+    "height": 8
   },
   {
     "src": "/images/visualDev/mertale3.jpg",
     "alt": "Crystal's prince in ship",
-    "width": 5,
-    "height": 3
+    "width": 15,
+    "height": 8
   },
   {
     "src": "/images/visualDev/mertale4.jpg",
     "alt": "Crystal's wave overcoming ship",
-    "width": 3,
-    "height": 4
+    "width": 7,
+    "height": 8
   },
   {
     "src": "/images/visualDev/mertale5.jpg",
     "alt": "Crystal's mermaid saves prince",
-    "width": 5,
-    "height": 3
+    "width": 15,
+    "height": 8
   },
   {
     "src": "/images/visualDev/mertale6.jpg",
     "alt": "Crystal's mermaid  carrying prince to shore",
-    "width": 5,
-    "height": 3
+    "width": 15,
+    "height": 8
   },
   {
     "src": "/images/visualDev/mertale7.jpg",
@@ -44,25 +44,25 @@
   {
     "src": "/images/visualDev/mertale8.jpg",
     "alt": "Crystal's seawitch making potion",
-    "width": 5,
-    "height": 3
+    "width": 15,
+    "height": 8
   },
   {
     "src": "/images/visualDev/mertale9.jpg",
     "alt": "Crystal's little mermaid's sister's offering her a knife",
-    "width": 5,
-    "height": 3
+    "width": 15,
+    "height": 8
   },
   {
     "src": "/images/visualDev/mertale10.jpg",
     "alt": "Crystal's the litte mermaid looking out into the night",
     "width": 5,
-    "height": 3
+    "height": 2
   },
   {
     "src": "/images/visualDev/Chap3_LoveBG_Final.jpg",
     "alt": "Crystal's p.l.h. night scene",
-    "width": 4,
+    "width": 5,
     "height": 3
   },
   {
@@ -74,31 +74,31 @@
   {
     "src": "/images/visualDev/hall.jpg",
     "alt": "Crystal's p.l.h. castel hall",
-    "width": 4,
-    "height": 3
+    "width": 5,
+    "height": 2
   },
   {
     "src": "/images/visualDev/day-sm.jpg",
     "alt": "Crystal's p.l.h. day scene",
-    "width": 4,
-    "height": 3
+    "width": 2,
+    "height": 1
   },
   {
     "src": "/images/visualDev/night-sm.jpg",
     "alt": "Crystal's p.l.h. night scene",
-    "width": 4,
-    "height": 3
+    "width": 2,
+    "height": 1
   },
   {
     "src": "/images/visualDev/queens-room-sm.jpg",
     "alt": "Crystal's p.l.h. queen's room ",
-    "width": 4,
+    "width": 5,
     "height": 3
   },
   {
     "src": "/images/visualDev/chap3BGmain.jpg",
     "alt": "Crystal's p.l.h. chapter 3 background",
-    "width": 4,
+    "width": 5,
     "height": 3
   }
 ]

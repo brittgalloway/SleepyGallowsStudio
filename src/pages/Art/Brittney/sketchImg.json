@@ -1,50 +1,50 @@
 [
   {
+    "src": "/images/sketchBook/redlineBlue.jpg",
+    "alt": "red and blue woman",
+    "width": 2,
+    "height": 3
+  },
+  {
     "src": "/images/sketchBook/curvedLines.jpg",
     "alt": "cured lined black and white",
-    "width": 5,
-    "height": 4
+    "width": 3,
+    "height": 2
   },
   {
     "src": "/images/sketchBook/greenTriangle.jpg",
     "alt": "green triangles",
-    "width": 5,
-    "height": 4
+    "width": 3,
+    "height": 2
   },
   {
     "src": "/images/sketchBook/heyBubble.jpg",
     "alt": "Hey encouraging bubbles",
-    "width": 5,
-    "height": 4
-  },
-  {
-    "src": "/images/sketchBook/redlineBlue.jpg",
-    "alt": "red and blue woman",
-    "width": 1,
+    "width": 3,
     "height": 2
   },
   {
     "src": "/images/sketchBook/moons.jpg",
     "alt": "Moon phases",
-    "width": 5,
-    "height": 4
+    "width": 3,
+    "height": 2
   },
   {
     "src": "/images/sketchBook/mouths.webp",
     "alt": "red mouths",
-    "width": 5,
-    "height": 4
+    "width": 3,
+    "height": 2
   },
   {
     "src": "/images/sketchBook/redLines.jpg",
     "alt": "redlines in a downward arrow",
-    "width": 5,
-    "height": 4
+    "width": 3,
+    "height": 2
   },
   {
     "src": "/images/sketchBook/redDiamond.jpg",
     "alt": "red diamonds",
-    "width": 5,
-    "height": 4
+    "width": 3,
+    "height": 2
   }
 ]

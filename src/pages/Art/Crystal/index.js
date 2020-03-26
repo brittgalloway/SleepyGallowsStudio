@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import Carousel, { Modal, ModalGateway } from "react-images";
+// import Carousel, { Modal, ModalGateway } from "react-images";
 import Gallery from "react-photo-gallery";
 import { Nav, NavBur } from "../../../components/Nav";
 import { NavCrystalArt } from "../../../components/Navigation";
@@ -32,9 +32,8 @@ function Crystal() {
               <div className="column is-four-fifth">
                 <NavCrystalArt />
                 <div id="galleryContain">
-                  <div className="columns is-multiline is-mobile">
-                    <div>
-                      <Gallery photos={illustrateImg} onClick={openLightbox} />
+                                     <div>
+                      <Gallery photos={illustrateImg} direction = {"column"}  />
                       {/* <ModalGateway>
                         {viewerIsOpen ? (
                           <Modal onClose={closeLightbox}>
@@ -49,7 +48,7 @@ function Crystal() {
                           </Modal>
                         ) : null}
                       </ModalGateway> */}
-                    </div>
+                
                   </div>
                 </div>
               </div>

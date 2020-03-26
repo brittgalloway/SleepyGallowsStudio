@@ -33,9 +33,9 @@ function PaperCut() {
               <div className="column is-four-fifth">
                 <NavBrittneyArt />
                 <div id="galleryContain">
-                  <div className="columns is-multiline is-mobile">
+                 
                     <div>
-                      <Gallery photos={paperImg} onClick={openLightbox} />
+                      <Gallery photos={paperImg} direction = {"column"} />
                       {/* <ModalGateway>
                         {viewerIsOpen ? (
                           <Modal onClose={closeLightbox}>
@@ -51,7 +51,7 @@ function PaperCut() {
                         ) : null}
                       </ModalGateway> */}
                     </div>
-                  </div>
+             
                 </div>
               </div>
             </div>

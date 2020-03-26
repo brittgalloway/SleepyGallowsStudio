@@ -34,9 +34,9 @@ function Brittney() {
               <div className="column is-four-fifth">
                 <NavBrittneyArt />
                 <div id="galleryContain">
-                  <div className="columns is-multiline is-mobile">
+                  
                     <div>
-                      <Gallery photos={sketchImg} onClick={openLightbox} />
+                      <Gallery photos={sketchImg}  direction = {"column"}/>
                       {/* <ModalGateway>
                         {viewerIsOpen ? (
                           <Modal onClose={closeLightbox}>
@@ -51,7 +51,7 @@ function Brittney() {
                           </Modal>
                         ) : null}
                       </ModalGateway> */}
-                    </div>
+                   
                   </div>
                 </div>
               </div>
