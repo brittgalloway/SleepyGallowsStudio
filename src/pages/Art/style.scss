@@ -24,3 +24,6 @@ $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
 .tabs.is-medium{
   margin-top: 2em;
 }
+.react-photo-gallery--gallery > div {
+  align-items: stretch;
+}

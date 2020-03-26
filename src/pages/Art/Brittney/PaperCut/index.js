@@ -1,12 +1,11 @@
 import React, { useState, useCallback } from "react";
-import Carousel, { Modal, ModalGateway } from "react-images";
+// import Carousel, { Modal, ModalGateway } from "react-images";
 import Gallery from "react-photo-gallery";
 import { Nav, NavBur } from "../../../../components/Nav";
 import { NavBrittneyArt } from "../../../../components/Navigation";
 import { FooterBrittney } from "../../../../components/Footer";
 import paperImg from "./paperImg.json";
 
-// import "./style.scss";
 
 function PaperCut() {
   const [currentImage, setCurrentImage] = useState(0);

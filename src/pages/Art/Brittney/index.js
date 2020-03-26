@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import Carousel, { Modal, ModalGateway } from "react-images";
+// import Carousel, { Modal, ModalGateway } from "react-images";
 import { Nav, NavBur } from "../../../components/Nav";
 import { NavBrittneyArt } from "../../../components/Navigation";
 import { FooterBrittney } from "../../../components/Footer";
