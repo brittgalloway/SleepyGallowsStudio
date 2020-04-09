@@ -1,4 +1,5 @@
 import React from "react";
+import { DonateBtn } from "../Btn";
 
 export function AboutCreators() {
   return (
@@ -71,12 +72,13 @@ export function Contact() {
   return (
     <>
       <div className="box">
-        <h1 className="title">Contact Us!</h1>
-        <h2 className="subtitle is-unselectable">bg(at)sleepygallows.com</h2>
-        <small>
+        <h1 className="title ">Contact Us!</h1>
+        <h2 className="subtitle ">bg(at)sleepygallows.com</h2>
+        {/* <small>
           Please note, We are not currently working for hire or taking
           commissions.
-        </small>
+        </small> */}
+        {/* <DonateBtn /> */}
       </div>
     </>
   );
