@@ -1,5 +1,5 @@
 import React from "react";
-import { DonateBtn } from "../Btn";
+// import { DonateBtn } from "../Btn";
 import { Link } from "react-router-dom";
 
 export function AboutCreators() {
