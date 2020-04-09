@@ -6,10 +6,11 @@ function Home() {
   return (
     <>
       <div id="homeContainer">
-          <div id="animationHome">
       
         <Link to="/Animation">
+          <div id="animationHome">
             <p className="homeText">Animation</p>
+      </div>
         </Link>
           </div>
         <Link to="/Art">
@@ -24,13 +25,12 @@ function Home() {
         </Link>
         <Link to="/WebDev">
           <div id="webdevHome">
-            <p className="homeText">
+            <p className="homeText longWord">
               Web <br />
               Development
             </p>
           </div>
         </Link>
-      </div>
     </>
   );
 }

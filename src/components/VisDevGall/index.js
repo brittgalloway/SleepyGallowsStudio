@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import Carousel, { Modal, ModalGateway } from "react-images";
+// import Carousel, { Modal, ModalGateway } from "react-images";
 import Gallery from "react-photo-gallery";
 import visImg from "./visImg.json";
 function VisDevGall() {
@@ -17,8 +17,8 @@ function VisDevGall() {
   };
   return (
     <>
-      <Gallery photos={visImg} onClick={openLightbox} />
-      <ModalGateway>
+      <Gallery photos={visImg} direction = {"column"}  />
+      {/* <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
             <Carousel
@@ -31,7 +31,7 @@ function VisDevGall() {
             />
           </Modal>
         ) : null}
-      </ModalGateway>
+      </ModalGateway> */}
     </>
   );
 }

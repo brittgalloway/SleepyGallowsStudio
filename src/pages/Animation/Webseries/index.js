@@ -4,7 +4,6 @@ import { Nav, NavBur } from "../../../components/Nav";
 import { ImgGallLink } from "../../../components/Galleries";
 import { FooterSleepy } from "../../../components/Footer";
 import webSeriesThumb from "./webSeriesThumb.json";
-// import "./style.css";
 
 function Webseries() {
   const state = {
@@ -12,16 +11,19 @@ function Webseries() {
   };
   return (
     <>
-      <div className="columns is-gapless">
+      <div className="columns is-gapless control">
       <div className="column is-fixed is-3">
           <Nav />
-          <NavBur />
         </div>
         <div className="column">
           <div className="columns">
             <div className="column is-8 is-offset-3">
+            <div className="column is-four-fifth">
+          <NavBur />
+                <div>
           <NavAnimation />
-          <h1 className="title has-text-centered">Webseries</h1>
+          <main  className="control-content">
+          <h1 className="title has-text-centered">Originals</h1>
           <hr />
           <div id="galleryContain">
             <div className="columns is-multiline is-mobile">
@@ -30,11 +32,13 @@ function Webseries() {
               ))}
             </div>
           </div>
+          </main>
         </div>
-        
+        </div>
+        </div>
           </div>
         </div>
-        
+       
       </div>
       <FooterSleepy />
     </>

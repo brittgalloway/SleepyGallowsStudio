@@ -1,43 +1,43 @@
 [
   {
     "src": "/images/paperCut/collage.jpg",
-    "alt": "a ",
+    "alt": "oranges and blues collage ",
     "width": 3,
     "height": 2
   },
   {
     "src": "/images/paperCut/man.jpg",
-    "alt": "This is a test",
+    "alt": "Man in profile",
     "width": 4,
     "height": 5
   },
   {
     "src": "/images/paperCut/flowerStar.jpg",
-    "alt": "This is a test",
+    "alt": "Flower stars",
     "width": 4,
     "height": 3
   },
   {
     "src": "/images/paperCut/paintCollage.jpg",
-    "alt": "This is a test",
+    "alt": "Collage of old painting",
     "width": 5,
     "height": 3
   },
   {
     "src": "/images/paperCut/princess_hasina.jpg",
-    "alt": "This is a test",
+    "alt": "Princess Hasina",
     "width": 4,
     "height": 5
   },
   {
     "src": "/images/paperCut/prayingGirl.jpg",
-    "alt": "This is a test",
+    "alt": "Girl praying before bed",
     "width": 3,
     "height": 1
   },
   {
     "src": "/images/paperCut/queenFelicity.jpg",
-    "alt": "test",
+    "alt": "Queen Felicity",
     "width": 4,
     "height": 5
   }

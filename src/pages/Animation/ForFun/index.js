@@ -4,19 +4,19 @@ import videos from "./videos.json";
 import { NavAnimation } from "../../../components/Navigation";
 import { Nav, NavBur } from "../../../components/Nav";
 import { FooterSleepy } from "../../../components/Footer";
-import "./style.scss";
+
 function ForFun() {
   return (
     <>
       <div className="columns is-gapless">
         <div className="column is-fixed is-3">
           <Nav />
-          <NavBur />
         </div>
         <div className="column">
           <div className="columns">
             <div className="column is-8 is-offset-3">
               <div className="column is-four-fifth">
+          <NavBur />
                 <div>
                   <NavAnimation />
 

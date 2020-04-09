@@ -13,7 +13,7 @@ export function NavAnimation() {
     <div className="tabs is-centered is-small">
       <ul>
         <li>
-          <Link to="/Animation/webseries">Web Series</Link>
+          <Link to="/Animation/originals">Originals</Link>
         </li>
         <li>
           <Link to="/Animation/clientwork">Client Work</Link>
@@ -30,13 +30,13 @@ export function PLHnav() {
     <div className="tabs is-centered is-medium">
       <ul>
         <li>
-          <Link to="/Animation/webseries/plh">Watch</Link>
+          <Link to="/Animation/originals/plh">Watch</Link>
         </li>
         <li>
-          <Link to="/Animation/webseries/plh/about">About</Link>
+          <Link to="/Animation/originals/plh/about">About</Link>
         </li>
         <li>
-          <Link to="/Animation/webseries/plh/art">Art</Link>
+          <Link to="/Animation/originals/plh/art">Art</Link>
         </li>
       </ul>
     </div>
@@ -44,7 +44,7 @@ export function PLHnav() {
 }
 export function NavCrystalArt() {
   return (
-    <div className="tabs is-centered is-medium">
+    <div className="tabs is-centered is-medium ">
       <ul>
         <li>
           <Link to="/Art/Crystal">Illustration</Link>

@@ -8,16 +8,16 @@ import "./style.scss";
 
 function PHL() {
   return (
-    <>
+    <div className="postion">
       <div className="columns is-gapless">
         <div className="column is-fixed is-3">
           <Nav />
-          <NavBur />
         </div>
         <div className="column">
           <div className="columns">
             <div className="column is-8 is-offset-3 ">
               <div className="column is-four-fifth ">
+          <NavBur />
                 <div>
                   <NavAnimation />
                   <div className="container is-fluid is-full-mobile is-full-tablet">
@@ -44,7 +44,7 @@ function PHL() {
         </div>
       </div>
       <FooterSleepy />
-    </>
+    </div>
   );
 }
 

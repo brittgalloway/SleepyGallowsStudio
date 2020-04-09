@@ -1,50 +1,50 @@
 [
   {
+    "src": "/images/sketchBook/redlineBlue.jpg",
+    "alt": "red and blue woman",
+    "width": 2,
+    "height": 3
+  },
+  {
     "src": "/images/sketchBook/curvedLines.jpg",
-    "alt": "a ",
-    "width": 5,
-    "height": 4
+    "alt": "cured lined black and white",
+    "width": 3,
+    "height": 2
   },
   {
     "src": "/images/sketchBook/greenTriangle.jpg",
-    "alt": "This is a test",
-    "width": 5,
-    "height": 4
+    "alt": "green triangles",
+    "width": 3,
+    "height": 2
   },
   {
     "src": "/images/sketchBook/heyBubble.jpg",
-    "alt": "This is a test",
-    "width": 5,
-    "height": 4
-  },
-  {
-    "src": "/images/sketchBook/redlineBlue.jpg",
-    "alt": "This is a test",
-    "width": 1,
+    "alt": "Hey encouraging bubbles",
+    "width": 3,
     "height": 2
   },
   {
     "src": "/images/sketchBook/moons.jpg",
-    "alt": "This is a test",
-    "width": 5,
-    "height": 4
+    "alt": "Moon phases",
+    "width": 3,
+    "height": 2
   },
   {
     "src": "/images/sketchBook/mouths.webp",
-    "alt": "This is a test",
-    "width": 5,
-    "height": 4
+    "alt": "red mouths",
+    "width": 3,
+    "height": 2
   },
   {
     "src": "/images/sketchBook/redLines.jpg",
-    "alt": "This is a test",
-    "width": 5,
-    "height": 4
+    "alt": "redlines in a downward arrow",
+    "width": 3,
+    "height": 2
   },
   {
     "src": "/images/sketchBook/redDiamond.jpg",
-    "alt": "test",
-    "width": 5,
-    "height": 4
+    "alt": "red diamonds",
+    "width": 3,
+    "height": 2
   }
 ]

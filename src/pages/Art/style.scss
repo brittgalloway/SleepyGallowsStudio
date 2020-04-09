@@ -18,8 +18,16 @@ $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
   overflow: hidden;
 }
 #galleryContain {
-  // margin-right: 6em;
-  // width: 68vw;
-  margin-top: 10em;
+  margin-top: 5em;
   margin-bottom: 10em;
 }
+.tabs.is-medium{
+  margin-top: 2em;
+}
+.react-photo-gallery--gallery > div {
+  align-items: center;
+  // align-items: flex-start;
+  // align-items: stretch;
+
+}
+

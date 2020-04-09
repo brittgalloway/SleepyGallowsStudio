@@ -8,10 +8,10 @@ function Art() {
     <div className="columns is-gapless">
       <div className="column is-narrow">
         <Nav />
-        <NavBur />
       </div>
       <div className="column ">
         <div className="columns is-gapless">
+        <NavBur />
           <div className="column is-half art">
             <Link to="/Art/Crystal">
               <div id="heightControl">

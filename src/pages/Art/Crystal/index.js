@@ -1,11 +1,10 @@
 import React, { useState, useCallback } from "react";
-import Carousel, { Modal, ModalGateway } from "react-images";
+// import Carousel, { Modal, ModalGateway } from "react-images";
 import Gallery from "react-photo-gallery";
 import { Nav, NavBur } from "../../../components/Nav";
 import { NavCrystalArt } from "../../../components/Navigation";
 import { FooterCrystal } from "../../../components/Footer";
 import illustrateImg from "./illustrateImg.json";
-// import "./style.css";
 
 function Crystal() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -25,18 +24,17 @@ function Crystal() {
       <div className="columns is-gapless">
         <div className="column is-fixed is-3">
           <Nav />
-          <NavBur />
         </div>
         <div className="column">
           <div className="columns">
             <div className="column is-8 is-offset-3">
+            <NavBur className="is-hidden-desktop" />
               <div className="column is-four-fifth">
                 <NavCrystalArt />
                 <div id="galleryContain">
-                  <div className="columns is-multiline is-mobile">
-                    <div>
-                      <Gallery photos={illustrateImg} onClick={openLightbox} />
-                      <ModalGateway>
+                                     <div>
+                      <Gallery photos={illustrateImg} direction = {"column"}  />
+                      {/* <ModalGateway>
                         {viewerIsOpen ? (
                           <Modal onClose={closeLightbox}>
                             <Carousel
@@ -49,8 +47,8 @@ function Crystal() {
                             />
                           </Modal>
                         ) : null}
-                      </ModalGateway>
-                    </div>
+                      </ModalGateway> */}
+                
                   </div>
                 </div>
               </div>

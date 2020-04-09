@@ -1,12 +1,11 @@
 import React, { useState, useCallback } from "react";
-import Carousel, { Modal, ModalGateway } from "react-images";
+// import Carousel, { Modal, ModalGateway } from "react-images";
 import Gallery from "react-photo-gallery";
 import { Nav, NavBur } from "../../../../components/Nav";
 import { NavBrittneyArt } from "../../../../components/Navigation";
 import { FooterBrittney } from "../../../../components/Footer";
 import paperImg from "./paperImg.json";
 
-// import "./style.scss";
 
 function PaperCut() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -26,18 +25,18 @@ function PaperCut() {
       <div className="columns is-gapless">
         <div className="column is-fixed is-3">
           <Nav />
-          <NavBur />
         </div>
         <div className="column">
           <div className="columns">
             <div className="column is-8 is-offset-3">
+          <NavBur />
               <div className="column is-four-fifth">
                 <NavBrittneyArt />
                 <div id="galleryContain">
-                  <div className="columns is-multiline is-mobile">
+                 
                     <div>
-                      <Gallery photos={paperImg} onClick={openLightbox} />
-                      <ModalGateway>
+                      <Gallery photos={paperImg} direction = {"column"} />
+                      {/* <ModalGateway>
                         {viewerIsOpen ? (
                           <Modal onClose={closeLightbox}>
                             <Carousel
@@ -50,9 +49,9 @@ function PaperCut() {
                             />
                           </Modal>
                         ) : null}
-                      </ModalGateway>
+                      </ModalGateway> */}
                     </div>
-                  </div>
+             
                 </div>
               </div>
             </div>

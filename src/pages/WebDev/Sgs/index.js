@@ -13,7 +13,7 @@ function Sgs() {
   const state = {
     projectName: "Sleepy Gallows Studio",
     //tools used
-    tools: "REACT, SASS, Bulma.io",
+    tools: "REACT, SASS, Bulma.io, Firebase",
     //image of project
     imageUrl: process.env.PUBLIC_URL + "/images/sg_screen.PNG",
     alt: "Sleepy Gallows Studio",

@@ -9,15 +9,15 @@ function SGProductions() {
     <div className="columns is-gapless">
       <div className="column is-narrow">
         <Nav />
-        <NavBur />
       </div>
       <div className="column">
         <div className="columns is-gapless is-multiline  is-mobile">
+        <NavBur />
           <div className="column is-full has-text-centered">
-            <Link to="/Animation/webseries/plh">
+            <Link to="/Animation/originals/plh">
               <div id="webSeries">
                 <figure className="image ">
-                  <div className="animationTitles">Web Series</div>
+                  <div className="animationTitles">Originals</div>
                   <img
                     alt="Webseries"
                     src={process.env.PUBLIC_URL + "/images/webseries2.jpg"}

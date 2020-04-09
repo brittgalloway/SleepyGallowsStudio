@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import Carousel, { Modal, ModalGateway } from "react-images";
+// import Carousel, { Modal, ModalGateway } from "react-images";
 import Gallery from "react-photo-gallery";
 import charImg from "./charImg.json";
 function CharGall() {
@@ -17,8 +17,8 @@ function CharGall() {
   };
   return (
     <>
-      <Gallery photos={charImg} onClick={openLightbox} />
-      <ModalGateway>
+      <Gallery photos={charImg} />
+      {/* <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
             <Carousel
@@ -31,7 +31,7 @@ function CharGall() {
             />
           </Modal>
         ) : null}
-      </ModalGateway>
+      </ModalGateway> */}
     </>
   );
 }
