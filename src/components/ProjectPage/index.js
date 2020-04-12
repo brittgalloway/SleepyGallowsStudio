@@ -16,7 +16,7 @@ function ProjectPage({
   tools,
   extraName,
   extraLink,
-  extraNote
+  extraNote,
 }) {
   return (
     <>
@@ -29,7 +29,7 @@ function ProjectPage({
                   Brittney Galloway
                 </h2>
                 <h3 className="subtitle has-text-primary has-text-centered">
-                  Fullstack Developer
+                  Front-End Developer
                 </h3>
                 <h1 className="title has-text-primary has-text-centered">
                   {projectName}
@@ -55,7 +55,7 @@ function ProjectPage({
                           description={description}
                           extraNote={extraNote}
                         />
-                     
+
                         <Improvements improvements={improvements} />
                       </article>
                     </div>

@@ -3,7 +3,7 @@ import {
   Tools,
   ScreenCap,
   WhatIsIt,
-  Improvements
+  Improvements,
 } from "../../../components/Galleries";
 import { NavWeb } from "../../../components/Navigation";
 import Contact from "../../../components/Contact";
@@ -37,7 +37,7 @@ function SpaceChase() {
     user to get information for demonstration purposes.`,
     //improvents for project
     improvements:
-      " As of 10/5/2019 Leaflet was used to help us find coordinates, but the map doesn't have the functionality we were hoping for. For now, if you click on the marker on the map, you will be taken to Google Maps to get driving directions to the location. In the future the map on the page would show the route, and written driving instructions may populate somewhere on the page."
+      " As of 10/5/2019 Leaflet was used to help us find coordinates, but the map doesn't have the functionality we were hoping for. For now, if you click on the marker on the map, you will be taken to Google Maps to get driving directions to the location. In the future the map on the page would show the route, and written driving instructions may populate somewhere on the page.",
   };
   return (
     <>
@@ -50,7 +50,7 @@ function SpaceChase() {
                   Brittney Galloway
                 </h2>
                 <h3 className="subtitle has-text-primary has-text-centered">
-                  Fullstack Developer
+                  Front-End Developer
                 </h3>
                 <h1 className="title has-text-primary has-text-centered">
                   Space Chasers
@@ -74,14 +74,13 @@ function SpaceChase() {
                           extraName={state.extraName}
                           extraNote={state.extraNote}
                         />
-                   
+
                         <Improvements improvements={state.improvements} />
                       </article>
                     </div>
                     <div className="tile is-parent is-vertical">
                       <article className="tile is-child box">
                         <ScreenCap imageUrl={state.imageUrl} alt={state.alt} />
-                     
                       </article>
                     </div>
                   </div>

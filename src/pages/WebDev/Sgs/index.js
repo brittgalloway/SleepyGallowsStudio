@@ -3,7 +3,7 @@ import {
   Tools,
   // ScreenCap,
   // WhatIsIt,
-  Improvements
+  Improvements,
 } from "../../../components/Galleries";
 import { NavWeb } from "../../../components/Navigation";
 import Contact from "../../../components/Contact";
@@ -23,7 +23,7 @@ function Sgs() {
     description:
       "Portfolio of the many projects of Brittney and Crystal Galloway",
     //improvents for project
-    improvements: `This is the ultimate. Nothing can improve it. Just kidding, I would work on: mobile responsivness, and the design for the Comics page.`
+    improvements: `This is the ultimate. Nothing can improve it. Just kidding, I would work on: mobile responsivness, and the design for the Comics page.`,
   };
   return (
     <>
@@ -36,7 +36,7 @@ function Sgs() {
                   Brittney Galloway
                 </h2>
                 <h3 className="subtitle has-text-primary has-text-centered">
-                  Fullstack Developer
+                  Front-End Developer
                 </h3>
                 <h1 className="title has-text-primary has-text-centered">
                   Sleepy Gallows Studio
@@ -52,25 +52,29 @@ function Sgs() {
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
                       <article className="tile is-child box">
-                      <div className="box skills">
-        <p>Portfolio of the many projects of Brittney and Crystal Galloway</p>
-        <ul>
-          <li>
-            Github: <a href="https://github.com/brittgalloway/SleepyGallowsStudio">https://github.com/brittgalloway/SleepyGallowsStudio</a>
-          </li>
-          <li>
-            Live App: <a href="/">Home</a>
-          </li>
-        
-        </ul>
-     
-      </div>
+                        <div className="box skills">
+                          <p>
+                            Portfolio of the many projects of Brittney and
+                            Crystal Galloway
+                          </p>
+                          <ul>
+                            <li>
+                              Github:{" "}
+                              <a href="https://github.com/brittgalloway/SleepyGallowsStudio">
+                                https://github.com/brittgalloway/SleepyGallowsStudio
+                              </a>
+                            </li>
+                            <li>
+                              Live App: <a href="/">Home</a>
+                            </li>
+                          </ul>
+                        </div>
                       </article>
                       <article className="tile is-child box">
                         <Improvements improvements={state.improvements} />
                       </article>
-                   </div>
-                   </div>
+                    </div>
+                  </div>
                   <article className="tile is-child box">
                     <div className="box skills">
                       Tools

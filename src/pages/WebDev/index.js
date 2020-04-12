@@ -7,7 +7,7 @@ import "./style.scss";
 
 function WebDev() {
   const state = {
-    skills
+    skills,
   };
   return (
     <>
@@ -18,7 +18,7 @@ function WebDev() {
         <div className="column is-8 is-offset-3">
           <div className="columns ">
             <div className="column is-11 ">
-          <NavBur />
+              <NavBur />
               <section className="hero">
                 <div className="hero-body">
                   <div className="container">
@@ -26,7 +26,7 @@ function WebDev() {
                       Brittney Galloway
                     </h1>
                     <h2 className="title has-text-primary has-text-centered">
-                      Fullstack Developer
+                      Front-End Developer
                     </h2>
                   </div>
                 </div>
