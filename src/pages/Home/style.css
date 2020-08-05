@@ -1,1 +1,119 @@
-/* No CSS */ /*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700&display=swap");
+.homeText {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 3.25em;
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
+  font-weight: bold;
+  color: white;
+  margin-top: 2.75em;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.longWord {
+  font-size: 3em;
+  margin-top: 2.25em;
+}
+
+/* Rectangle 1 */
+#animationHome {
+  background: url("./Rectangle_1animation.png");
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Rectangle 2 */
+#artHome {
+  left: 50vw;
+  background: url("./Rectangle_2art.png");
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Rectangle 3 */
+#comicHome {
+  top: 50vh;
+  background: url("./Rectangle_3Comics.png");
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Rectangle 4 */
+#webdevHome {
+  left: 50vw;
+  top: 50vh;
+  background: url("./Rectangle_4web.png");
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 769px) {
+  .homeText {
+    font-family: "Cinzel Decorative", cursive;
+    font-size: 3.25em;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
+    font-weight: bold;
+    color: white;
+    margin-top: 1em;
+    text-align: center;
+    overflow-wrap: break-word;
+  }
+  .longWord {
+    font-size: 2.5em;
+    margin-top: 1em;
+  }
+  /* Rectangle 1 */
+  #animationHome {
+    background: url("./Rectangle_1animation.png");
+    position: absolute;
+    width: 100vw;
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Rectangle 2 */
+  #artHome {
+    top: 25vh;
+    left: 0;
+    background: url("./Rectangle_2art.png");
+    position: absolute;
+    width: 100vw;
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Rectangle 3 */
+  #comicHome {
+    top: 50vh;
+    background: url("./Rectangle_3Comics.png");
+    position: absolute;
+    width: 100vw;
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Rectangle 4 */
+  #webdevHome {
+    left: 0;
+    top: 75vh;
+    background: url("./Rectangle_4web.png");
+    position: absolute;
+    width: 100vw;
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+/*# sourceMappingURL=style.css.map */

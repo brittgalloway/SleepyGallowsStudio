@@ -1,1 +1,46 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700&display=swap");
+.artTitles {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: bold;
+  margin-top: 60%;
+  width: 100%;
+}
+
+.artTitles2 {
+  position: absolute;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  font-size: 50px;
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: bold;
+  margin-top: 60%;
+  width: 100%;
+}
+
+#heightControl {
+  height: 100vh;
+  overflow: hidden;
+}
+
+#galleryContain {
+  margin-top: 5em;
+  margin-bottom: 10em;
+}
+
+.tabs.is-medium {
+  margin-top: 2em;
+}
+
+.react-photo-gallery--gallery > div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

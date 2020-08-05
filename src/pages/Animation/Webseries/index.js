@@ -7,38 +7,41 @@ import webSeriesThumb from "./webSeriesThumb.json";
 
 function Webseries() {
   const state = {
-    webSeriesThumb
+    webSeriesThumb,
   };
   return (
     <>
       <div className="columns is-gapless control">
-      <div className="column is-fixed is-3">
+        <div className="column is-fixed is-3">
           <Nav />
         </div>
         <div className="column">
           <div className="columns">
             <div className="column is-8 is-offset-3">
-            <div className="column is-four-fifth">
-          <NavBur />
+              <div className="column counterFooter is-four-fifth">
+                <NavBur />
                 <div>
-          <NavAnimation />
-          <main  className="control-content">
-          <h1 className="title has-text-centered">Originals</h1>
-          <hr />
-          <div id="galleryContain">
-            <div className="columns is-multiline is-mobile">
-              {state.webSeriesThumb.map(img => (
-                <ImgGallLink route={img.route} src={img.src} alt={img.alt} />
-              ))}
+                  <NavAnimation />
+                  <main className="control-content">
+                    <h1 className="title has-text-centered">Originals</h1>
+                    <hr />
+                    <div id="galleryContain">
+                      <div className="columns is-multiline is-mobile">
+                        {state.webSeriesThumb.map((img) => (
+                          <ImgGallLink
+                            route={img.route}
+                            src={img.src}
+                            alt={img.alt}
+                          />
+                        ))}
+                      </div>
+                    </div>
+                  </main>
+                </div>
+              </div>
             </div>
           </div>
-          </main>
         </div>
-        </div>
-        </div>
-          </div>
-        </div>
-       
       </div>
       <FooterSleepy />
     </>

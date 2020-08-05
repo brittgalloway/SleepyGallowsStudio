@@ -67,10 +67,7 @@ export function Contact() {
       <div className="box">
         <h1 className="title ">Contact Us!</h1>
         <h2 className="subtitle ">bg(at)sleepygallows.com</h2>
-        {/* <small>
-          Please note, We are not currently working for hire or taking
-          commissions.
-        </small> */}
+        <small>Please note, we are full for the rest of 2020.</small>
         {/* <DonateBtn /> */}
       </div>
     </>

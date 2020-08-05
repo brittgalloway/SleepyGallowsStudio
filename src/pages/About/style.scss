@@ -1,18 +1,28 @@
+$sitePurple: #4a287c;
 .aboutsection {
   padding: 3em;
 }
 .contactSG {
   position: fixed;
 }
+
 .is-fixed {
   position: fixed;
 }
 .indent {
   text-indent: 2em;
 }
-.footer{
-  position: fixed;
-  left:0;
-  right:0;
-  bottom: 0;
+.footer {
+  // position: fixed;
+  // left: 0;
+  // right: 0;
+  // bottom: 0;
+  background-color: white;
+  // width: fit-content;
+}
+.counterFooter {
+  margin-bottom: 100px;
+}
+.column .is-fixed .is-narrow {
+  z-index: 1;
 }

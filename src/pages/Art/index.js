@@ -11,7 +11,7 @@ function Art() {
       </div>
       <div className="column ">
         <div className="columns is-gapless">
-        <NavBur />
+          <NavBur />
           <div className="column is-half art">
             <Link to="/Art/Crystal">
               <div id="heightControl">
@@ -30,7 +30,7 @@ function Art() {
             <Link to="/Art/Brittney">
               <div id="heightControl">
                 <figure className="image ">
-                  <div className="artTitles">Brittney's Art</div>
+                  <div className="artTitles2">Brittney's Art</div>
                   <img
                     alt="Woman in headwrap"
                     src={process.env.PUBLIC_URL + "/images/brittney'sArt.svg"}

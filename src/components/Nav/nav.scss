@@ -10,6 +10,7 @@ $brandFont: "Cinzel", serif;
   background: linear-gradient(180deg, $navBlue 0%, rgba(196, 196, 196, 0) 100%);
   overflow: hidden;
 }
+
 #header {
   max-width: 150%;
 }
@@ -47,15 +48,14 @@ h1 {
 }
 
 .hamburger {
-  margin-left: .5em;
-  margin-top: .5em;
-  color:$navBlue;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  color: $navBlue;
   z-index: 1;
   font-size: 2em;
   position: fixed;
 }
-nav{
-  
+nav {
   position: fixed;
   background-color: white;
   border: solid;
@@ -65,15 +65,14 @@ nav{
   box-shadow: $textShadow;
   height: 65vh;
   width: 40vw;
-  z-index: 1;
+
   overflow-x: hidden;
   transition: 0.5s;
   padding: 1em;
-  li  {
+  li {
     padding-top: 1em;
-    a{
-
-      &:active{
+    a {
+      &:active {
         color: $navBlue;
       }
     }

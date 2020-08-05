@@ -1,1 +1,8 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+#videos {
+  width: 68vw;
+}
+
+.tabs ul {
+  border-bottom: none;
+}
+/*# sourceMappingURL=style.css.map */

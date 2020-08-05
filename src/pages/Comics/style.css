@@ -1,0 +1,73 @@
+.backgroundComic {
+  background-image: url("./naca_bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  margin-top: -10em;
+}
+
+#comic {
+  background-color: #0e0e0e;
+}
+
+.padTop {
+  padding-top: 3em;
+}
+
+.padTop4 {
+  margin-top: 8em;
+}
+
+.padTop3 {
+  margin-top: 4em;
+}
+
+.pads {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.shadow {
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
+}
+
+.necahual {
+  font-size: 3.5em;
+}
+
+.text-box {
+  background: rgba(0, 0, 0, 0.4);
+  border: 4px solid #3bcacb;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  padding: 2em;
+  margin-top: 3em;
+}
+
+.text-box2 {
+  border: 4px solid #3bcacb;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
+          box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
+}
+
+.hr {
+  background-color: #3bcacb;
+  width: 8em;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
+          box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
+}
+
+.candyFluff {
+  color: white;
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
+}
+
+.candyFluff:hover {
+  color: #fc79b4;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+a {
+  color: #4a287c;
+}
+
+.tabs a:hover {
+  color: #4a287c;
+  border-bottom: none;
+}
+
+.tabs a {
+  border-bottom: none;
+}
+
+.tabs {
+  vertical-align: top;
+}
+
+a.navbar-item:hover {
+  color: #4a287c;
+}
+/*# sourceMappingURL=navigation.css.map */

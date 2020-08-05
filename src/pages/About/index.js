@@ -13,7 +13,10 @@ function About() {
         </div>
         <div className="column">
           <div className="columns">
-            <div className="column is-6 is-offset-3 is-full-mobile is-full-tablet">
+            <div
+              id="nav"
+              className=" column is-6 is-offset-3 counterFooter is-full-mobile is-full-tablet"
+            >
               <NavBur />
               <div className="aboutsection">
                 <AboutSG />

@@ -15,8 +15,8 @@ function ForFun() {
         <div className="column">
           <div className="columns">
             <div className="column is-8 is-offset-3">
-              <div className="column is-four-fifth">
-          <NavBur />
+              <div className="column counterFooter is-four-fifth">
+                <NavBur />
                 <div>
                   <NavAnimation />
 
@@ -24,7 +24,7 @@ function ForFun() {
                     <h1 className="title has-text-centered">Fun Animations</h1>
                     <hr />
                     <div className="columns is-multiline is-mobile">
-                      {videos.map(video => (
+                      {videos.map((video) => (
                         <VideoLinks
                           key={video.embed}
                           title={video.title}

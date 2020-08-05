@@ -6,7 +6,19 @@ $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
   position: absolute;
   text-align: center;
   color: white;
-  font-size: 30px;
+  font-size: 50px;
+  text-shadow: $textShadow;
+  font-family: $brandFont;
+  font-weight: bold;
+  margin-top: 60%;
+  width: 100%;
+}
+.artTitles2 {
+  position: absolute;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  font-size: 50px;
   text-shadow: $textShadow;
   font-family: $brandFont;
   font-weight: bold;
@@ -21,13 +33,11 @@ $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
   margin-top: 5em;
   margin-bottom: 10em;
 }
-.tabs.is-medium{
+.tabs.is-medium {
   margin-top: 2em;
 }
 .react-photo-gallery--gallery > div {
   align-items: center;
   // align-items: flex-start;
   // align-items: stretch;
-
 }
-

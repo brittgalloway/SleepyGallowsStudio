@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Cinzel&display=swap");
 .menu {
   width: 300px;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3fa1fc), to(rgba(196, 196, 196, 0)));
+  background: linear-gradient(180deg, #3fa1fc 0%, rgba(196, 196, 196, 0) 100%);
+  overflow: hidden;
+}
+
+#header {
+  max-width: 150%;
 }
 
 .menu-list {
-  background: -webkit-gradient(linear, left top, left bottom, from(#3fa1fc), to(rgba(196, 196, 196, 0)));
-  background: linear-gradient(180deg, #3fa1fc 0%, rgba(196, 196, 196, 0) 100%);
   color: #4a287c;
   font-family: "Cinzel", serif;
   font-size: 2em;
@@ -14,25 +20,67 @@
 .menu-list a {
   margin-bottom: 10px;
   padding-bottom: 10px;
-  overflow: hidden;
 }
 
-.menu-list a img {
-  margin-top: -16px;
-  margin-left: -25px;
-  max-width: 200%;
+.nav-item {
+  font-family: "Cinzel", serif;
+  font-size: 1em;
 }
 
-li:first-child {
-  margin-top: 0;
+.nav-item a {
+  color: #4a287c;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
-li {
+li.menu-list {
   margin-top: 20px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #firstLink {
   margin-top: -50px;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+}
+
+.footer {
+  padding: 1em;
+}
+
+.hamburger {
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  color: #3fa1fc;
+  z-index: 1;
+  font-size: 2em;
+  position: fixed;
+}
+
+nav {
+  position: fixed;
+  background-color: white;
+  border: solid;
+  border-radius: 12px;
+  border-color: #4a287c;
+  border-width: 1px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 65vh;
+  width: 40vw;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 1em;
+}
+
+nav li {
+  padding-top: 1em;
+}
+
+nav li a:active {
+  color: #3fa1fc;
 }
 /*# sourceMappingURL=nav.css.map */
