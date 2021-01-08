@@ -4,12 +4,17 @@ import "./nav.scss";
 export function Nav() {
   return (
  <aside className="menu is-hidden-touch">
-        <Link to="/About">
-          <img
+        <Link to="/About" >
+        <div className="tooltip">
+  <span className="tooltiptext">About Us</span>
+
+      
+          <img   
             id="header"
             src={process.env.PUBLIC_URL + "/images/pageHeader_sgHomepgNav.svg"}
-            alt="Sleepy Gallows Navigation"
+            alt="Sleepy Gallows Logo. Click for About Page."
           />
+          </div>
         </Link>
         <ul className="menu-list">
           <li id="firstLink">
