@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Nav, NavBur } from "../../components/Nav";
-import Contact from "../../components/Contact";
+import {Contact}  from "../../components/About";
+
+
 
 
 function WebDev() {
@@ -20,11 +22,8 @@ function WebDev() {
                 <div className="hero-body">
                   <div className="container">
                     <h1 className="title has-text-primary has-text-centered">
-                      Brittney Galloway
+                      Graphic Design
                     </h1>
-                    <h2 className="title has-text-primary has-text-centered">
-                      Front-End Developer
-                    </h2>
                   </div>
                 </div>
               </section>
@@ -34,10 +33,10 @@ function WebDev() {
                     <div className="tile is-vertical is-8">
                       <div className="tile is-parent ">
                         <div className="tile is-parent is-vertical">
-                          <Link to="/WebDev/sgs">
+                          <Link to="#">
                             <article className="tile is-child box">
                               <div id="sg">
-                                <div className="titles">This website!</div>
+                                <div className="titles">Our Logo!</div>
                                 <img
                                   src={
                                     process.env.PUBLIC_URL +
@@ -48,11 +47,11 @@ function WebDev() {
                               </div>
                             </article>
                           </Link>
-                          <Link to="/WebDev/Swaddle">
+                          <Link to="#">
                             <article className=" tile is-child box">
                               <div id="swaddle">
                                 <div className="titles">
-                                  Swaddles for Waddles
+                                  Buzzin Cuzzin
                                 </div>
                                 <img
                                   src={
@@ -64,10 +63,10 @@ function WebDev() {
                               </div>
                             </article>
                           </Link>
-                          <Link to="/WebDev/memory">
+                          <Link to="#">
                             <article className="tile is-child box">
                               <div id="memory">
-                                <div className="titles">Memory Game</div>
+                                <div className="titles">Delish and Dior</div>
                                 <img
                                   src={
                                     process.env.PUBLIC_URL +
@@ -80,10 +79,10 @@ function WebDev() {
                           </Link>
                         </div>
                         <div className="tile is-parent is-vertical">
-                          <Link to="/WebDev/SpaceChase">
+                          <Link to="#">
                             <article className="tile is-child box">
                               <div id="spaceChasers">
-                                <div className="titles">Space Chasers</div>
+                                <div className="titles">TLC Bath</div>
                                 <img
                                   src={
                                     process.env.PUBLIC_URL +
@@ -94,10 +93,10 @@ function WebDev() {
                               </div>
                             </article>
                           </Link>
-                          <Link to="/WebDev/swiftly">
+                          <Link to="#">
                             <article className=" tile is-child box">
                               <div id="swiftly">
-                                <div className="titles">Swiftly</div>
+                                <div className="titles">Candyfluffs.com</div>
                                 <img
                                   src={
                                     process.env.PUBLIC_URL +
@@ -108,70 +107,11 @@ function WebDev() {
                               </div>
                             </article>
                           </Link>
-                          <Link to="/WebDev/tennis">
-                            <article className="tile is-child box">
-                              <div id="tennis">
-                                <div className="titles">Tennis News</div>
-                                <img
-                                  src={
-                                    process.env.PUBLIC_URL +
-                                    "/images/tennis.jpg"
-                                  }
-                                  alt="tennis news cover"
-                                />
-                              </div>
-                            </article>
-                          </Link>
+                        
                         </div>
                       </div>
                     </div>
-                    <div className="tile is-parent">
-                      <article className="tile is-child box ">
-                        <div className="box skills">
-                          <p className="is-size-4">Skills</p>
-                          <br />
-                          <i className="fab fa-2x fa-html5"></i>
-                          <i className="fab fa-2x fa-css3-alt"></i>
-                          <i className="fab fa-2x fa-js"></i>
-                          <i className="fab fa-2x fa-node-js"></i>
-                          <i className="fab fa-2x fa-github"></i>
-                          <i className="fab fa-2x fa-git-square"></i>
-                       
-                        </div>
-                        <Contact />
-                        <div id="skills" className="box skills">
-                          <p className="is-size-4">About Me</p>
-                          <img
-                            src={process.env.PUBLIC_URL + "/images/me.jpg"}
-                            alt="Brittney Galloway smiling"
-                          />
-                          <ul>
-                            <li>
-                              <strong>Location: </strong>Greater Chicagoland
-                              Area
-                            </li>
-                            <li>
-                              <strong>Hobbies: </strong> Tennis, AfroPunk, all
-                              things animation, art, &amp; video games
-                            </li>
-                            <li>
-                              <strong>Web Developer </strong>with a background
-                              in animation and fine arts. Certified in Full
-                              Stack Web Development from Northwestern
-                              University, including JavaScript, CSS, HTML, and
-                              responsive web design. Known for clean and clear
-                              code as well as problem-solving abilities.
-                              Passionate about creating a great user experience
-                              through responsive, mobile friendly and intuitive
-                              design and clear branding. My communication
-                              skills, expanding technological skills, mixed with
-                              an artistic background makes me a great addition
-                              to any web development team.
-                            </li>
-                          </ul>
-                        </div>
-                      </article>
-                    </div>
+                   
                   </div>
                 </div>
               </div>

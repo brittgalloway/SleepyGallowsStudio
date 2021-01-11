@@ -29,9 +29,9 @@ export function Nav() {
           <li>
             <Link to="/WebDev">WebDev</Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
           <Link to="/GraphicDesign">Graphic Design</Link>
-        </li>
+        </li> */}
         </ul>
       </aside>
     
@@ -57,9 +57,9 @@ export function NavBur() {
         <li className="nav-item">
           <Link to="/WebDev">WebDev</Link>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link to="/GraphicDesign">Graphic Design</Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   ) : (
