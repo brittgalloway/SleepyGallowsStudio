@@ -30,17 +30,20 @@ function Comics() {
                               destiny and help save their people.
                             </p>
                             <p className="is-size-4 ">
-                              NECAHUAL is a new and refreshing take on the
+                            <a
+                                className="candyFluff"
+                                href="https://www.webtoons.com/en/challenge/necahual/a-peaceful-day/viewer?title_no=216820&episode_no=1">
+                                NECAHUAL
+                              </a>{" "} is a new and refreshing take on the
                               magical trope that also honors Meso-American
                               cultures.
                             </p>
                             <p className="is-size-4 ">
-                              Subscribe to the
-                              <a
+                              Subscribe to the {" "}<a
                                 className="candyFluff"
                                 href="https://www.webtoons.com/en/challenge/necahual/a-peaceful-day/viewer?title_no=216820&episode_no=1">
                                 WEBTOON
-                              </a>
+                              </a>{" "}
                               and never miss an update!
                             </p>
                           </div>
@@ -103,6 +106,12 @@ function Comics() {
                           CandyFluffs.com
                         </a>
                         </p>
+                        <small> <a
+                                  className="candyFluff"
+                                  href="https://www.patreon.com/2heroes"
+                                >
+                                 Patreon
+                                </a>{" "}supporters get 15% off everything in the store</small>
                       </div>
                       </div>
                       <div className="columns padTop3">
