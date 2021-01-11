@@ -1,5 +1,6 @@
 import React from "react";
-import { NavComic, NavBurComic } from "../../components/NavComic";
+// import { NavComic, NavBurComic } from "../../components/NavComic";
+import { Nav, NavBur} from "../../components/Nav";
 import { Footer2hero } from "../../components/Footer";
 import "./style.scss";
 
@@ -9,75 +10,64 @@ function Comics() {
       <div id="comic">
         <div className="columns is-gapless">
           <div className="column is-fixed is-3">
-            <NavComic />
+            <Nav />
           </div>
           <div className="column">
-            <NavBurComic />
-            <div className="columns backgroundComic ">
-              <div className=" has-text-centered has-text-white">
+            <NavBur />
+            <div className="columns">
+              <div >
                 <div className="column is-8 is-offset-3 is-full-mobile is-full-tablet">
                   <div id="comicContain" className="padTop4">
                     <article>
-                      <h2 className="subtitle is-size-2 has-text-white padTop shadow">
-                        2Heroes Presents
-                      </h2>
-                      <h1 className="necahual has-text-white padTop2 shadow">
-                        Necahual
+                      <h1 className="has-text-centered subtitle is-size-2">
+                        2Heroes
                       </h1>
-                      <div className="text-box">
                         <div className="columns">
-                          <div className="column is-two-thirds">
-                            <p className="is-size-4 has-text-centered shadow">
+                          <div className="column ">
+                            <p className="is-size-4">
                               Come join us on our first journey with Necahual,
                               Quetzalli, and Anacoana as they discover their
                               destiny and help save their people.
                             </p>
-                            <p className="is-size-4 has-text-centered shadow">
-                              Necahual is a new and refreshing take on the
+                            <p className="is-size-4 ">
+                              NECAHUAL is a new and refreshing take on the
                               magical trope that also honors Meso-American
                               cultures.
                             </p>
-                            <p className="is-size-4 shadow level">
-                              Subcribe to the{" "}
+                            <p className="is-size-4 ">
+                              Subscribe to the
                               <a
                                 className="candyFluff"
-                                href="https://www.webtoons.com/en/challenge/necahual/a-peaceful-day/viewer?title_no=216820&episode_no=1"
-                              >
-                                <img
-                                  width="32"
-                                  className=" webtoon shadow level "
-                                  alt="Webtoon Logo"
-                                  src={
-                                    process.env.PUBLIC_URL +
-                                    "/images/webtoonLogo.png"
-                                  }
-                                />
+                                href="https://www.webtoons.com/en/challenge/necahual/a-peaceful-day/viewer?title_no=216820&episode_no=1">
                                 WEBTOON
-                              </a>{" "}
+                              </a>
                               and never miss an update!
                             </p>
                           </div>
+                          
+                          </div>
+                          <div className="columns padTop3"> 
                           <div className="column is-one-thirds text-box2">
-                            <p className="is-size-3 has-text-centered shadow">
+                            <p className="is-size-3 has-text-centered ">
                               Find Us On
                             </p>
                             <hr className="hr" />
-                            <ul className="is-size-4 has-text-centered shadow">
-                              <li className="shadow">
+                            <ul className="is-size-4 has-text-centered ">
+                              <li >
                                 <a
                                   className="candyFluff"
                                   href="https://www.instagram.com/2.heroes/"
                                 >
-                                  <i className="fab fa-instagram "></i>{" "}
+                                  <i className="fab fa-instagram "></i>
                                   Instagram
                                 </a>
                               </li>
-                              <li className="shadow">
+                              <li >
                                 <a
                                   className="candyFluff"
                                   href="https://twitter.com/2Heroes1"
                                 >
-                                  <i className="fab fa-twitter-square"></i>{" "}
+                                  <i className="fab fa-twitter-square"></i>
                                   Twitter
                                 </a>
                               </li>
@@ -90,12 +80,64 @@ function Comics() {
                                 </a>
                               </li>
                             </ul>
+                        </div>
+                        <div className="column is-two-thirds ">
+                        <img className="necaImg"
+                              src={
+                                process.env.PUBLIC_URL + "/images/necahualImg.jpg"
+                              }
+                              alt="Necahual, Quetzalli, and Anacoana transform for the first time."
+                            />
                           </div>
+                          </div>
+
+                    </article>
+                    <section className="padTop4">
+                    <div className="columns">
+                      <div className="column has-text-centered">
+                        <h2 className="is-size-4">Already a fan?</h2>
+                        <p className="is-size-4">Find stickers, buttons, charms, and prints at   <a
+                          className="candyFluff"
+                          href="https://candyfluffs.com/?category=Necahual"
+                        >
+                          CandyFluffs.com
+                        </a>
+                        </p>
+                      </div>
+                      </div>
+                      <div className="columns padTop3">
+                        <div className="column is-one-thirds">
+                        <img
+                              src={
+                                process.env.PUBLIC_URL + "/images/NecaCharms.jpg"
+                              }
+                              alt="Necahual, Quetzalli, and Anacoana Charms availible for sale."
+                            />
+                         
+                        </div>
+                        <div className="column is-one-thirds">
+                        <img
+                              src={
+                                process.env.PUBLIC_URL + "/images/neca_mini_comics.jpg"
+                              }
+                              alt="A collection of mini comics first availible on the 2Heros Patreon."
+                            />
+                         
+                        </div>
+                        <div className="column is-one-thirds">
+                        <img
+                              src={
+                                process.env.PUBLIC_URL + "/images/necastickers.jpg"
+                              }
+                              alt="Necahual, Quetzalli, and Anacoana stickers availible for sale."
+                            />
+                         
                         </div>
                       </div>
-                    </article>
+                 
+                    </section>
                     <article className="shadow">
-                      <h1 className="title is-1 has-text-white padTop3">
+                      <h1 className="title is-1 has-text-centered padTop">
                         The Creators
                       </h1>
                       <div className="columns padTop3">
@@ -122,7 +164,7 @@ function Comics() {
                           </figure>
                         </div>
                       </div>
-                      <div className="text-box padTop">
+                      <div className="padTop">
                         <p className="is-size-4 ">
                           Serigio (the writer) and Crystal (the artist) met at a
                           networking session at C2E2 in Chicago 2017. They
@@ -131,17 +173,7 @@ function Comics() {
                         </p>
                       </div>
                     </article>
-                    <div className="merch pads">
-                      <p className="is-size-3">Find Necahual Merch at </p>
-                      <p className="is-size-1 ">
-                        <a
-                          className="candyFluff"
-                          href="https://candyfluffs.com/?category=Necahual"
-                        >
-                          CandyFluffs.com
-                        </a>
-                      </p>
-                    </div>
+                   
                   </div>
                 </div>
               </div>

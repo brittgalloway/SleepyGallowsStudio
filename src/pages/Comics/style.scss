@@ -1,15 +1,7 @@
 $bgComic: rgb(14, 14, 14);
-$comicText: white;
+$comicText: #333;
 $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
-.backgroundComic {
-  background-image: url("./naca_bg.jpg");
-  background-position: center center;
-  background-size: cover;
-  margin-top: -10em;
-}
-#comic {
-  background-color: $bgComic;
-}
+
 .padTop {
   padding-top: 3em;
 }
@@ -23,8 +15,11 @@ $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
   margin-top: 4em;
   margin-bottom: 4em;
 }
-.shadow {
-  text-shadow: $textShadow;
+.necaImg{
+  border: 4px solid #3bcacb;
+  width:fit-content;
+  height: 500px;
+  object-fit: cover;
 }
 .necahual {
   font-size: 3.5em;
@@ -41,18 +36,21 @@ $textShadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
 .text-box2 {
   border: 4px solid #3bcacb;
   box-sizing: border-box;
-  box-shadow: $textShadow;
+  // box-shadow: $textShadow;
+  height:fit-content;
+  align-self: center;
+  padding:4em;
+
 }
 .hr {
   background-color: #3bcacb;
   width: 8em;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: $textShadow;
+  // box-shadow: $textShadow;
 }
 .candyFluff {
   color: $comicText;
-  text-shadow: $textShadow;
   &:hover {
     color: #fc79b4;
   }

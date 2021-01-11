@@ -38,11 +38,11 @@ export function FooterSleepy() {
 }
 export function Footer2hero() {
   return (
-    <footer className="footer has-background-black">
-      <div className="content has-text-centered has-text-white-ter">
+    <footer className="footer padTop4">
+      <div className="content has-text-centered ">
         <p>
           Copyright © 2020
-          <strong className="has-text-white-ter"> 2Heroes</strong>- All Rights
+          <strong > 2Heroes</strong>- All Rights
           Reserved.
         </p>
       </div>
