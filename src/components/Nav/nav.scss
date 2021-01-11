@@ -17,7 +17,6 @@ $brandFont: "Cinzel", serif;
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
 }
 
 .tooltip .tooltiptext {
@@ -69,9 +68,7 @@ li.menu-list {
   margin-top: 20px;
   text-shadow: $textShadow;
 }
-#firstLink {
-  margin-top: -50px;
-}
+
 h1 {
   font-family: $brandFont;
 }
