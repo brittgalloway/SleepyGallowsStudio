@@ -28,7 +28,6 @@ export function FooterSleepy() {
   return (
     <footer className="footer">
       <div className="content has-text-centered">
-        <p>Need animation? Email bg(at)sleepygallows.com</p>
         <p>
           Copyright © 2020 <strong>Sleepy Gallows Studio</strong>- All Rights
           Reserved.

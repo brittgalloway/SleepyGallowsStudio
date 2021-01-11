@@ -30,7 +30,7 @@ export function AboutSG() {
   return (
     <article>
       <h1 className="title has-text-centered">About the Sleepy Gallows</h1>
-      <h3 className="subtitle has-text-centered">Hello dreamers!</h3>
+      <h2 className="subtitle has-text-centered">Hello dreamers!</h2>
       <p className="has-text-justified indent">
         We are spreading the beauty of human nature through whimsical, charming
         art inspired by cultures from around the world. We want you to see the
@@ -67,7 +67,6 @@ export function Contact() {
       <div className="box">
         <h1 className="title ">Contact Us!</h1>
         <h2 className="subtitle ">bg(at)sleepygallows.com</h2>
-        <small>Please note, we are full for the rest of 2020.</small>
         {/* <DonateBtn /> */}
       </div>
     </>
