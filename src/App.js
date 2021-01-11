@@ -29,6 +29,8 @@ import SpaceChase from "./pages/WebDev/SpaceChase";
 import Swaddle from "./pages/WebDev/Swaddle";
 import Swiftly from "./pages/WebDev/Swiftly";
 import Tennis from "./pages/WebDev/Tennis";
+//Graphic Design
+import GDesign from "./pages/Gdesign";
 
 function App() {
   return (
@@ -61,6 +63,8 @@ function App() {
         <Route exact path="/WebDev/Swaddle" component={Swaddle} />
         <Route exact path="/WebDev/Swiftly" component={Swiftly} />
         <Route exact path="/WebDev/Tennis" component={Tennis} />
+        {/* Graphic Design and Web design*/}
+        <Route exact path="/GraphicDesign" component={GDesign} />
       </div>
     </Router>
   );
