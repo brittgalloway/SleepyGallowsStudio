@@ -44,9 +44,11 @@ export function Improvements(props) {
 export function ImgGallLink(props) {
   return (
     <Link to={props.route}>
-      <figure className="image ">
+      <div className="gallery-item">      
+      <figure className="image content">
         <img src={props.src} alt={props.alt} style={{ width: "250px" }} />
       </figure>
+      </div>
     </Link>
   );
 }

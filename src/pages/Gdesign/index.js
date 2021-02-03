@@ -1,13 +1,26 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Nav, NavBur } from "../../components/Nav";
-import {Contact}  from "../../components/About";
+import { Contact } from "../../components/About";
+import { makeStyles } from "@material-ui/core/styles";
+import Accordion from "@material-ui/core/Accordion";
+import AccordionSummary from "@material-ui/core/AccordionSummary";
+import AccordionDetails from "@material-ui/core/AccordionDetails";
+import Typography from "@material-ui/core/Typography";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
+const useStyles = makeStyles((theme) => ({
+  root: {
+    width: "100%",
+  },
+  heading: {
+    fontSize: theme.typography.pxToRem(15),
+    fontWeight: theme.typography.fontWeightRegular,
+  },
+}));
 
+function GDesign() {
+  const classes = useStyles();
 
-
-function WebDev() {
- 
   return (
     <>
       <div className="columns back_ground">
@@ -27,93 +40,137 @@ function WebDev() {
                   </div>
                 </div>
               </section>
-              <div className="columns">
-                <div className="column">
-                  <div className="tile is-ancestor">
-                    <div className="tile is-vertical is-8">
-                      <div className="tile is-parent ">
-                        <div className="tile is-parent is-vertical">
-                          <Link to="#">
-                            <article className="tile is-child box">
-                              <div id="sg">
-                                <div className="titles">Our Logo!</div>
-                                <img
-                                  src={
-                                    process.env.PUBLIC_URL +
-                                    "/images/pageheade_rmain_logo.jpg"
-                                  }
-                                  alt="sleepy gallows cover"
-                                />
-                              </div>
-                            </article>
-                          </Link>
-                          <Link to="#">
-                            <article className=" tile is-child box">
-                              <div id="swaddle">
-                                <div className="titles">
-                                  Buzzin Cuzzin
-                                </div>
-                                <img
-                                  src={
-                                    process.env.PUBLIC_URL +
-                                    "/images/swaddles.jpg"
-                                  }
-                                  alt="swaddles for waddles cover"
-                                />
-                              </div>
-                            </article>
-                          </Link>
-                          <Link to="#">
-                            <article className="tile is-child box">
-                              <div id="memory">
-                                <div className="titles">Delish and Dior</div>
-                                <img
-                                  src={
-                                    process.env.PUBLIC_URL +
-                                    "/images/memory.jpg"
-                                  }
-                                  alt="Memory game cover"
-                                />
-                              </div>
-                            </article>
-                          </Link>
-                        </div>
-                        <div className="tile is-parent is-vertical">
-                          <Link to="#">
-                            <article className="tile is-child box">
-                              <div id="spaceChasers">
-                                <div className="titles">TLC Bath</div>
-                                <img
-                                  src={
-                                    process.env.PUBLIC_URL +
-                                    "/images/aurora-borealis-5.jpg"
-                                  }
-                                  alt="space chasers cover"
-                                />
-                              </div>
-                            </article>
-                          </Link>
-                          <Link to="#">
-                            <article className=" tile is-child box">
-                              <div id="swiftly">
-                                <div className="titles">Candyfluffs.com</div>
-                                <img
-                                  src={
-                                    process.env.PUBLIC_URL +
-                                    "/images/swiftly.jpg"
-                                  }
-                                  alt="Swiftly cover"
-                                />
-                              </div>
-                            </article>
-                          </Link>
-                        
-                        </div>
-                      </div>
-                    </div>
-                   
-                  </div>
-                </div>
+              <div className="padTop4">
+              <div className={classes.root}>
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel1a-content"
+                  >
+                    <img
+                      src={process.env.PUBLIC_URL + "/images/sg_logo.webp"}
+                      alt="SG Sleepy Gallows Logo"
+                      style={{ width: "250px" }}
+                    />
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography>
+                      This logo was designed by both Brittney and Crystal
+                      Galloway. We wanted a logo that looked dreamy and could
+                      compare to the logos of large animation studios. Here are
+                      a few sketches and variations.
+                    </Typography>
+                  </AccordionDetails>
+                  <AccordionDetails>
+                    <img
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/images/gDesign/sketchSmall.JPG"
+                      }
+                      alt="Drawing of Crystal"
+                    />
+                    <img
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/images/gDesign/sketchSmall2.JPG"
+                      }
+                      alt="Drawing of Crystal"
+                    />
+
+                    <img
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/images/gDesign/sketchLogoSmall.JPG"
+                      }
+                      alt="Drawing of Crystal"
+                    />
+                  </AccordionDetails>
+                  <AccordionDetails>
+                    <img
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/images/gDesign/logoSG6-06.jpg"
+                      }
+                      alt="Drawing of Crystal"
+                    />
+                  </AccordionDetails>
+                  <AccordionDetails>
+                    <img
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/images/gDesign/logoSG7Small.png"
+                      }
+                      alt="Drawing of Crystal"
+                    />
+                  </AccordionDetails>
+                </Accordion>
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel2a-content"
+                    id="panel2a-header"
+                  >
+                    <Typography className={classes.heading}>
+                      Buzzin Cuzzins
+                    </Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography>
+                      A logo created for the podcast Buzzin Cuzzins, a B-side Studio production.
+                    </Typography>
+                  </AccordionDetails>
+                </Accordion>
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel2a-content"
+                    id="panel2a-header"
+                  >
+                    <Typography className={classes.heading}>
+                      Delish & Dior
+                    </Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography>
+                      This is a logo for the podcast: Delish & Dior created for B-side Studio.
+                    </Typography>
+                  </AccordionDetails>
+                </Accordion>
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel2a-content"
+                    id="panel2a-header"
+                  >
+                    <Typography className={classes.heading}>
+                      Candy Fluffs Ecommerce website
+                    </Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography>
+                      This is a SquarSpace website to sell art and Merchandise by the artist Crystal Galloway.
+                      Visit the website: 
+                      <a href="https://candyfluffs.com/">Candyfluffs.com</a>
+                    </Typography>
+                  </AccordionDetails>
+                  <AccordionDetails>
+                  <img
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/images/gDesign/candyfluffHome.PNG"
+                      }
+                      alt="Drawing of Crystal"
+                    />
+                      <img
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/images/gDesign/candyfluffItem.PNG"
+                      }
+                      alt="Drawing of Crystal"
+                    />
+                  </AccordionDetails>
+                </Accordion>
+              </div>
               </div>
             </div>
           </div>
@@ -123,4 +180,4 @@ function WebDev() {
   );
 }
 
-export default WebDev;
+export default GDesign;

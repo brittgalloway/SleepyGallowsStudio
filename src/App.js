@@ -1,8 +1,9 @@
 import React from "react";
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
+import LinkedPages from "./pages/LinkedPages";
 // About SG
 import About from "./pages/About";
 //Art pages
@@ -38,6 +39,7 @@ function App() {
       <div>
         <Route exact path="/" component={Home} />
         <Route exact path="/About" component={About} />
+        <Route exact path="/Links" component={LinkedPages} />
 
         {/* Art pages */}
         <Route exact path="/Art" component={Art} />

@@ -1,9 +1,27 @@
 [
   {
-    "src": "/images/paperCut/collage.jpg",
-    "alt": "oranges and blues collage ",
+    "src": "/images/paperCut/Joy_Promo.JPG",
+    "alt": "Princess Joy",
     "width": 3,
-    "height": 2
+    "height": 5
+  },
+  {
+    "src": "/images/paperCut/nirvanna.jpg",
+    "alt": "The Fay Nirvana",
+    "width": 3,
+    "height": 5
+  },
+  {
+    "src": "/images/paperCut/damhan.jpg",
+    "alt": "The Warrior Damhan",
+    "width": 3,
+    "height": 5
+  },
+  {
+    "src": "/images/paperCut/princess_hasina.jpg",
+    "alt": "Princess Hasina",
+    "width": 4,
+    "height": 5
   },
   {
     "src": "/images/paperCut/man.jpg",
@@ -24,21 +42,15 @@
     "height": 3
   },
   {
-    "src": "/images/paperCut/princess_hasina.jpg",
-    "alt": "Princess Hasina",
+    "src": "/images/paperCut/collage.jpg",
+    "alt": "oranges and blues collage ",
     "width": 4,
     "height": 5
   },
   {
     "src": "/images/paperCut/prayingGirl.jpg",
     "alt": "Girl praying before bed",
-    "width": 3,
-    "height": 1
-  },
-  {
-    "src": "/images/paperCut/queenFelicity.jpg",
-    "alt": "Queen Felicity",
     "width": 4,
-    "height": 5
+    "height": 2
   }
 ]
