@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700&display=swap");
+@import url("https://use.typekit.net/fgw1lke.css");
+$brandFont: "Cinzel Decorative", cursive;
+$brandColor: "#4A287C";
+$linkFont: "futura-pt", sans-serif;
+
+.sgLinks {
+  background: linear-gradient(180deg, #B5DBFF 0%, #D0C1F4 100%);
+  height: 100vh;
+}
+.linkContainer {
+  width: 50vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.4);
+  margin-left: auto;
+  margin-right: auto;
+  .linkList{
+   color:$brandColor;
+   font-family: $linkFont;
+   font-size: 2em;
+   line-height: 3em;
+
+ }
+}
+.linkTitle{
+  padding-top: 3.5em;
+}
+
+@media only screen and (max-width: 876px) {
+
+  .sgLinks {
+    background: linear-gradient(180deg, #B5DBFF 0%, #D0C1F4 100%);
+  }
+  .linkTitle{
+    padding-top: 2.5em;
+    font-size: 2em;
+  }
+  .linkContainer {
+    width: 100vw;
+   
+    .linkList{
+     color:$brandColor;
+     font-family: $linkFont;
+     font-size: 1.5em;
+     line-height: 2em;
+  
+   }
+  }
+}

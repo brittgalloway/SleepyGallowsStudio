@@ -1,39 +1,40 @@
 import React from "react";
-
-import { FooterSleepy } from "../../components/Footer";
+import "./style.scss";
 
 
 function Links() {
   return (
     <>
- 
-        <div className="container padTop4">
-        <h1 className="has-text-centered subtitle is-size-2">Sleepy Gallows Links</h1>
-        <div >
+      <div className="sgLinks">
+        <div className="linkContainer ">
+        <h1 className="linkTitle has-text-centered title">Sleepy Gallows Links</h1>
+        
         <ul className="has-text-centered padTop4">
             <li>
-            <a className="is-size-4" href="https://sleepygallows.com">Offical Website</a>
+            <a className="linkList" href="https://sleepygallows.com">Offical Website</a>
             </li>
             <li>
-            <a className="is-size-4" href="https://ko-fi.com/sleepygallows">Ko-fi</a>
+            <a className="linkList" href="https://ko-fi.com/sleepygallows">Ko-fi</a>
             </li>
             <li>
-            <a className="is-size-4" href="https://www.linkedin.com/in/brittneygalloway/detail/recent-activity/posts/">Blog</a>
+            <a className="linkList" href="https://www.linkedin.com/in/brittneygalloway/detail/recent-activity/posts/">Blog</a>
             </li>
             <li>
-            <a className="is-size-4" href="https://brittgalloway.github.io/memory_game/">PLH Memory Game</a>
+            <a className="linkList" href="https://brittgalloway.github.io/memory_game/">PLH Memory Game</a>
             </li>
             <li>
-            <a className="is-size-4" href="https://www.patreon.com/2heroes">2Heroes Patreon</a>
+            <a className="linkList" href="https://www.patreon.com/2heroes">2Heroes Patreon</a>
             </li>
             <li>
-            <a className="is-size-4" href="https://candyfluffs.com/?category=Necahual">2Heroes Necahual Merch</a>
+            <a className="linkList" href="https://candyfluffs.com/?category=Necahual">2Heroes Necahual Merch</a>
             </li>
         </ul>
         </div>
-      </div>
-      <div className="padTop4"></div>
-      < FooterSleepy />
+        </div>
+  
+    
+
+  
     </>
   );
 }
