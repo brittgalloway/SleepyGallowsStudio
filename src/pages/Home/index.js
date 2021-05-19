@@ -11,7 +11,6 @@ function Home() {
         <Link to="/Animation">
           <div id="animationHome">
             <p className="homeText">Animation</p>
-
           </div>
         </Link>
         <Link to="/Art">

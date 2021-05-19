@@ -1,0 +1,27 @@
+[
+  {
+    "src": "/images/gDesign/SleepyGallowsLogoDesigns.png",
+    "alt": "This logo was created by both Brittney and Crystal Galloway. We wanted a logo that looked dreamy and could compare to the logos of larg animation studios. Here are a few sketches and variations.",
+    "route": "/about"
+  },
+  {
+    "src": "/images/gDesign/SippinLogoDesigns.png",
+    "alt": "A logo created for the podcast Sippin' and Trippin', a B-side Studio production",
+    "route": "https://youtu.be/jl8bXBgW0wE"
+  },
+  {
+    "src": "/images/gDesign/DelishLogoDesigns.png",
+    "alt": "A logo created for the podcast Delish and Dior, a B-side Studio production ",
+    "route":  "https://youtu.be/mbYg48Wn-tU"
+  },
+  {
+    "src": "/images/gDesign/BuzzinLogoDesigns.png",
+    "alt": "A logo created for the podcast Buzzin' Cuzzins, a B-side Studio production ",
+    "route": "https://www.youtube.com/watch?v=rx-_0RsV0PM"
+  },
+  {
+    "src": "/images/gDesign/CandyFluffs.png",
+    "alt": "This is a Squarespace wbsite to sell art and merchandise by the artist Crystal Galloway. Visit the website candyfluffs.com ",
+    "route": "https://candyfluffs.com"
+  }
+]

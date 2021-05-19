@@ -17,7 +17,7 @@ function Links() {
             <a className="linkList" href="https://ko-fi.com/sleepygallows">Ko-fi</a>
             </li>
             <li>
-            <a className="linkList" href="https://www.linkedin.com/in/brittneygalloway/detail/recent-activity/posts/">Blog</a>
+            <a className="linkList" href="https://brittgalloway.github.io/SG_Blog/">Blog</a>
             </li>
             <li>
             <a className="linkList" href="https://brittgalloway.github.io/memory_game/">PLH Memory Game</a>

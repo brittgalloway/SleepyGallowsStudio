@@ -4,6 +4,7 @@ $brandFont: "Cinzel Decorative", cursive;
 $textShadow: 3px 3px 0px #4A297C;
 
 
+
 .homeText {
  
   justify-self: center;
@@ -19,7 +20,7 @@ $textShadow: 3px 3px 0px #4A297C;
   width: fit-content;
   height: fit-content;
   line-height: 1em;
-
+  
 }
 
 @mixin homeImages {
@@ -31,40 +32,65 @@ display: grid;
   background-size:cover;
   mix-blend-mode: multiply;
 }
+@keyframes flow {
+  from {transform: scale(1,1);}
+  to {transform: scale(1.5,1.5);}
 
+}
 #homeContainer{
-  background: linear-gradient(155.85deg, #FC79B4 11.48%, #B5DBFF 67.04%);
+  background: linear-gradient(155.85deg, #f7cade 11.48%, #cde7ff 67.04%);
   width: 100vw;
   height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 /* Rectangle 1 */
 
 #animationHome {
-  background: url("./Animation.png");
- 
   @include homeImages;
+  &:hover{
+   background: url("./Animation.png");
+   animation: flow 2s forwards;
+   background-repeat: no-repeat;
+   background-size:cover;
+  }
 }
 
 /* Rectangle 2 */
 #comicHome {
   left: 50vw;
-  background: url("./Comics.png");
   @include homeImages;
+  &:hover{
+  background: url("./Comics.png");
+  animation: flow 1s forwards;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
 }
 
 /* Rectangle 3 */
  #artHome{
   top: 50vh;
-  background: url("./Art.png");
   @include homeImages;
+  &:hover{
+  background: url("./Art.png");
+  animation: flow 1s forwards;
+   background-repeat: no-repeat;
+   background-size:cover;
+}
 }
 
 /* Rectangle 4 */
 #webdevHome {
   left: 50vw;
   top: 50vh;
-  background: url("./graphicDesign.png");
   @include homeImages;
+  &:hover{
+  background: url("./graphicDesign.png");
+  animation: flow 1s forwards;
+   background-repeat: no-repeat;
+   background-size:cover;
+}
 }
 // ========================MEDIA QUERY=================================================
 @media only screen and (max-width: 769px) {
@@ -73,9 +99,10 @@ display: grid;
     font-size: 3.25em;
     text-shadow: $textShadow;
     font-weight: bold;
-    color: white;
+  
     margin-top: 1em;
     text-align: center;
+   
     overflow-wrap: break-word;
   }
 
@@ -104,6 +131,7 @@ display: grid;
 /* Rectangle 3 */
 #comicHome {
   top: 50vh;
+ left: 0;
   // background: url("./Rectangle_3Comics.png");
   @include homeTouch;
 }
