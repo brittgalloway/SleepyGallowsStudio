@@ -5,14 +5,15 @@ import "./style.scss";
 function Home() {
   return (
     <>
+
       <div id="homeContainer">
       
         <Link to="/Animation">
           <div id="animationHome">
             <p className="homeText">Animation</p>
-      </div>
-        </Link>
+
           </div>
+        </Link>
         <Link to="/Art">
           <div id="artHome">
             <p className="homeText">Art</p>
@@ -23,14 +24,14 @@ function Home() {
             <p className="homeText">Comics</p>
           </div>
         </Link>
-        <Link to="/WebDev">
+        <Link to="/Design">
           <div id="webdevHome">
-            <p className="homeText longWord">
-              Web <br />
-              Development
+            <p className="homeText ">
+            Design
             </p>
           </div>
         </Link>
+        </div>
     </>
   );
 }

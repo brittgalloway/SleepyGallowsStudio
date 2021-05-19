@@ -66,7 +66,7 @@ function App() {
         <Route exact path="/WebDev/Swiftly" component={Swiftly} />
         <Route exact path="/WebDev/Tennis" component={Tennis} />
         {/* Graphic Design and Web design*/}
-        <Route exact path="/GraphicDesign" component={GDesign} />
+        <Route exact path="/Design" component={GDesign} />
       </div>
     </Router>
   );

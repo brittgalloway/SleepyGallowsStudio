@@ -26,12 +26,12 @@ export function Nav() {
           <li>
             <Link to="/Art">Art</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/WebDev">WebDev</Link>
-          </li>
-          {/* <li className="nav-item">
-          <Link to="/GraphicDesign">Graphic Design</Link>
-        </li> */}
+          </li> */}
+          <li className="nav-item">
+          <Link to="/Design">Design</Link>
+        </li>
         </ul>
       </aside>
     

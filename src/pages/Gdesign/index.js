@@ -35,7 +35,7 @@ function GDesign() {
                 <div className="hero-body">
                   <div className="container">
                     <h1 className="title has-text-primary has-text-centered">
-                      Graphic Design
+                      Graphic &amp; Web Design
                     </h1>
                   </div>
                 </div>
