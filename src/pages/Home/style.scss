@@ -49,7 +49,7 @@ display: grid;
 #animationHome {
   @include homeImages;
   &:hover{
-   background: url("./Animation.png");
+   background: url("./Rectangle_1animation.png");
    animation: flow 2s forwards;
    background-repeat: no-repeat;
    background-size:cover;
