@@ -4,22 +4,20 @@ $brandFont: "Cinzel Decorative", cursive;
 $textShadow: 3px 3px 0px #4A297C;
 
 
-
-.homeText {
- 
-  justify-self: center;
-  align-self: center;
+@mixin homeText {
+  position: fixed;
   font-family: $brandFont;
   font-size: 3.25em;
   text-shadow: $textShadow;
   font-weight: bold;
   color: white;
-  margin-top: 2.75em;
-  text-align: center;
   background-color: #FC79B4;
   width: fit-content;
   height: fit-content;
   line-height: 1em;
+  mix-blend-mode: none;
+  z-index: 1;
+
   
 }
 
@@ -28,14 +26,13 @@ display: grid;
   position: absolute;
   width: 50vw;
   height: 50vh;
+  mix-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size:cover;
-  mix-blend-mode: multiply;
 }
-@keyframes flow {
-  from {transform: scale(1,1);}
-  to {transform: scale(1.5,1.5);}
-
+@keyframes blurry{
+  0% { -webkit-filter: blur(0px);}
+  50% { -webkit-filter: blur(5px);}
 }
 #homeContainer{
   background: linear-gradient(155.85deg, #f7cade 11.48%, #cde7ff 67.04%);
@@ -48,23 +45,43 @@ display: grid;
 
 #animationHome {
   @include homeImages;
+  background: url("./Rectangle_1animation.png");
+  background-repeat: no-repeat;
+  background-size:cover;
   &:hover{
-   background: url("./Rectangle_1animation.png");
-   animation: flow 2s forwards;
-   background-repeat: no-repeat;
-   background-size:cover;
+   animation: blurry 2s;
   }
+}
+#homeText1{
+  @include homeText();
+  margin-top: 25vh;
+  margin-left: 15vw;
+}
+#homeText3{
+  @include homeText();
+  margin-top: 25vh;
+  margin-left: 70vw;
+}
+#homeText2{
+  @include homeText();
+  margin-top: 75vh;
+  margin-left: 20vw;
+}
+#homeText4{
+  @include homeText();
+  margin-top: 75vh;
+  margin-left: 70vw;
 }
 
 /* Rectangle 2 */
 #comicHome {
   left: 50vw;
   @include homeImages;
-  &:hover{
-  background: url("./Comics.png");
-  animation: flow 1s forwards;
+  background: url("./Rectangle_3Comics.png");
   background-repeat: no-repeat;
   background-size:cover;
+  &:hover{
+  animation: blurry 1s ;
 }
 }
 
@@ -72,11 +89,11 @@ display: grid;
  #artHome{
   top: 50vh;
   @include homeImages;
+  background: url("./Rectangle_2art.png");
+  background-repeat: no-repeat;
+  background-size:cover;
   &:hover{
-  background: url("./Art.png");
-  animation: flow 1s forwards;
-   background-repeat: no-repeat;
-   background-size:cover;
+    animation: blurry 1s ;
 }
 }
 
@@ -84,12 +101,11 @@ display: grid;
 #webdevHome {
   left: 50vw;
   top: 50vh;
+  background: url("./Rectangle_4web.png");
   @include homeImages;
   &:hover{
-  background: url("./graphicDesign.png");
-  animation: flow 1s forwards;
-   background-repeat: no-repeat;
-   background-size:cover;
+  animation: blurry 1s ;
+
 }
 }
 // ========================MEDIA QUERY=================================================
@@ -98,11 +114,7 @@ display: grid;
     font-family: $brandFont;
     font-size: 3.25em;
     text-shadow: $textShadow;
-    font-weight: bold;
-  
-    margin-top: 1em;
-    text-align: center;
-   
+    font-weight: bold;   
     overflow-wrap: break-word;
   }
 
@@ -115,6 +127,26 @@ display: grid;
   }
   /* Rectangle 1 */
 
+  #homeText1{
+    @include homeText();
+    margin-top: 10vh;
+    margin-left: 6vw;
+  }
+  #homeText3{
+    @include homeText();
+    margin-top: 58vh;
+    margin-left: 20vw;
+  }
+  #homeText2{
+    @include homeText();
+    margin-top: 35vh;
+    margin-left: 35vw;
+  }
+  #homeText4{
+    @include homeText();
+    margin-top: 85vh;
+    margin-left: 20vw;
+  }
 #animationHome {
   // background: url("./Rectangle_1animation.png");
   @include homeTouch;

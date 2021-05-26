@@ -9,25 +9,25 @@ function Home() {
       <div id="homeContainer">
       
         <Link to="/Animation">
+            <p id="homeText1">Animation</p>
           <div id="animationHome">
-            <p className="homeText">Animation</p>
           </div>
         </Link>
         <Link to="/Art">
+            <p id="homeText2">Art</p>
           <div id="artHome">
-            <p className="homeText">Art</p>
           </div>
         </Link>
         <Link to="/Comics">
+            <p id="homeText3">Comics</p>
           <div id="comicHome">
-            <p className="homeText">Comics</p>
           </div>
         </Link>
         <Link to="/Design">
-          <div id="webdevHome">
-            <p className="homeText ">
+            <p id="homeText4">
             Design
             </p>
+          <div id="webdevHome">
           </div>
         </Link>
         </div>
