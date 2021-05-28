@@ -23,7 +23,7 @@ function Sgs() {
     description:
       "Portfolio of the many projects of Brittney and Crystal Galloway",
     //improvents for project
-    improvements: `This is the ultimate. Nothing can improve it. Just kidding, I would work on: mobile responsivness, and the design for the Comics page.`,
+    improvements: `This is the ultimate. Nothing can improve it. Just kidding, I would work on: mobile responsivness.`,
   };
   return (
     <>

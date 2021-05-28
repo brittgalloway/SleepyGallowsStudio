@@ -41,6 +41,15 @@ $brandFont: "Cinzel", serif;
   visibility: visible;
   opacity: 1;
 }
+.nav-item {
+  font-family: $brandFont;
+  font-size: 1em;
+  a {
+    // color: $sitePurple;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+}
 .menu-list {
   color: $sitePurple;
   font-family: $brandFont;
@@ -52,15 +61,6 @@ $brandFont: "Cinzel", serif;
       background-color: mediumpurple;
       color: white;
     }
-  }
-}
-.nav-item {
-  font-family: $brandFont;
-  font-size: 1em;
-  a {
-    color: $sitePurple;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
   }
 }
 

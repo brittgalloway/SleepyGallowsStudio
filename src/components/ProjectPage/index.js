@@ -11,6 +11,7 @@ function ProjectPage({
   liveApp,
   description,
   imageUrl,
+  figma,
   alt,
   improvements,
   tools,
@@ -50,6 +51,7 @@ function ProjectPage({
                         <WhatIsIt
                           github={github}
                           liveApp={liveApp}
+                          figma={figma}
                           extraName={extraName}
                           extraLink={extraLink}
                           description={description}

@@ -5,25 +5,23 @@ import ProjectPage from "../../../components/ProjectPage";
 
 function Tennis() {
   const state = {
-    projectName: "Tennis News",
+    projectName: "Candy Fluffs E-commerce",
     //tools used
     tools:
-      "Express, Express-handlebars, Mongoose, Cheerio, Axios, SASS, Bulma UI Framework",
+      "Gatsby, Dato-CMS, SnipCart, SASS, Flexbox, Figma",
     //image of project
     imageUrl: "/images/tennisApp.PNG",
     alt: "Tennis News App Screenshot",
     //link to GITHUB
-    github: "https://github.com/brittgalloway/tennisNews",
+    github: "https://github.com/daleinen7/candyfluffs",
     //link to LINKEDIN
-    liveApp: "https://tennis-news11-24.herokuapp.com/",
+    liveApp: "https://candyfluffs.netlify.app/book",
+    figma: "https://www.figma.com/file/IndaqA3RP8qZew4yHcXYQI/candyFluffs?node-id=0%3A1",
     //description of project
     description:
-      "This tennis new app is a full stack web page that scrapes articles from the offical ATP Tour website. You can view the Headline, Thumbnail Image, Category, and Orignal Post Date. Along side each article, you can post comments, and read previous comments. If you want, you can click the headline to read the actual article.", //improvents for project
+      "This website is in development. This is an e-commerce website built on a JAMstack. A team of 3 helped bring this project so far. I, Brittney, am the lead designer. Doug Leinen is the lead developer; and Stephanie Rinhart is the lead layout and style developer. The live app is the most current deployd version, but is not currently complete",
     improvements: [
-      "Users will be able to delete and edit comments.",
-      "Articles are scraped daily to stay up-to-date.",
-      "No duplicate articles.",
-      "Reject articles with thumbnail links that break the image."
+      "Working Shopping cart, misc style."
     ]
   };
   return (
@@ -31,6 +29,7 @@ function Tennis() {
       projectName={state.projectName}
       github={state.github}
       liveApp={state.liveApp}
+      figma={state.figma}
       imageUrl={state.imageUrl}
       alt={state.alt}
       description={state.description}

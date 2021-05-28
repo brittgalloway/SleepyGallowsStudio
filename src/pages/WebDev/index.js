@@ -51,22 +51,7 @@ function WebDev() {
                               </div>
                             </article>
                           </Link>
-                          <Link to="/WebDev/Swaddle">
-                            <article className=" tile is-child box">
-                              <div id="swaddle">
-                                <div className="titles">
-                                  Swaddles for Waddles
-                                </div>
-                                <img
-                                  src={
-                                    process.env.PUBLIC_URL +
-                                    "/images/swaddles.jpg"
-                                  }
-                                  alt="swaddles for waddles cover"
-                                />
-                              </div>
-                            </article>
-                          </Link>
+                        
                           <Link to="/WebDev/memory">
                             <article className="tile is-child box">
                               <div id="memory">
@@ -81,6 +66,20 @@ function WebDev() {
                               </div>
                             </article>
                           </Link>
+                          {/* <Link to="/WebDev/memory">
+                            <article className="tile is-child box">
+                              <div id="memory">
+                                <div className="titles">Candy Fluffs</div>
+                                <img
+                                  src={
+                                    process.env.PUBLIC_URL +
+                                    "/images/memory.jpg"
+                                  }
+                                  alt="Memory game cover"
+                                />
+                              </div>
+                            </article>
+                          </Link> */}
                         </div>
                         <div className="tile is-parent is-vertical">
                           <Link to="/WebDev/SpaceChase">
@@ -111,20 +110,7 @@ function WebDev() {
                               </div>
                             </article>
                           </Link>
-                          <Link to="/WebDev/tennis">
-                            <article className="tile is-child box">
-                              <div id="tennis">
-                                <div className="titles">Tennis News</div>
-                                <img
-                                  src={
-                                    process.env.PUBLIC_URL +
-                                    "/images/tennis.jpg"
-                                  }
-                                  alt="tennis news cover"
-                                />
-                              </div>
-                            </article>
-                          </Link>
+                         
                         </div>
                       </div>
                     </div>

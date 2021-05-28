@@ -20,6 +20,9 @@ export function WhatIsIt(props) {
             Live App: <a href={props.liveApp}>{props.liveApp}</a>
           </li>
           <li>
+            Figma: <a href={props.figma}>{props.figma}</a>
+          </li>
+          <li>
             {props.extraName} <a href={props.extraLink}>{props.extraLink}</a>
           </li>
         </ul>
